@@ -1,0 +1,23 @@
+{
+    "flex-layout.row#home__mobile-section--one":{
+        "title":"Sección uno mobile",
+        "children":[
+          "flex-layout.col#section-one__mobile--image"
+          ],
+        "props":{
+          "blockClass": "home__section-one-mobile"
+          // "colSizing":"auto"
+        }
+      },
+      "flex-layout.col#section-one__mobile--image":{
+        "title": "imagen seccion uno mobile promociones ",
+        "children":[
+          "image#home__image--banner-mobile"
+        ],
+        "props":{
+          "blockClass":"section-one__mobile--image",
+          "horizontalAlign": "center"
+          
+        }
+      }
+}

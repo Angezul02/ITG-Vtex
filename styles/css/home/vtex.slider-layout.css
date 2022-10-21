@@ -1,5 +1,17 @@
-.paginationDotsContainer--home__slider {
-    transform: translateY(30px);
-    
-
+/* .sliderLayoutContainer--home__slider {
+  max-width: 1200;
+  margin: 0 auto 50px;
 }
+
+.paginationDotsContainer--home__slider {
+  transform: translateY(30px);
+}
+
+.imageElement--home__sllider {
+  max-height: initial !important;
+} */
+
+.sliderRightArrow--home_slider{
+  background-color: blue !important;
+}
+/* :global(.vtex-slider-layout-0-x-sliderRightArrow) */

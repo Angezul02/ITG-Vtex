@@ -1,0 +1,14 @@
+{
+    "store.custom#home-test": {
+        "blocks": [  
+            // "responsive-layout.phone#home__info--phone",
+            // "responsive-layout.mobile#home__info--mobile",
+            // "responsive-layout.tablet#home__info--tablet",
+            // "responsive-layout.desktop#home__info--desktop"
+            // "flex-layout.row#home__section--one",
+            // "slider-layout#home__slider--children"          
+            // "flex-layout.row#home__section--two"
+            // "slider-layout#home__slider--list"
+        ]
+     }
+   }

@@ -1,0 +1,23 @@
+{
+    "image#home__image--banner":{
+        "title":"image section one home",
+        "props":{
+            "src":"assets/img/image_home.png",
+            "title":"banner home section one",
+            "blockClass":"home__image"
+            //Pendiente adjuntar link de ejemplo video min 1:08:22 dia 3
+        }
+    },
+
+    "image#home__section__two":{
+        "title":"image section two home",
+        "props":{
+            "src":"assets/img/image_section_two_home.png",
+            "title":"image section two",
+            "blockClass":"home__section-two--image"
+            
+        }
+    }
+
+    
+}

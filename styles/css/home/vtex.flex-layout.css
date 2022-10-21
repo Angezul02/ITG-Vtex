@@ -1,3 +1,27 @@
-.flexRowContent--home__section--one{
+/* .flexRowContent--home__section--one{
     background-color: rgb(60, 118, 99);
+} */
+
+/* .flexColChild--section__one--image {
+    max-width: 600 px;
+} */
+
+/* .flexRowContent--home__section--one{
+    display: flex !important;
+    justify-content: center !important;
+} */
+.flexRow--home__section--one{
+    padding: 10px 0;
+}
+
+
+/*____________________________ syles Mobile*/
+
+.flexColChild--section--image{
+    padding: 10px;
+    
+}
+
+.flexRow--home__section-one-mobile{
+    padding: 10px 0;
 }

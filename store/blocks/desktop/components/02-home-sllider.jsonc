@@ -1,0 +1,132 @@
+{
+  "flex-layout.row#home__section--two": {
+    "title": "section two",
+    "children": [
+      "flex-layout.col#section__two--slider",
+      "flex-layout.col#section__two--image"
+    ],
+    "props": {
+      "blockClass": "section__two--home"
+      // "verticalAling": "middle"
+    }
+  },
+
+  "flex-layout.col#section__two--slider":{
+        "children":[
+          "slider-layout#home__slider--children"    
+        ],
+        "props":{
+          "width":"69%"
+        }
+      },
+
+  "slider-layout#home__slider--children": {
+    "title": "Slider con hijos declarados",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "home_slider",
+      // "fullWidth": false,
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      //   "flex-layout.row#home__slider--zero",
+      "image#home__slider--one",
+      "image#home__slider--two",
+      "image#home__slider--three"
+    ]
+  },
+  "image#home__slider--one": {
+    "props": {
+      "src": "assets/img/image_slide_1.png"
+    }
+  },
+  "image#home__slider--two": {
+    "props": {
+      "src": "assets/img/image_slide_2.png"
+    }
+  },
+  "image#home__slider--three": {
+    "props": {
+      "src": "assets/img/image_slide_3.png"
+    }
+  },
+
+  "flex-layout.col#section__two--image": {
+    "title": "image section two",
+    "children": ["image#home__section__two"],
+    "props":{
+      "blockClass":"section--image",
+      "width":"30%",
+      "padding":"5px"
+    }
+  }
+
+  //--------------------------------------------------------------
+  //no pinta directamente, trae todo el listado de imágenes
+  //   "list-context.image-list#home__slider--list":{
+  //     "title":"Lista de imagenes",
+  //     "children":[
+  //       "slider-layout#home__slider--list"
+  //     ],
+  //     "props":{
+  //       "preload": true,
+  //       "images":[
+  //         {
+  //           "image":"assets/img/image_slide_1.png",
+  //           "description":"Slide1"
+  //         },
+  //         {
+  //           "image":"assets/img/image_slide_2.png",
+  //           "description":"Slide2"
+  //         },
+  //         {
+  //           "image":"assets/img/image_slide_3.png",
+  //           "description":"Slide3"
+  //         }
+  //       ]
+  //     }
+
+  //   },
+
+  //   "slider-layout#home__slider--list":{
+  //     "title":"Slider con lista",
+  //     "props":{
+  //       "itemsPerPage":{
+  //         "desktop": 1,
+  //         "tablet": 1,
+  //         "mobile": 1
+  //       },
+  //       "infinite": true,
+  //       "blockClass": "home_slider"
+  //       }
+  //     },
+
+  //   "flex-layout.row#home__slider--zero":{
+  //     "children":[
+  //       "flex-layout.col#home__slider--zero"
+  //     ]
+
+  //   },
+
+  //   "flex-layout.col#home__slider--zero":{
+  //     "children":[
+  //       "image#home__slider--one",
+  //       "rich-text#test"
+
+  //     ]
+  //   }
+
+  //   "rich-text#test":{
+  //     "props":{
+  //       "text":"My call to action es muy lindo"
+  //     }
+  //   }
+}
