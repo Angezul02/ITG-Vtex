@@ -1,0 +1,40 @@
+{
+    "flex-layout.row#home__section--four":{
+        "children": [
+            "flex-layout.col#home__section__galery-product-offer"
+        ]
+    },
+
+    "flex-layout.col#home__section__galery-product-offer":{
+        "children": [
+            "flex-layout.row#home__section--four-title",
+            "flex-layout.row#home__section--four-galery-column1"
+            // "flex-layout.row#home__section--four-galery-column2",
+            // "flex-layout.row#home__section--four-galery-column3"
+        ]
+    },
+
+    "flex-layout.row#home__section--four-title":{
+        "children": [
+            "rich-text#home__section--four-title"
+        ]
+    },
+
+    "rich-text#home__section--four-title":{
+        "props":{
+            "text":"### Disfruta nuestras ofertas de Cyber"
+        }
+    },
+
+    "flex-layout.row#home__section--four-galery-column1":{
+        "children":[
+            "image#home__section__four-colum1-img1",
+            "image#home__section__four-colum1-img2",
+            "image#home__section__four-colum1-img3"
+        ],
+
+        "props": {
+            "blockClass": "home_section-four-column-1"
+        }
+    }
+}
