@@ -3,7 +3,8 @@
         "title": "Home section one banner",
         "children": [
           "flex-layout.row#home__section--one",
-          "flex-layout.row#home__section--two"
+          "flex-layout.row#home__section--two", 
+          "flex-layout.row#home__section--three"
         ]
       }
 }

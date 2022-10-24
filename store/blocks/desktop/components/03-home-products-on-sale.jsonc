@@ -1,0 +1,121 @@
+{
+    "flex-layout.row#home__section--three":{
+        "title":"Sección tres home desktop",
+        "children": [
+            "flex-layout.col#home__section--products-on-sale"
+        ]
+    },
+
+    "flex-layout.col#home__section--products-on-sale":{
+        "children": [
+            "flex-layout.row#home__section--three-title",
+            "flex-layout.row#home__section--three-products-on-sale"
+        ]
+    },
+
+    "flex-layout.row#home__section--three-title":{
+        "children": [
+            "rich-text#home__section--three-title"
+        ]
+    },
+
+    "rich-text#home__section--three-title":{
+        "props":{
+            "text":"### Lo mejor para ti"
+        }
+    },
+            "flex-layout.row#home__section--three-products-on-sale":{
+                "title": "section three products on sale",
+                "children": [
+                    "flex-layout.col#home__section--three-products-1",
+                    "flex-layout.col#home__section--three-products-2",
+                    "flex-layout.col#home__section--three-products-3",
+                    "flex-layout.col#home__section--three-products-4",
+                    "flex-layout.col#home__section--three-products-5",
+                    "flex-layout.col#home__section--three-products-6"
+                ], 
+                "props": {
+                    "blockClass": "home_section_3_products-sale"
+                }
+            },
+
+            "flex-layout.col#home__section--three-products-1":{
+                "children": [
+                    "image#home__section__three-product-one",
+                    "rich-text#home__section--three-text1"
+                ]
+            },
+
+            "rich-text#home__section--three-text1":{
+                "props": {
+                    "text":"Vinos y Licores"
+                }
+            },
+
+            "flex-layout.col#home__section--three-products-2":{
+                "children": [
+                    "image#home__section__three-product-two",
+                    "rich-text#home__section--three-text2"
+                ]
+            },
+
+
+            "rich-text#home__section--three-text2":{
+                "props": {
+                    "text":"Carnes"
+                } 
+            },
+
+            "flex-layout.col#home__section--three-products-3":{
+                "children": [
+                    "image#home__section__three-product-three",
+                    "rich-text#home__section--three-text3"
+                ]
+            },
+
+            "rich-text#home__section--three-text3":{
+                "props": {
+                    "text":"Freidoras"
+                }
+            },
+
+            "flex-layout.col#home__section--three-products-4":{
+                "children": [
+                    "image#home__section__three-product-four",
+                    "rich-text#home__section--three-text4"
+                ]
+            },
+
+            "rich-text#home__section--three-text4":{
+                "props": {
+                    "text":"Celulares"
+                }
+            },
+
+            "flex-layout.col#home__section--three-products-5":{
+                "children": [
+                    "image#home__section__three-product-five",
+                    "rich-text#home__section--three-text5"
+                ]
+            },
+
+            "rich-text#home__section--three-text5":{
+                "props": {
+                    "text":"Muebles"
+                }
+            },
+
+            "flex-layout.col#home__section--three-products-6":{
+                "children": [
+                    "image#home__section__three-product-six",
+                    "rich-text#home__section--three-text6"
+                ]
+            },
+
+            "rich-text#home__section--three-text6":{
+                "props": {
+                    "text":"Tenis deportivos"
+                }
+            }
+            
+}

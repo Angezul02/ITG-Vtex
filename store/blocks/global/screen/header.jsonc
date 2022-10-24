@@ -17,10 +17,6 @@
     ]
   },
 
- 
-
-// esto se puede hacer ? 
-
   "header-layout.mobile":{
     "title":"Header mobile",
     "children": [
@@ -30,8 +26,10 @@
   },
 
   "header-row#header__top":{
+    "title":"header section top",
     "children":[
       "rich-text#header__top--section-text",
+      "header-spacer",
       "rich-text#header__top--section-button"
     ],
     "props":{
@@ -53,19 +51,37 @@
   },
 
   "header-row#header__section":{
+    "title":"header section two",
     "children": [
+      "drawer#header__desktop--menu",
       "logo#header_section--logo",
-       "rich-text#header__section-text"
+      "rich-text#header__section-text",
+      "login",
+      "minicart.v2"
     ],
     "props":{
       "blockClass":"section--header"
     }
 
   },
+  "drawer#header__desktop--menu":{
+    "children":[
+      "menu#header--menu"
+    ],
+    "blocks":[
+      "drawer-trigger"
+    ]
+  },
 
-  "rich-text#header__section-text":{
-    "props":{      
-      "text":"segunda sección"
+  "drawer-trigger":{
+"children":[
+  "rich-text#option--menu"
+]
+  },
+
+  "rich-text#option--menu":{
+    "props": {
+      "text":"Menú"
     }
   },
 
@@ -73,9 +89,120 @@
     "title": "logo",
     "props":{
       "url": "assets/img/logo-header.png",
-      "width": 26
+      "width": 26,
+      "href": "/"
     }
+  },
+
+  "rich-text#header__section-text":{
+    "props":{      
+      "text":"segunda sección"
+    }
+  },
+//implementacion de un login con modal min 40 video 6
+
+  "login": {
+    "props":{
+    "emailAndPasswordTitle": "LOG-IN",
+    "accessCodeTitle": "Acess Code LOG-IN",
+    "emailPlaceholder": "e-mail",
+    "passwordPlaceholder": "password",
+    "showPasswordVerificationIntoTooltip": true,
+    "showIconProfile": true
+    }
+  },
+
+  "menu#header--menu":{
+
+    "children":[
+      "menu-item#department-one",
+      "menu-item#department-two"
+    ],
+    "props":{
+      "orientation":"vertical"
+    }
+  },
+
+  "menu-item#department-one":{
+"props": {
+  "type": "custom",
+  "id": "department-one",
+  "itemProps":{
+    "type":"external",
+    "href":"https://developers.vtex.com/vtex-developer-docs/docs/vtex-menu",
+    "noFollow": true,
+    "tagTitle":"vtex-menu",
+    "text":"link vtex menu"
   }
+},
+"blocks": [
+  "submenu.accordion#department--one"
+]
+  },
+
+  "submenu.accordion#department--one":{
+"children":[
+  "menu#department--one"
+]
+  },
+
+  "menu#department--one":{
+    "children":[
+      "menu-item#category__one",
+      "menu-item#category__two"
+    ],
+    "props":{
+      "orientation":"vertical"
+    }
+  },
+
+  "menu-item#category__one":{
+    "props": {
+      "id":"category--one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "google drive",
+        "text":"google drive"
+      }
+      
+    }
+  },
+      "menu-item#category__two":{
+        "props": {
+          "id":"category--two",
+          "type": "custom",
+          "itemProps": {
+            "type": "external",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "google fonts",
+            "text":"google fonts"
+          }
+         
+        }
+      },
+
+  "menu-item#department-two":{
+"props": {
+  "type": "custom",
+  "id": "category-two",
+  "itemProps":{
+    "type":"external",
+    "href":"https://developers.vtex.com/vtex-developer-docs/docs/vtex-menu",
+    "noFollow": true,
+    "tagTitle":"vtex-menu-two",
+    "text":"link two vtex menu"
+  }
+}
+  }
+
+
+  
+
+  
 
   
     

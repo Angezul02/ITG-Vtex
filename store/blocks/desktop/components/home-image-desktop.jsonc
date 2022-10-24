@@ -1,4 +1,6 @@
 {
+    //_____________________________images section one__________________
+
     "image#home__image--banner":{
         "title":"image section one home",
         "props":{
@@ -9,6 +11,8 @@
         }
     },
 
+    //_____________________________images section two__________________
+
     "image#home__section__two":{
         "title":"image section two home",
         "props":{
@@ -17,7 +21,68 @@
             "blockClass":"home__section-two--image"
             
         }
-    }
+    },
 
+    //_____________________________images section three__________________
+
+    "image#home__section__three-product-one":{
+        "title":"image section three product one",
+        "props":{
+            "src":"assets/img/image_home_section-3_img1.png",
+            "title":"product one section three",
+            "blockClass":"home__section-three--image1"
+            
+        }
+    },
+
+    "image#home__section__three-product-two":{
+        "title":"image section three product two",
+        "props":{
+            "src":"assets/img/image_home_section-3_img2.png",
+            "title":"product two section three",
+            "blockClass":"home__section-three--image2"
+            
+        } 
+    },
+
+    "image#home__section__three-product-three":{
+        "title":"image section three product three",
+        "props":{
+            "src":"assets/img/image_home_section-3_img3.png",
+            "title":"product three section three",
+            "blockClass":"home__section-three--image3"
+            
+        } 
+    },
+
+    "image#home__section__three-product-four":{
+        "title":"image section three product four",
+        "props":{
+            "src":"assets/img/image_home_section-3_img4.png",
+            "title":"product four section three",
+            "blockClass":"home__section-three--image4"
+            
+        } 
+    },
+
+    "image#home__section__three-product-five":{
+        "title":"image section three product five",
+        "props":{
+            "src":"assets/img/image_home_section-3_img5.png",
+            "title":"product five section three",
+            "blockClass":"home__section-three--image5"
+            
+        } 
+    },
+
+    "image#home__section__three-product-six":{
+        "title":"image section three product six",
+        "props":{
+            "src":"assets/img/image_home_section-3_img6.png",
+            "title":"product six section three",
+            "blockClass":"home__section-three--image6"
+            
+        }
+    }
     
 }
