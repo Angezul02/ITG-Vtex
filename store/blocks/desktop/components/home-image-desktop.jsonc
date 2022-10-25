@@ -79,7 +79,7 @@
   },
 
   //__________________________________images section four__________
-  //colum one
+  //row one
 
   "image#home__section__four-colum1-img1": {
     "title": "image section four col1 img1",
@@ -91,17 +91,65 @@
   },
   "image#home__section__four-colum1-img2": {
     "title": "image section four col1 img2",
-  "props": {
-    "src": "assets/img/image_home_section-4_img2.png",
-    "title": "gallery one image two",
-    "blockClass": "home__gallery_section-four--image2"
-  }},
+    "props": {
+      "src": "assets/img/image_home_section-4_img2.png",
+      "title": "gallery one image two",
+      "blockClass": "home__gallery_section-four--image2"
+    }
+  },
   "image#home__section__four-colum1-img3": {
     "title": "image section four col1 img3",
     "props": {
       "src": "assets/img/image_home_section-4_img3.png",
       "title": "gallery one image three",
       "blockClass": "home__gallery_section-four--image3"
+    }
+  },
+
+  //row 2
+
+  "image#home__section__four-row2-img4": {
+    "title": "image section four row2 img4",
+    "props": {
+      "src": "assets/img/image_home_section-4_img4.png",
+      "title": "gallery one image four",
+      "blockClass": "home__gallery_section-four--image4"
+    }
+  },
+
+  "image#home__section__four-row2-img5": {
+    "title": "image section four row2 img5",
+    "props": {
+      "src": "assets/img/image_home_section-4_img5.png",
+      "title": "gallery one image five",
+      "blockClass": "home__gallery_section-four--image5"
+    }
+  },
+  "image#home__section__four-row2-img6": {
+    "title": "image section four row2 img6",
+    "props": {
+      "src": "assets/img/image_home_section-4_img6.png",
+      "title": "gallery one image six",
+      "blockClass": "home__gallery_section-four--image6"
+    }
+  },
+
+  //row 3
+
+  "image#home__section__four-row3-img7": {
+    "title": "image section four row3 img7",
+    "props": {
+      "src": "assets/img/image_home_section-4_img7.png",
+      "title": "gallery one image sevent",
+      "blockClass": "home__gallery_section-four--image7"
+    }
+  },
+  "image#home__section__four-row3-img8": {
+    "title": "image section four row3 img8",
+    "props": {
+      "src": "assets/img/image_home_section-4_img8.png",
+      "title": "gallery one image eigth",
+      "blockClass": "home__gallery_section-four--image8"
     }
   }
 }

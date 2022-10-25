@@ -4,12 +4,4 @@
 
 /* ____________________________section 3 desktop products___________ */
 
-.container--product-one__section-three, 
-.container--product-two__section-three,
-.container--product-three__section-three,
-.container--product-four__section-three,
-.container--product-five__section-three,
-.container--product-six__section-three
-{
-    justify-content: center;
-}
+

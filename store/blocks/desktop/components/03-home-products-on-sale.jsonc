@@ -51,138 +51,118 @@
                     "flex-layout.col#home__section--three-products-1"
                 ],
                 "props": {
-                    "href": "https://www.carulla.com/vinos-y-licores/vinos?order=OrderByBestDiscountDESC"
+                    "href": "https://www.carulla.com/vinos-y-licores/vinos?order=OrderByBestDiscountDESC",
+                    "label": "Vinos y Licores",
+                    "blockClass":"section__three-link-product-one"
                 }
             },
 
             "flex-layout.col#home__section--three-products-1":{
                 "children": [
-                    "image#home__section__three-product-one",
-                    "rich-text#home__section--three-text1"
+                    "image#home__section__three-product-one"
+                    
                 ]
             },
 
-            "rich-text#home__section--three-text1":{
-                "props": {
-                    "text":"Vinos y Licores",
-                    "blockClass":"product-one__section-three"
-                }
-            },
+            
 
             "link#home_section-three-product2":{
                 "children": [
                     "flex-layout.col#home__section--three-products-2"
                 ],
                 "props": {
-                    "href": "https://www.carulla.com/pollo-carnes-y-pescado?order=OrderByBestDiscountDESC"
+                    "href": "https://www.carulla.com/pollo-carnes-y-pescado?order=OrderByBestDiscountDESC",
+                    "label": "Carnes",
+                    "blockClass":"section__three-link-product-two"
                 }
             },
 
             "flex-layout.col#home__section--three-products-2":{
                 "children": [
-                    "image#home__section__three-product-two",
-                    "rich-text#home__section--three-text2"
+                    "image#home__section__three-product-two"
+                    
                 ]
             },
-
-
-            "rich-text#home__section--three-text2":{
-                "props": {
-                    "text":"Carnes",
-                    "blockClass":"product-two__section-three"
-                } 
-            },
+            
 
             "link#home_section-three-product3":{
                 "children": [
                     "flex-layout.col#home__section--three-products-3"
                 ],
                 "props": {
-                    "href": "https://www.carulla.com/pollo-carnes-y-pescado?order=OrderByBestDiscountDESC"
+                    "href": "https://www.carulla.com/pollo-carnes-y-pescado?order=OrderByBestDiscountDESC",
+                    "label": "Freidoras",
+                    "blockClass":"section__three-link-product-three"
                 }
             },
 
             "flex-layout.col#home__section--three-products-3":{
                 "children": [
-                    "image#home__section__three-product-three",
-                    "rich-text#home__section--three-text3"
+                    "image#home__section__three-product-three"
+                    
                 ]
             },
 
-            "rich-text#home__section--three-text3":{
-                "props": {
-                    "text":"Freidoras",
-                    "blockClass":"product-three__section-three"
-                }
-            },
+           
 
             "link#home_section-three-product4":{
                 "children": [
                     "flex-layout.col#home__section--three-products-4"
                 ],
                 "props": {
-                    "href": "https://www.carulla.com/pollo-carnes-y-pescado?order=OrderByBestDiscountDESC"
+                    "href": "https://www.carulla.com/pollo-carnes-y-pescado?order=OrderByBestDiscountDESC",
+                    "label": "Celulares",
+                    "blockClass":"section__three-link-product-four"
                 }
             },
 
             "flex-layout.col#home__section--three-products-4":{
                 "children": [
-                    "image#home__section__three-product-four",
-                    "rich-text#home__section--three-text4"
+                    "image#home__section__three-product-four"
+                    
                 ]
             },
 
-            "rich-text#home__section--three-text4":{
-                "props": {
-                    "text":"Celulares",
-                    "blockClass":"product-four__section-three"
-                }
-            },
+           
 
             "link#home_section-three-product5":{
                 "children": [
                     "flex-layout.col#home__section--three-products-5"
                 ],
                 "props": {
-                    "href": "https://www.carulla.com/pollo-carnes-y-pescado?order=OrderByBestDiscountDESC"
+                    "href": "https://www.carulla.com/pollo-carnes-y-pescado?order=OrderByBestDiscountDESC",
+                    "label": "Muebles",
+                    "blockClass":"section__three-link-product-five"
                 }
             },
 
             "flex-layout.col#home__section--three-products-5":{
                 "children": [
-                    "image#home__section__three-product-five",
-                    "rich-text#home__section--three-text5"
+                    "image#home__section__three-product-five"
+                    
                 ]
             },
 
-            "rich-text#home__section--three-text5":{
-                "props": {
-                    "text":"Muebles",
-                    "blockClass":"product-five__section-three"
-                }
-            },
+           
 
             "link#home_section-three-product6":{
                 "children": [
                     "flex-layout.col#home__section--three-products-6"
                 ],
                 "props": {
-                    "href": "https://www.carulla.com/pollo-carnes-y-pescado?order=OrderByBestDiscountDESC"
+                    "href": "https://www.carulla.com/pollo-carnes-y-pescado?order=OrderByBestDiscountDESC",
+                    "label": "Tenis deportivos",
+                    "blockClass":"section__three-link-product-six"
                 }
             },
 
             "flex-layout.col#home__section--three-products-6":{
                 "children": [
-                    "image#home__section__three-product-six",
-                    "rich-text#home__section--three-text6"
+                    "image#home__section__three-product-six"
+                    
                 ]
-            },
-
-            "rich-text#home__section--three-text6":{
-                "props": {
-                    "text":"Tenis deportivos",
-                    "blockClass":"product-six__section-three"
-                }
             }
+
+            
             
 }
