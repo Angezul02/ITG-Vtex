@@ -21,7 +21,8 @@
 
     "rich-text#home__section--three-title":{
         "props":{
-            "text":"### Lo mejor para ti"
+            "text":"### Lo mejor para ti",
+            "blockClass":"title-products-on-sale"
         }
     },
             "flex-layout.row#home__section--three-products-on-sale":{
