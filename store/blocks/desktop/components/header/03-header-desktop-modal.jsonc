@@ -1,0 +1,42 @@
+{
+    "flex-layout.row#header__section-container--modal-order": {
+        "children": ["modal-trigger#header__modal--orders-delivery"]
+      },
+
+      
+  "modal-trigger#header__modal--orders-delivery": {
+    "children": [
+      "rich-text#header__section-orders-delivery",
+      "modal-layout#header__modal--layout-orders-delivery"
+    ]
+  },
+
+  "rich-text#header__section-orders-delivery": {
+    "props": {
+      "text": "¿Cómo quieres recibir tu pedido?",
+      "blockClass": "title-orders-delivery"
+    }
+  },
+
+  "modal-layout#header__modal--layout-orders-delivery": {
+    "children": [
+      "modal-header#header__modal--content-title",
+      "modal-content#header__modal--content-images"
+    ]
+  },
+
+  "modal-header#header__modal--content-title": {
+    "children": ["rich-text#header__modal--content-title"],
+    "props": {
+      "showCloseButton": true
+    }
+  },
+
+  "rich-text#header__modal--content-title": {
+    "props": {
+      "text": "¿Cómo quieres recibir tu pedido?"
+    }
+  },
+
+  "modal-content#header__modal--content-images": {}
+}

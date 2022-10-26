@@ -1,0 +1,21 @@
+.sliderRightArrow--home_slider,
+.sliderLeftArrow--home_slider{
+     z-index: 2;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 22%);
+    padding: 18px 18px;
+    display: flex;
+    opacity: .5;
+    transition: all .2s ease;
+    border-radius: 50px 50px;
+    position: absolute;
+    background-color: transparent !important;
+  
+}
+
+.sliderRightArrow--home_slider{
+  margin-right: 30px;
+}
+.sliderLeftArrow--home_slider{
+  margin-left: 30px;
+}

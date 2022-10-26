@@ -1,0 +1,13 @@
+{
+    "flex-layout.row#header__section-container--search-bar": {
+        "children": ["search-bar"]
+      },
+
+      "search-bar": {
+        "props": {
+          "placeholder": "¿Qué producto buscas?",
+          "width":"grow"
+        }
+      }
+    
+}

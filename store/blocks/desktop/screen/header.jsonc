@@ -1,0 +1,24 @@
+{
+    "header-layout.desktop": {
+        "title": "Header desktop",
+        "children": [
+          // "header-row#header__top",
+          "header-row#header__section"
+        ]
+      },
+
+      "header-row#header__section": {
+        "title": "header section two",
+        "children": [
+          "flex-layout.row#header__section-container--menu-logo",
+          "flex-layout.row#header__section-container--modal-order",
+          "flex-layout.row#header__section-container--search-bar",
+          "flex-layout.row#header__section-container--links-icons"
+        ],
+        "props": {
+          "blockClass": "section--header"
+        }
+      }
+
+
+}

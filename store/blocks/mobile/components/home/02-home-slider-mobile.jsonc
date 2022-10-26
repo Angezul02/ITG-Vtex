@@ -18,7 +18,7 @@
   "flex-layout.col#section__two--slider-mobile": {
     "children": ["slider-layout#home__slider--children"]
     // "props":{
-    //   "width":"69%"
+    //   "width":"10%"
     // }
   },
 

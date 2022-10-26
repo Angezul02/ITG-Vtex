@@ -1,0 +1,103 @@
+{
+    "flex-layout.row#header__section-container--menu-logo": {
+    "children": ["drawer#header__desktop--menu", "logo#header_section--logo"]
+  },
+
+  "drawer#header__desktop--menu": {
+    "children": ["menu#header--menu"]
+    // "blocks":[
+    //   "drawer-trigger"
+    // ]
+  },
+
+  "menu#header--menu": {
+    "children": ["menu-item#department-one", "menu-item#department-two"],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "menu-item#department-one": {
+    "props": {
+      "type": "custom",
+      "id": "department-one",
+      "itemProps": {
+        "type": "external",
+        "href": "https://developers.vtex.com/vtex-developer-docs/docs/vtex-menu",
+        "noFollow": true,
+        "tagTitle": "vtex-menu",
+        "text": "Lo último"
+      }
+    },
+    "blocks": ["submenu.accordion#department--one"]
+  },
+
+  "submenu.accordion#department--one": {
+    "children": ["menu#department--one"]
+  },
+
+  "menu#department--one": {
+    "children": ["menu-item#category__one", "menu-item#category__two"],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "menu-item#category__one": {
+    "props": {
+      "id": "category--one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Eventos del mes",
+        "text": "Eventos del mes"
+      }
+    }
+  },
+  "menu-item#category__two": {
+    "props": {
+      "id": "category--two",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Nuevos lanzamientos",
+        "text": "Nuevos lanzamientos"
+      }
+    }
+  },
+
+  "menu-item#department-two": {
+    "props": {
+      "type": "custom",
+      "id": "category-two",
+      "itemProps": {
+        "type": "external",
+        "href": "https://developers.vtex.com/vtex-developer-docs/docs/vtex-menu",
+        "noFollow": true,
+        "tagTitle": "vtex-menu-two",
+        "text": "link two vtex menu"
+      }
+    }
+  }
+
+
+
+  //   "drawer-trigger":{
+  // "children":[
+  //   "rich-text#option--menu"
+  // ]
+  //   },
+
+  //   "rich-text#option--menu":{
+  //     "props": {
+  //       "text":"Menú"
+  //     }
+  //   },
+
+  
+
+}
