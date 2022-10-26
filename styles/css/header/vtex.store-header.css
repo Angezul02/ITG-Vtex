@@ -5,3 +5,10 @@
 .headerRowContentContainer--section--header{
     background-color: #8DC63F;
 }
+
+.headerRowBackground--section--header{
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-content: center
+}

@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Cabin';
+    src:  url(assets/fonts/Cabin-Regular.ttf), url(assets/fonts/Cabin-Bold.ttf),
+    url(assets/fonts/Cabin-Medium.ttf), url(assets/fonts/Cabin-SemiBold.ttf);
+    font-weight: bold;
+}
