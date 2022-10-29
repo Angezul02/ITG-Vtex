@@ -1,6 +1,9 @@
 {
     "flex-layout.row#header__section-container--menu-logo": {
-    "children": ["drawer#header__desktop--menu", "logo#header_section--logo"]
+    "children": ["drawer#header__desktop--menu", "logo#header_section--logo"],
+    "props": {
+    "blockClass": "header__desktop-container-menu-logo"
+    }
   },
 
   "drawer#header__desktop--menu": {

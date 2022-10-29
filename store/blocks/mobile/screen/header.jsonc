@@ -1,9 +1,26 @@
 {
-    "header-layout.mobile": {
-        "title": "Header mobile",
-        "children": [
-          // "header-row#header__top",
-          "header-row#header__section"
-        ]
-      }
+  "header-layout.mobile": {
+    "title": "Header mobile",
+    "children": ["flex-layout.row#header__mobile-container"],
+    "props": {
+      "blockClass": "header-mobile-container"
+    }
+  },
+
+  "flex-layout.row#header__mobile-container": {
+    "children": [
+      "flex-layout.col#header__mobile-container"      
+    ],
+    "props": {
+      "blockClass": "header-mobile-container-col"
+    }
+  },
+
+  "flex-layout.col#header__mobile-container":{
+    "children": [
+      "header-row#header__section-mobile-top",
+      "header-row#header__section-mobile-middle"
+    ]
+
+  }
 }

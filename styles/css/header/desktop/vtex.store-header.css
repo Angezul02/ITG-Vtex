@@ -11,3 +11,8 @@
     display: flex;
     
 }
+
+.headerRowContainer--section--header{
+    display: flex;
+    justify-content: space-between;
+}

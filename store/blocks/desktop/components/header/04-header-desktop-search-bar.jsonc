@@ -5,8 +5,8 @@
 
       "search-bar": {
         "props": {
-          "placeholder": "¿Qué producto buscas?",
-          "width":"grow"
+          "placeholder": "¿Qué producto buscas?"
+         
         }
       }
     

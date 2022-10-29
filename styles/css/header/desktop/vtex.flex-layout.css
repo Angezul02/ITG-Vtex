@@ -1,0 +1,5 @@
+.flexRowContent--header__desktop-container-menu-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

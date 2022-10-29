@@ -1,0 +1,9 @@
+{
+    "header-row#header__section-mobile-middle": {
+        "children": ["modal-trigger#header__modal--orders-delivery"],
+        "props": {
+            "blockClass": "section__header-middle-mobile",
+            "sticky": true
+          }
+      }
+}

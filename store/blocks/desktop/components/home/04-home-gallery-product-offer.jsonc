@@ -18,15 +18,13 @@
 
   "rich-text#home__section--four-title": {
     "props": {
-      "text": "### Disfruta nuestras ofertas de Cyber"
+      "text": "##### Disfruta nuestras ofertas de Cyber"
     }
   },
 
   "flex-layout.row#home__section--four-galery-row1": {
     "children": [
-      // "image#home__section__four-colum1-img1",
-      // "image#home__section__four-colum1-img2",
-      // "image#home__section__four-colum1-img3"
+      
       "flex-layout.col#home__section_four-column1-image1",
       "flex-layout.col#home__section_four-column1-image2",
       "flex-layout.col#home__section_four-column1-image3"

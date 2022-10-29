@@ -32,6 +32,7 @@
     margin: 0px 20px;
   } */
   
+  
   .flexColChild--image-1-section-gallery-colum1,
   .flexColChild--image-2-section-gallery-colum1,
   .flexColChild--image-3-section-gallery-colum1,
@@ -42,3 +43,16 @@
   .flexColChild--image-8-section-gallery-row3  { */
     width: max-content;
   }
+
+  .flexColChild--image-7-section-gallery-row3{
+    display: flex;
+    justify-content: end;
+  }
+
+  .flexRowContent--home_section-four-row-3 {
+    gap: 20px;
+    padding: 10px 0px;
+    margin: 0px auto;
+  }
+
+  
