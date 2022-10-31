@@ -4,11 +4,38 @@
       },
 
       
+
+      
   "modal-trigger#header__modal--orders-delivery": {
     "children": [
+      "flex-layout.row#header__modal-orders"
+      
+    ]
+  },
+
+  "flex-layout.row#header__modal-orders":{
+"children": [
+     "icon#header__location",
       "rich-text#header__section-orders-delivery",
       "modal-layout#header__modal--layout-orders-delivery"
-    ]
+],
+"props": {
+  "blockClass": "header__modal-orders"
+}
+  },
+
+  // "flex-layout.col#header_icon-location":{
+  //   "children": [
+  //     "icon#header__location"
+  //   ]
+  // },
+
+  "icon#header__location":{
+    "props":{
+      "id": "icon-location",
+      "shape": "circle"
+     
+    }
   },
 
   "rich-text#header__section-orders-delivery": {

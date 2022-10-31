@@ -6,12 +6,25 @@
       
   "login": {
     "props": {
-      // "emailAndPasswordTitle": "LOG-IN",
-      // "accessCodeTitle": "Acess Code LOG-IN",
-      // "emailPlaceholder": "e-mail",
-      // "passwordPlaceholder": "password",
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
       "showPasswordVerificationIntoTooltip": false,
-      "showIconProfile": true
+      "showIconProfile": true,
+      "hideIconLabel":true
+    }
+  },
+
+  "minicart.v2":{
+    
+    "props": {
+      "variation": "drawer",
+      "itemCountMode": "total",
+      "quantityDisplay": "always"
+      // "quantityDisplay": "not-empty"
+      
     }
   }
+  
 }

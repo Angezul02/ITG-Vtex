@@ -1,6 +1,9 @@
 {
   "flex-layout.row#home__section--four": {
-    "children": ["flex-layout.col#home__section__galery-product-offer"]
+    "children": ["flex-layout.col#home__section__galery-product-offer"],
+    "props": {
+      "blockClass": "Section Four home"
+    }
   },
 
   "flex-layout.col#home__section__galery-product-offer": {
@@ -9,11 +12,15 @@
       "flex-layout.row#home__section--four-galery-row1",
       "flex-layout.row#home__section--four-galery-row2",
       "flex-layout.row#home__section--four-galery-row3"
-    ]
+    ],"props": {
+      "blockClass": "section-galery-produts-container"
+  }
   },
 
   "flex-layout.row#home__section--four-title": {
-    "children": ["rich-text#home__section--four-title"]
+    "children": ["rich-text#home__section--four-title"],"props": {
+      "blockClass": "section-galery-produts-title"
+  }
   },
 
   "rich-text#home__section--four-title": {

@@ -1,11 +1,15 @@
 {
-    "responsive-layout.desktop#home__sections--desktop": {
-        "title": "Home section one banner",
-        "children": [
-          "flex-layout.row#home__section--one",
-          "flex-layout.row#home__section--two", 
-          "flex-layout.row#home__section--three",
-          "flex-layout.row#home__section--four"
-        ]
-      }
+  "responsive-layout.desktop#home__sections--desktop": {
+    "title": "Home section one banner",
+    "children": [
+      "flex-layout.row#home__section--one",
+      "flex-layout.row#home__section--two",
+      "flex-layout.row#home__section--three",
+      "flex-layout.row#home__section--greenMarket",
+      "flex-layout.row#home__section--four",
+      "flex-layout.row#home__section--offer gallery"
+      
+    ]
+  }
+
 }

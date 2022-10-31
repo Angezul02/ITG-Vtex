@@ -18,7 +18,10 @@
     padding: 10px 0px;
   }
   .flexRowContent--home_section-four-column-1,
-  .flexRowContent--home_section-four-row-2 {
+  .flexRowContent--home_section-four-row-2 
+  {
+   
+    
     display: grid;
     grid-template-columns: repeat(3,auto);
     width: max-content;
@@ -33,16 +36,20 @@
   } */
   
   
+  
   .flexColChild--image-1-section-gallery-colum1,
   .flexColChild--image-2-section-gallery-colum1,
   .flexColChild--image-3-section-gallery-colum1,
   .flexColChild--image-4-section-gallery-row2,
   .flexColChild--image-5-section-gallery-row2,
-  .flexColChild--image-6-section-gallery-row2{
-  /* .flexColChild--image-7-section-gallery-row3,
-  .flexColChild--image-8-section-gallery-row3  { */
+  .flexColChild--image-6-section-gallery-row2
+  
+  {
+  
     width: max-content;
   }
+
+  
 
   .flexColChild--image-7-section-gallery-row3{
     display: flex;
@@ -55,4 +62,50 @@
     margin: 0px auto;
   }
 
+  /* ___________________ section green market___________________ */
+  .flexRowContent--section--home-greenMarket-images{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .flexColChild--image_1_section-greenMarket,
+  .flexColChild--image_2_section-greenMarket,
+  .flexColChild--image_3_section-greenMarket,
+  .flexColChild--image_4_section-greenMarket,
+  .flexColChild--image_5_section-greenMarket,
+  .flexColChild--image_6_section-greenMarket{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+/* __________________________ section offer gallery_____________ */
+  .flexCol--section--offer-gallery-total{
+    padding: 10px 0px ;
+  }
+
+  .flexColChild--section_offer-gallery-img1{
+    text-align: center;
+  }
+
+  .flexRowContent--section--offer-gallery-images,
+  .flexCol--section-offer-galery-content-col2,
+  .flexRowContent--section-offer-gallery-col1,
+  .flexRowContent--section-offer-gallery-col2{
+    gap: 20px
+    
+  }
+
+  
+   
+  .flexRow--section_green-market-home
+  {
+    margin: 0px 40px;
+  }
+  
+  .flexRow--home_section-four-row-2{
+    margin: 0px 20px;
+  }
+
+  
   
