@@ -1,0 +1,17 @@
+.flexRowContent--header__desktop-container-menu-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .flexRowContent--headermodal-orders{
+    
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    align-items: center;
+    text-align: center;
+} */
+
+.flexRowContent--header__modal-orders{
+    align-items: center;
+}

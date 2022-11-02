@@ -1,0 +1,69 @@
+{
+    "flex-layout.row#header__section-container--modal-order": {
+        "children": ["modal-trigger#header__modal--orders-delivery"]
+      },
+
+      
+
+      
+  "modal-trigger#header__modal--orders-delivery": {
+    "children": [
+      "flex-layout.row#header__modal-orders"
+      
+    ]
+  },
+
+  "flex-layout.row#header__modal-orders":{
+"children": [
+     "icon#header__location",
+      "rich-text#header__section-orders-delivery",
+      "modal-layout#header__modal--layout-orders-delivery"
+],
+"props": {
+  "blockClass": "header__modal-orders"
+}
+  },
+
+  // "flex-layout.col#header_icon-location":{
+  //   "children": [
+  //     "icon#header__location"
+  //   ]
+  // },
+
+  "icon#header__location":{
+    "props":{
+      "id": "icon-location",
+      "shape": "circle"
+     
+    }
+  },
+
+  "rich-text#header__section-orders-delivery": {
+    "props": {
+      "text": "¿Cómo quieres recibir tu pedido?",
+      "blockClass": "title-orders-delivery"
+    }
+  },
+
+  "modal-layout#header__modal--layout-orders-delivery": {
+    "children": [
+      "modal-header#header__modal--content-title",
+      "modal-content#header__modal--content-images"
+    ]
+  },
+
+  "modal-header#header__modal--content-title": {
+    "children": ["rich-text#header__modal--content-title"],
+    "props": {
+      "showCloseButton": true
+    }
+  },
+
+  "rich-text#header__modal--content-title": {
+    "props": {
+      "text": "¿Cómo quieres recibir tu pedido?"
+    }
+  },
+
+  "modal-content#header__modal--content-images": {}
+}

@@ -1,0 +1,10 @@
+{
+    "logo#header_mobile-section--logo": {
+        "title": "logo-mobile",
+        "props": {
+          "url": "assets/img/logo-header.png",
+          "width": 26,
+          "href": "/"
+        }
+      }
+}

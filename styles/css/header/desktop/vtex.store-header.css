@@ -9,6 +9,10 @@
 .headerRowBackground--section--header{
     height: 44px;
     display: flex;
-    justify-content: center;
-    align-content: center
+    
+}
+
+.headerRowContainer--section--header{
+    display: flex;
+    justify-content: space-between;
 }

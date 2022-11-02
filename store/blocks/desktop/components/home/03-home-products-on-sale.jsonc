@@ -3,25 +3,31 @@
         "title":"Sección tres home desktop",
         "children": [
             "flex-layout.col#home__section--products-on-sale"
-        ]
+        ],"props": {
+            "blockClass": "section-products-on-sale-container"
+        }
     },
 
     "flex-layout.col#home__section--products-on-sale":{
         "children": [
             "flex-layout.row#home__section--three-title",
             "flex-layout.row#home__section--three-products-on-sale"
-        ]
+        ],"props": {
+            "blockClass": "section-products-on-sale"
+        }
     },
 
     "flex-layout.row#home__section--three-title":{
         "children": [
             "rich-text#home__section--three-title"
-        ]
+        ],"props": {
+            "blockClass": "section-products-on-sale-title"
+        }
     },
 
     "rich-text#home__section--three-title":{
         "props":{
-            "text":"### Lo mejor para ti",
+            "text":"##### Lo mejor para ti",
             "blockClass":"title-products-on-sale"
         }
     },
@@ -35,12 +41,6 @@
                     "link#home_section-three-product5",
                     "link#home_section-three-product6"
 
-                    // "flex-layout.col#home__section--three-products-1"
-                    // "flex-layout.col#home__section--three-products-2",
-                    // "flex-layout.col#home__section--three-products-3",
-                    // "flex-layout.col#home__section--three-products-4",
-                    // "flex-layout.col#home__section--three-products-5",
-                    // "flex-layout.col#home__section--three-products-6"
                 ], 
                 "props": {
                     "blockClass": "home_section_3_products-sale"

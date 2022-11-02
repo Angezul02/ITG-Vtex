@@ -1,0 +1,72 @@
+{
+    "drawer#header__mobile--menu": {
+        "children": ["menu#header__mobile--menu"]
+      },
+    
+      "menu#header__mobile--menu": {
+        "children": [
+          "menu-item#department-one-mobile",
+          "menu-item#department-two-mobile"
+        ],
+        "props": {
+          "orientation": "vertical"
+        }
+      },
+    
+      "menu-item#department-one-mobile": {
+        "props": {
+          "type": "custom",
+          "id": "department-one",
+          "itemProps": {
+            "type": "external",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "vtex-menu-mobile",
+            "text": "Lo último"
+          }
+        },
+        "blocks": ["submenu.accordion#department--one-mobile"]
+      },
+      "submenu.accordion#department--one-mobile": {
+        "children": ["menu#department--one-mobile"]
+      },
+    
+      "menu#department--one-mobile": {
+        "children": [
+          "menu-item#category__one-mobile",
+          "menu-item#category__two-mobile"
+        ],
+        "props": {
+          "orientation": "vertical"
+        }
+      },
+    
+      "menu-item#category__one-mobile": {
+        "props": {
+          "id": "category--one-mobile",
+          "type": "custom",
+          "itemProps": {
+            "type": "external",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Eventos del mes",
+            "text": "Eventos del mes"
+          }
+        }
+      },
+      "menu-item#category__two-mobile": {
+        "props": {
+          "id": "category--two-mobile",
+          "type": "custom",
+          "itemProps": {
+            "type": "external",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Nuevos lanzamientos",
+            "text": "Nuevos lanzamientos"
+          }
+        }
+      },
+    
+      "menu-item#department-two-mobile": {}
+}
