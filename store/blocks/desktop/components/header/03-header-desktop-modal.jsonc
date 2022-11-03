@@ -1,40 +1,52 @@
 {
-    "flex-layout.row#header__section-container--modal-order": {
-        "children": ["modal-trigger#header__modal--orders-delivery"]
-      },
-
-      
-
-      
-  "modal-trigger#header__modal--orders-delivery": {
-    "children": [
-      "flex-layout.row#header__modal-orders"
-      
-    ]
+  "flex-layout.row#header__section-container--modal-order": {
+    "title": "header section modal orders delivery",
+    "children": ["flex-layout.col#header__modal--text"],
+    "props": {
+      "blockClass": "container__header-modal-orders"
+    }
   },
 
-  "flex-layout.row#header__modal-orders":{
-"children": [
-     "icon#header__location",
+  "flex-layout.col#header__modal--text": {
+    "children": ["modal-trigger#header__modal--orders-delivery"],
+    "props": {"blockClass":"header-container-modal-orders-delivery"}
+  },
+
+  "modal-trigger#header__modal--orders-delivery": {
+    "children": ["flex-layout.row#header__modal--orders-delivery"]
+  },
+  "flex-layout.row#header__modal--orders-delivery": {
+    "children": [
+      "flex-layout.col#header__icon-orders",
+      "flex-layout.col#header__modal-orders"
+    ],
+    "props": {
+      "blockClass": "container-icon-modal-orders-delivery"
+    }
+  },
+  "flex-layout.col#header__icon-orders": {
+    "children": ["icon#header__location"],
+    "props": {
+      "blockClass": "container-icon-orders"
+    }
+  },
+
+  "flex-layout.col#header__modal-orders": {
+    "children": [
       "rich-text#header__section-orders-delivery",
       "modal-layout#header__modal--layout-orders-delivery"
-],
-"props": {
-  "blockClass": "header__modal-orders"
-}
+    ],
+    "props": {
+      "blockClass": "container__header-modal-orders"
+    }
   },
 
-  // "flex-layout.col#header_icon-location":{
-  //   "children": [
-  //     "icon#header__location"
-  //   ]
-  // },
-
-  "icon#header__location":{
-    "props":{
+  "icon#header__location": {
+    "props": {
+      "size": 25,
+      "viewBox": "0 0 16 16",
       "id": "icon-location",
       "shape": "circle"
-     
     }
   },
 

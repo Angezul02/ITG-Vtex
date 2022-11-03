@@ -2,6 +2,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 33px;
+}
+
+.flexRow--header__desktop-container-menu-logo{
+    border-right: solid 2px;
+    border-color: #b4db86;
+    width: 10%;
+}
+
+.flexRow--header-search-bar-container{
+    width: 48%;
+}
+
+.flexRow--container-icon-modal-orders-delivery{
+    width: 30%;
+}
+
+.flexRow--section__header-container-links{
+    width: 20%;
 }
 
 /* .flexRowContent--headermodal-orders{
@@ -13,5 +32,61 @@
 } */
 
 .flexRowContent--header__modal-orders{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.flexRowContent--container-icon-modal-orders-delivery{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    text-align: center
+}
+
+
+.flexColChild--container--icon-notification,
+.flexColChild--container--icon-list{
+    text-align: center;
+    /* margin-top: 20px; */
+}
+
+.flexRowContent--section__header-container-links{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+.flexCol--container-icon-login,
+.flexCol--container-minicart{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.flexCol--container--icon-notification:hover,   
+.flexCol--container--icon-list:hover,
+.flexCol--container__shopping-bag:hover
+
+ {
+    transform: scale(0.90);
+    background-color: #7caf36;
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+    
+}
+
+.flexCol--container_header-menu:hover{
+    background-color: #7caf36;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+}
+
+.flexCol--container_header-menu{
+    display: flex;
     align-items: center;
 }

@@ -1,4 +1,13 @@
 {
+  "flex-layout.col#header__container-logo":{
+    "children": [
+      "logo#header_section--logo"
+    ],
+    "props": {
+      "blockClass":"container_header-logo"
+    }
+  },
+
     "logo#header_section--logo": {
         "title": "logo",
         "props": {
