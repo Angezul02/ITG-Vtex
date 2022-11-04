@@ -1,169 +1,140 @@
 {
-    "flex-layout.row#home__section--three":{
-        "title":"Sección tres home desktop",
-        "children": [
-            "flex-layout.col#home__section--products-on-sale"
-        ],"props": {
-            "blockClass": "section-products-on-sale-container"
-        }
-    },
+  "flex-layout.row#home__section--three": {
+    "title": "Sección tres productos en oferta",
+    "children": ["flex-layout.col#home__section--products-on-sale"],
+    "props": {
+      "blockClass": "section-products-on-sale-container"
+    }
+  },
 
-    "flex-layout.col#home__section--products-on-sale":{
-        "children": [
-            "flex-layout.row#home__section--three-title",
-            "flex-layout.row#home__section--three-products-on-sale"
-        ],"props": {
-            "blockClass": "section-products-on-sale"
-        }
-    },
+  "flex-layout.col#home__section--products-on-sale": {
+    "title": "Contenedor titulo y productos en oferta",
+    "children": [
+      "flex-layout.row#home__section--three-title",
+      "flex-layout.row#home__section--three-products-on-sale"
+    ],
+    "props": {
+      "blockClass": "section-products-on-sale"
+    }
+  },
 
-    "flex-layout.row#home__section--three-title":{
-        "children": [
-            "rich-text#home__section--three-title"
-        ],"props": {
-            "blockClass": "section-products-on-sale-title"
-        }
-    },
+  "flex-layout.row#home__section--three-title": {
+    "title": "Contenedor titulo productos en oferta",
+    "children": ["rich-text#home__section--three-title"],
+    "props": {
+      "blockClass": "section-products-on-sale-title"
+    }
+  },
 
-    "rich-text#home__section--three-title":{
-        "props":{
-            "text":"##### Lo mejor para ti",
-            "blockClass":"title-products-on-sale"
-        }
-    },
-            "flex-layout.row#home__section--three-products-on-sale":{
-                "title": "section three products on sale",
-                "children": [
-                    "link#home_section-three-product1",
-                    "link#home_section-three-product2",
-                    "link#home_section-three-product3",
-                    "link#home_section-three-product4",
-                    "link#home_section-three-product5",
-                    "link#home_section-three-product6"
+  "rich-text#home__section--three-title": {
+    "title": "Título productos en oferta",
+    "props": {
+      "text": "##### Lo mejor para ti",
+      "blockClass": "title-products-on-sale"
+    }
+  },
+  "flex-layout.row#home__section--three-products-on-sale": {
+    "title": "Contenedor enlaces de productos en oferta",
+    "children": [
+      "link#home_section-three-product1",
+      "link#home_section-three-product2",
+      "link#home_section-three-product3",
+      "link#home_section-three-product4",
+      "link#home_section-three-product5",
+      "link#home_section-three-product6"
+    ],
+    "props": {
+      "blockClass": "home_section_3_products-sale"
+    }
+  },
 
-                ], 
-                "props": {
-                    "blockClass": "home_section_3_products-sale"
-                }
-            },
+  "link#home_section-three-product1": {
+    "title": "Link 1 producto en oferta",
+    "children": ["flex-layout.col#home__section--three-products-1"],
+    "props": {
+      "href": "https://www.carulla.com/vinos-y-licores/vinos?order=OrderByBestDiscountDESC",
+      "label": "Vinos y Licores",
+      "blockClass": "section__three-link-product-one"
+    }
+  },
 
-            "link#home_section-three-product1":{
-                "children": [
-                    "flex-layout.col#home__section--three-products-1"
-                ],
-                "props": {
-                    "href": "https://www.carulla.com/vinos-y-licores/vinos?order=OrderByBestDiscountDESC",
-                    "label": "Vinos y Licores",
-                    "blockClass":"section__three-link-product-one"
-                }
-            },
+  "flex-layout.col#home__section--three-products-1": {
+    "title": "Contenedor imagen 1 producto en oferta",
+    "children": ["image#home__section__three-product-one"]
+  },
 
-            "flex-layout.col#home__section--three-products-1":{
-                "children": [
-                    "image#home__section__three-product-one"
-                    
-                ]
-            },
+  "link#home_section-three-product2": {
+    "title": "Link 2 producto en oferta",
+    "children": ["flex-layout.col#home__section--three-products-2"],
+    "props": {
+      "href": "https://www.carulla.com/pollo-carnes-y-pescado?order=OrderByBestDiscountDESC",
+      "label": "Carnes",
+      "blockClass": "section__three-link-product-two"
+    }
+  },
 
-            
+  "flex-layout.col#home__section--three-products-2": {
+    "title": "Contenedor imagen 2 producto en oferta",
+    "children": ["image#home__section__three-product-two"]
+  },
 
-            "link#home_section-three-product2":{
-                "children": [
-                    "flex-layout.col#home__section--three-products-2"
-                ],
-                "props": {
-                    "href": "https://www.carulla.com/pollo-carnes-y-pescado?order=OrderByBestDiscountDESC",
-                    "label": "Carnes",
-                    "blockClass":"section__three-link-product-two"
-                }
-            },
+  "link#home_section-three-product3": {
+    "title": "Link 3 producto en oferta",
+    "children": ["flex-layout.col#home__section--three-products-3"],
+    "props": {
+      "href": "https://www.carulla.com/pollo-carnes-y-pescado?order=OrderByBestDiscountDESC",
+      "label": "Freidoras",
+      "blockClass": "section__three-link-product-three"
+    }
+  },
 
-            "flex-layout.col#home__section--three-products-2":{
-                "children": [
-                    "image#home__section__three-product-two"
-                    
-                ]
-            },
-            
+  "flex-layout.col#home__section--three-products-3": {
+    "title": "Contenedor imagen 3 producto en oferta",
+    "children": ["image#home__section__three-product-three"]
+  },
 
-            "link#home_section-three-product3":{
-                "children": [
-                    "flex-layout.col#home__section--three-products-3"
-                ],
-                "props": {
-                    "href": "https://www.carulla.com/pollo-carnes-y-pescado?order=OrderByBestDiscountDESC",
-                    "label": "Freidoras",
-                    "blockClass":"section__three-link-product-three"
-                }
-            },
+  "link#home_section-three-product4": {
+    "title": "Link 4 producto en oferta",
+    "children": ["flex-layout.col#home__section--three-products-4"],
+    "props": {
+      "href": "https://www.carulla.com/pollo-carnes-y-pescado?order=OrderByBestDiscountDESC",
+      "label": "Celulares",
+      "blockClass": "section__three-link-product-four"
+    }
+  },
 
-            "flex-layout.col#home__section--three-products-3":{
-                "children": [
-                    "image#home__section__three-product-three"
-                    
-                ]
-            },
+  "flex-layout.col#home__section--three-products-4": {
+    "title": "Contenedor imagen 4 producto en oferta",
+    "children": ["image#home__section__three-product-four"]
+  },
 
-           
+  "link#home_section-three-product5": {
+    "title": "Link 5 producto en oferta",
+    "children": ["flex-layout.col#home__section--three-products-5"],
+    "props": {
+      "href": "https://www.carulla.com/pollo-carnes-y-pescado?order=OrderByBestDiscountDESC",
+      "label": "Muebles",
+      "blockClass": "section__three-link-product-five"
+    }
+  },
 
-            "link#home_section-three-product4":{
-                "children": [
-                    "flex-layout.col#home__section--three-products-4"
-                ],
-                "props": {
-                    "href": "https://www.carulla.com/pollo-carnes-y-pescado?order=OrderByBestDiscountDESC",
-                    "label": "Celulares",
-                    "blockClass":"section__three-link-product-four"
-                }
-            },
+  "flex-layout.col#home__section--three-products-5": {
+    "title": "Contenedor imagen 5 producto en oferta",
+    "children": ["image#home__section__three-product-five"]
+  },
 
-            "flex-layout.col#home__section--three-products-4":{
-                "children": [
-                    "image#home__section__three-product-four"
-                    
-                ]
-            },
+  "link#home_section-three-product6": {
+    "title": "Link 6 producto en oferta",
+    "children": ["flex-layout.col#home__section--three-products-6"],
+    "props": {
+      "href": "https://www.carulla.com/pollo-carnes-y-pescado?order=OrderByBestDiscountDESC",
+      "label": "Tenis deportivos",
+      "blockClass": "section__three-link-product-six"
+    }
+  },
 
-           
-
-            "link#home_section-three-product5":{
-                "children": [
-                    "flex-layout.col#home__section--three-products-5"
-                ],
-                "props": {
-                    "href": "https://www.carulla.com/pollo-carnes-y-pescado?order=OrderByBestDiscountDESC",
-                    "label": "Muebles",
-                    "blockClass":"section__three-link-product-five"
-                }
-            },
-
-            "flex-layout.col#home__section--three-products-5":{
-                "children": [
-                    "image#home__section__three-product-five"
-                    
-                ]
-            },
-
-           
-
-            "link#home_section-three-product6":{
-                "children": [
-                    "flex-layout.col#home__section--three-products-6"
-                ],
-                "props": {
-                    "href": "https://www.carulla.com/pollo-carnes-y-pescado?order=OrderByBestDiscountDESC",
-                    "label": "Tenis deportivos",
-                    "blockClass":"section__three-link-product-six"
-                }
-            },
-
-            "flex-layout.col#home__section--three-products-6":{
-                "children": [
-                    "image#home__section__three-product-six"
-                    
-                ]
-            }
-
-            
-            
+  "flex-layout.col#home__section--three-products-6": {
+    "title": "Contenedor imagen 6 producto en oferta",
+    "children": ["image#home__section__three-product-six"]
+  }
 }

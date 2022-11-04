@@ -1,5 +1,6 @@
 {
     "flex-layout.row#header__section-container--links-icons": {
+      "title":"Seccion links-icons",
         "children": ["flex-layout.col#header__icon-notification","flex-layout.col#header__login","flex-layout.col#header__icon-list-add","flex-layout.col#header__icon-shopping-bag", "flex-layout.col#header__minicart"],
         "props": {
           "blockClass": "section__header-container-links"
@@ -7,6 +8,7 @@
       },
 
       "flex-layout.col#header__icon-notification":{
+        "title":"Contenedor icono notificación",
         "children": ["link#header__notification"],
         "props": {
           "blockClass":"container--icon-notification"
@@ -34,6 +36,7 @@
       },
 
       "flex-layout.col#header__login":{
+        "title":"Contenedor login",
         "children": [
           "login"
         ],"props": {
@@ -63,6 +66,7 @@
   },
 
   "flex-layout.col#header__icon-list-add":{
+    "title":"Contenedor mis listas",
     "children": ["link#header__list-add"],
     "props": {
       "blockClass":"container--icon-list"
@@ -91,6 +95,7 @@
 },
 
 "flex-layout.col#header__icon-shopping-bag":{
+  "title":"Contenedor bolsa de compras",
   "children": [
     "link#header__shopping-bag"
   ],
@@ -120,6 +125,7 @@
 },
 
 "flex-layout.col#header__minicart":{
+  "title":"Contenedor minicart",
   "children": [
     "minicart.v2"
   ],

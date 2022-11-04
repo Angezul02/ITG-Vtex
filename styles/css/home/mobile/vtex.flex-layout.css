@@ -7,3 +7,8 @@
   .flexRow--home__section-one-mobile {
     padding: 10px 0;
   }
+
+  .flexCol--section--image-mobile{
+    margin: 0px auto;
+    padding: 10px 0px
+  }

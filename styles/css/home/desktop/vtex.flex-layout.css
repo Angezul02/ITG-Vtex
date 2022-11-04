@@ -1,10 +1,26 @@
 .flexRow--home__section--one {
     padding: 10px 0;
   }
+
+  .flexCol--section__one--image{
+    margin: 0px 40px;
+  }
   
   .flexRowContent--section__two--home{
       padding: 5px;
     }
+
+  .flexCol--section--image{
+    margin-left: 10px
+  }
+
+  .flexRow--section__two--home{
+    margin: 0px 20px 0px 35px
+  }
+
+  .flexRow--section-products-on-sale-title{
+    margin: 0px 40px;
+  }
   
   .flexRowContent--home_section_3_products-sale {
     justify-content: center;
@@ -82,6 +98,7 @@
 /* __________________________ section offer gallery_____________ */
   .flexCol--section--offer-gallery-total{
     padding: 10px 0px ;
+    margin: 0px 30px;
   }
 
   .flexColChild--section_offer-gallery-img1{
@@ -107,5 +124,8 @@
     margin: 0px 20px;
   }
 
+  .flexRowContent--section--offer-gallery-images{
+    padding-top: 5px;
+  }
   
   

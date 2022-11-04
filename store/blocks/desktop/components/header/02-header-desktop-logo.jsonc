@@ -1,19 +1,18 @@
 {
-  "flex-layout.col#header__container-logo":{
-    "children": [
-      "logo#header_section--logo"
-    ],
+  "flex-layout.col#header__container-logo": {
+    "title": "Contenedor Logo",
+    "children": ["logo#header_section--logo"],
     "props": {
-      "blockClass":"container_header-logo"
+      "blockClass": "container_header-logo"
     }
   },
 
-    "logo#header_section--logo": {
-        "title": "logo",
-        "props": {
-          "url": "assets/img/logo-header.png",
-          "width": 26,
-          "href": "/"
-        }
-      }
+  "logo#header_section--logo": {
+    "title": "logo",
+    "props": {
+      "url": "assets/img/logo-header.png",
+      "width": 26,
+      "href": "/"
+    }
+  }
 }

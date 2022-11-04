@@ -23,6 +23,31 @@
     width: 20%;
 }
 
+.flexCol--container-icon-login :global(.vtex-button):hover,
+.flexCol--container-minicart :global(.vtex-button):hover {
+ 
+    background-color: none !important;
+    background: none !important;
+    border: none !important;
+    
+}
+
+
+/* .flexCol--container-minicart:hover{
+
+    background-color: #7caf36;
+
+    
+} */
+
+/* .flexCol--container-icon-login :hover{
+    background-color: #7caf36;
+    
+    
+} */
+
+
+
 /* .flexRowContent--headermodal-orders{
     
     display: grid;
@@ -71,7 +96,7 @@
 .flexCol--container__shopping-bag:hover
 
  {
-    transform: scale(0.90);
+    transform: scale(0.80);
     background-color: #7caf36;
     border-radius: 20px;
     height: 30px;
