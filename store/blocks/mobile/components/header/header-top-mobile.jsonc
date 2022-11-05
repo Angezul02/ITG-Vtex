@@ -1,6 +1,6 @@
 {
     "header-row#header__section-mobile-top": {
-        "title": "Section header mobile",
+        "title": "Section header mobile top",
         "children": [
           "drawer#header__mobile--menu",
           "logo#header_mobile-section--logo",

@@ -1,6 +1,6 @@
 {
   "image#home__image--banner-mobile": {
-    "title": "image section one home mobile",
+    "title": "imagen sección uno home mobile",
     "props": {
       "src": "assets/img/image_home-mobile.png",
       "title": "banner mobile home section one",
@@ -9,7 +9,7 @@
     }
   },
   "image#home__section__two-mobile": {
-    "title": "image section one home mobile",
+    "title": "imagen sección dos home mobile",
     "props": {
       "src": "assets/img/image_section_two_mobile_home.png",
       "title": "image mobile home section two",

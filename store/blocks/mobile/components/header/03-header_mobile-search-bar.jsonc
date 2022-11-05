@@ -1,11 +1,10 @@
 {
-    "search-bar#mobile": {
-      // "blocks": ["autocomplete-result-list.v2"],
-        "props": {
-          "placeholder": "Buscar productos"
-        
-          
-          // "openAutocompleteOnFocus": true
-        }
-      }
+  "search-bar#mobile": {
+    // "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "placeholder": "Buscar productos"     
+
+      // "openAutocompleteOnFocus": true
+    }
+  }
 }
