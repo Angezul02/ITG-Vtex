@@ -3,7 +3,8 @@
     "title": "Sección tres productos en oferta",
     "children": ["flex-layout.col#home__section--products-on-sale"],
     "props": {
-      "blockClass": "section-products-on-sale-container"
+      "blockClass": "section-products-on-sale-container",
+      "preserveLayoutOnMobile": true
     }
   },
 

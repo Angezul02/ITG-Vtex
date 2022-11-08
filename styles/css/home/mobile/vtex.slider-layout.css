@@ -9,3 +9,10 @@
     margin: 0px auto;
 
 }
+
+@media (max-width:425px){
+    .sliderTrackContainer--home_slider-mobile{
+      width: 100%;
+    }
+  
+  }

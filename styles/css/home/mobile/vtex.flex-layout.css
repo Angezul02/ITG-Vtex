@@ -12,3 +12,62 @@
     margin: 0px auto;
     padding: 10px 0px
   }
+
+  .flexRowContent--home_mobile-section_3_products-sale{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  }
+
+.flexRow--section__mobile-greenMarket-slider{
+  margin: 20px auto;
+}
+
+.flexCol--container-mobile-slider-greenMarket {
+  width: 90%;
+  margin: 0px auto;
+}
+
+.flexRowContent--Container-section-1-y-2-galery-products{
+  gap: 10px;
+  margin: 5px auto;
+}
+
+.flexRowContent--container-images-2-y-3-section-galery{
+  gap: 10px;
+}
+
+
+.flexRowContent--container-image-section-two-galery-product,
+.flexRowContent--container-image-section-three-galery-product{
+  gap: 12px;
+  margin: 5px auto;
+}
+
+.flexRowContent--home_mobile-section_3_products-sale{
+  gap: 10px;
+}
+
+@media (max-width:780px){
+.flexCol--section--offer-gallery-total{
+  margin: 0px auto;
+}
+}
+
+@media (max-width:425px){
+.flexRowContent--home_mobile-section_3_products-sale{
+  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 8px;
+}
+
+.flexRowContent--container-images-2-y-3-section-galery{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5px;
+}
+}

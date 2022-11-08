@@ -3,7 +3,7 @@
     "title": "Sección cinco galeria de productos",
     "children": ["flex-layout.col#home__section__galery-product-offer"],
     "props": {
-      "blockClass": "Section Four home"
+      "blockClass": "Section-Four-home"
     }
   },
 
