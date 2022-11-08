@@ -1,8 +1,28 @@
-/* .autoCompleteOuterContainer{
-  
-    border: none;
-    border-radius: 12px;
-    width: 80%;
-    margin: 0px auto;   
-    padding: 1px;
-} */
+
+
+.searchBarContainer{
+    border: none !important;
+    align-content: center;
+
+   }
+
+   .searchBarIcon{
+    color: #ad6cdd;
+    padding: 0px;    
+    
+   }
+
+   .searchBarInnerContainer :global(.vtex-input-prefix__group){
+    border: none !important;
+   }
+
+   .searchBarInnerContainer :global(.vtex-input__suffix){
+    border-radius: 50px;
+    width: 5px;
+    height: 30px;
+    margin-top: 3px;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+   }

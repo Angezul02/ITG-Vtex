@@ -2,3 +2,13 @@
     width: 100%;
     height: 100%;
  }
+
+
+.imageElement--home__section-three--image1,
+.imageElement--home__section-three--image2,
+.imageElement--home__section-three--image3,
+.imageElement--home__section-three--image4,
+.imageElement--home__section-three--image5,
+.imageElement--home__section-three--image6{
+    border-radius: 20px;
+}

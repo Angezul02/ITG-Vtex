@@ -1,0 +1,79 @@
+{
+    "minicart.v2": {
+        "props": {
+            "MinicartIcon":"icon-cart",
+            "variation": "drawer",
+            "itemCountMode": "total",
+            "quantityDisplay": "always"
+
+
+        }, "children": [
+            "minicart-base-content"
+        ]
+    },
+
+    "icon-cart":{
+        "props":{
+            "id":"hpa-cart",
+            "size":25,
+            "viewBox":"0 0 16 16"
+        }
+
+    },
+
+    "minicart-base-content":{
+        "title":"minicart",
+        "blocks":[
+            "minicart-empty-state"
+        ],"children":[
+            "minicart-product-list","flex-layout.row#minicart__footer"
+        ]
+    },
+
+    "minicart-empty-state":{
+        "children":[
+            "flex-layout.row#minicart-empty"
+        ]
+    },
+    "flex-layout.row#minicart-empty":{
+        "children": [
+            "flex-layout.col#minicart-empty"
+        ]
+    },
+
+    "flex-layout.col#minicart-empty":{
+        "children": [
+            "rich-text#minicart__empty-text",
+            "rich-text#minicart__empty-text-paragraph"
+            // "icon#cart#minicart__empty-icon"
+        ]
+    },
+    "rich-text#minicart__empty-text":{
+        "props": {
+            "text": "## Tu carrito está vacío",
+            "textAlignment": "CENTER",
+            "textposition":"CENTER"
+            
+        }
+    },
+
+    "rich-text#minicart__empty-text-paragraph":{
+        "props": {
+            "text": "En Carulla tenemos miles de productos para que disfrutes los mejores placeres todos los días",
+            "textAlignment": "CENTER",
+            "textposition":"CENTER"
+        }   
+    },
+
+    "icon#cart#minicart__empty-icon":{
+        "props": {
+            "size": 100
+        }
+    },
+  
+    "flex-layout.row#minicart__footer":{
+        "children": ["minicart-summary", "minicart-checkout-button"]
+    }
+
+    
+}

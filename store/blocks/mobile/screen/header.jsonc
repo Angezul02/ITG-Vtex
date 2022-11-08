@@ -8,6 +8,7 @@
   },
 
   "flex-layout.row#header__mobile-container": {
+    "title": "Contenedor Header mobile",
     "children": [
       "flex-layout.col#header__mobile-container"      
     ],
@@ -17,6 +18,7 @@
   },
 
   "flex-layout.col#header__mobile-container":{
+    "title": "Contenedor secciones Header mobile",
     "children": [
       "header-row#header__section-mobile-top",
       "header-row#header__section-mobile-middle"

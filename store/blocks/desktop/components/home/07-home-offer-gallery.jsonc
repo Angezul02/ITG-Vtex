@@ -1,28 +1,31 @@
 {
   "flex-layout.row#home__section--offer gallery": {
-    "title": "section home offer gallery",
+    "title": "Sección galeria de ofertas",
     "children": ["flex-layout.col#home__section--offergallery"],
     "props": {
-        "blockClass": "section__offer-gallery-container"
+      "blockClass": "section__offer-gallery-container"
     }
   },
 
   "flex-layout.col#home__section--offergallery": {
+    "title": "contenedor titulo e imagener galeria de ofertas",
     "children": [
       "flex-layout.row#home__section--offer-gallery-title",
       "flex-layout.row#home__section--offer-gallery"
-    ], 
-"props": {"blockClass":"section--offer-gallery-total"}
+    ],
+    "props": { "blockClass": "section--offer-gallery-total" }
   },
 
   "flex-layout.row#home__section--offer-gallery-title": {
+    "title": "contenedor titulo galeria de ofertas",
     "children": ["rich-text#home__section--offer-gallery-title"],
     "props": {
-        "blockClass":"section-offer-galery-title"
+      "blockClass": "section-offer-galery-title"
     }
   },
 
   "rich-text#home__section--offer-gallery-title": {
+    "title": "Título galeria de ofertas",
     "props": {
       "text": "##### Disfruta más ofertas para ti",
       "blockClass": "title-offer-gallery"
@@ -30,87 +33,93 @@
   },
 
   "flex-layout.row#home__section--offer-gallery": {
-    "title": "section offer gallery home",
+    "title": "contenedor imagenes galeria de ofertas",
     "children": [
-        "flex-layout.col#home__section-offer-gallery-column1", 
-        "flex-layout.col#home__section-offer-gallery-column2"
-      
-      
+      "flex-layout.col#home__section-offer-gallery-column1",
+      "flex-layout.col#home__section-offer-gallery-column2"
     ],
     "props": {
       "blockClass": "section--offer-gallery-images"
     }
   },
 
-  "flex-layout.col#home__section-offer-gallery-column1":{
-"children": [
-    "flex-layout.col#home__section-offer-gallery-img1"
-],"props": {
-    "blockClass":"section-offer-galery-content-col1"
-}
-  },
-  "flex-layout.col#home__section-offer-gallery-column2":{
-"children": [
-    "flex-layout.row#home__section-offer-gallery1",
-    "flex-layout.row#home__section-offer-gallery2"   
-      
-],"props": {
-    "blockClass":"section-offer-galery-content-col2"
-}
-  },
-
-  "flex-layout.row#home__section-offer-gallery1":{
-    "children": [
-        "flex-layout.col#home__section-offer-gallery-img2",
-        "flex-layout.col#home__section-offer-gallery-img3"
-    ],
+  "flex-layout.col#home__section-offer-gallery-column1": {
+    "title": "contenedor imagenes columna 1 galeria de ofertas",
+    "children": ["flex-layout.col#home__section-offer-gallery-img1"],
     "props": {
-        "blockClass": "section-offer-gallery-col1"
+      "blockClass": "section-offer-galery-content-col1"
     }
   },
-    "flex-layout.row#home__section-offer-gallery2":{
-        "children": [
-            "flex-layout.col#home__section-offer-gallery-img4",
-            "flex-layout.col#home__section-offer-gallery-img5"
-        ],
-        "props": {
-            "blockClass": "section-offer-gallery-col2"
-        }
-    },
+  "flex-layout.col#home__section-offer-gallery-column2": {
+    "title": "contenedor imagenes columna 2 galeria de ofertas",
+    "children": [
+      "flex-layout.row#home__section-offer-gallery1",
+      "flex-layout.row#home__section-offer-gallery2"
+    ],
+    "props": {
+      "blockClass": "section-offer-galery-content-col2"
+    }
+  },
+
+  "flex-layout.row#home__section-offer-gallery1": {
+    "title": "contenedor imagenes columna 1 fila 1 galeria de ofertas",
+    "children": [
+      "flex-layout.col#home__section-offer-gallery-img2",
+      "flex-layout.col#home__section-offer-gallery-img3"
+    ],
+    "props": {
+      "blockClass": "section-offer-gallery-col1"
+    }
+  },
+  "flex-layout.row#home__section-offer-gallery2": {
+    "title": "contenedor imagenes columna 1 fila 2 galeria de ofertas",
+    "children": [
+      "flex-layout.col#home__section-offer-gallery-img4",
+      "flex-layout.col#home__section-offer-gallery-img5"
+    ],
+    "props": {
+      "blockClass": "section-offer-gallery-col2"
+    }
+  },
 
   "flex-layout.col#home__section-offer-gallery-img1": {
+    "title": "contenedor imagen 1 galeria de ofertas",
     "children": ["image#home__section-offer-gallery-img1"],
     "props": {
-        "blockClass":"section_offer-gallery-img1"
+      "blockClass": "section_offer-gallery-img1"
     }
   },
   "flex-layout.col#home__section-offer-gallery-img2": {
+    "title": "contenedor imagen 2 galeria de ofertas",
     "children": ["image#home__section-offer-gallery-img2"],
     "props": {
-        "blockClass":"section_offer-gallery-img2"
+      "blockClass": "section_offer-gallery-img2"
     }
   },
   "flex-layout.col#home__section-offer-gallery-img3": {
+    "title": "contenedor imagen 3 galeria de ofertas",
     "children": ["image#home__section-offer-gallery-img3"],
     "props": {
-        "blockClass":"section_offer-gallery-img3"
+      "blockClass": "section_offer-gallery-img3"
     }
   },
   "flex-layout.col#home__section-offer-gallery-img4": {
+    "title": "contenedor imagen 4 galeria de ofertas",
     "children": ["image#home__section-offer-gallery-img4"],
     "props": {
-        "blockClass":"section_offer-gallery-img4"
+      "blockClass": "section_offer-gallery-img4"
     }
   },
   "flex-layout.col#home__section-offer-gallery-img5": {
+    "title": "contenedor imagen 5 galeria de ofertas",
     "children": ["image#home__section-offer-gallery-img5"],
     "props": {
-        "blockClass":"section_offer-gallery-img5"
+      "blockClass": "section_offer-gallery-img5"
     }
   },
 
   "image#home__section-offer-gallery-img1": {
-    "title": "image section offer gallery one",
+    "title": "imagen 1 galeria de ofertas",
     "props": {
       "src": "assets/img/image_home_section-4.1-offergallery-img1.png",
       "title": "product one section offer gallery",
@@ -119,7 +128,7 @@
   },
 
   "image#home__section-offer-gallery-img2": {
-    "title": "image section offer gallery two",
+    "title": "imagen 2 galeria de ofertas",
     "props": {
       "src": "assets/img/image_home_section-4.1-offergallery-img2.png",
       "title": "product two section offer gallery",
@@ -127,7 +136,7 @@
     }
   },
   "image#home__section-offer-gallery-img3": {
-    "title": "image section offer gallery three",
+    "title": "imagen 3 galeria de ofertas",
     "props": {
       "src": "assets/img/image_home_section-4.1-offergallery-img3.png",
       "title": "product three section offer gallery",
@@ -135,7 +144,7 @@
     }
   },
   "image#home__section-offer-gallery-img4": {
-    "title": "image section offer gallery four",
+    "title": "imagen 4 galeria de ofertas",
     "props": {
       "src": "assets/img/image_home_section-4.1-offergallery-img4.png",
       "title": "product four section offer gallery",
@@ -143,7 +152,7 @@
     }
   },
   "image#home__section-offer-gallery-img5": {
-    "title": "image section offer gallery five",
+    "title": "imagen 5 galeria de ofertas",
     "props": {
       "src": "assets/img/image_home_section-4.1-offergallery-img5.png",
       "title": "product five section offer gallery",

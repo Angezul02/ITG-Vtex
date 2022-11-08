@@ -5,3 +5,7 @@
 
 }
 
+.headerRowBackground--section__header-top-mobile :global(.vtex-input__suffix){
+    display: none;
+}
+

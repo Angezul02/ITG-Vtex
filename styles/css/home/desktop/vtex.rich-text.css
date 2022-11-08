@@ -1,4 +1,15 @@
 .heading--title-products-on-sale{
     font-family: "Cabin";
     color: #8DC63F;
+    margin-bottom: 10px;
+}
+.heading--title-greenMarket,
+.heading--title--section--offert-cyber,
+.heading--title-offer-gallery {
+    margin-bottom: 5px;
+    color: #b6b5b4;
+}
+
+.container--title--section--offert-cyber{
+    margin: 0px 40px;
 }

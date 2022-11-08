@@ -1,6 +1,6 @@
 {
   "flex-layout.row#home__section--two": {
-    "title": "section two",
+    "title": "Seccion dos slider",
     "children": [
       "flex-layout.col#section__two--slider",
       "flex-layout.col#section__two--image"
@@ -11,17 +11,16 @@
     }
   },
 
-  "flex-layout.col#section__two--slider":{
-        "children":[
-          "slider-layout#home__slider--children"    
-        ],
-        "props":{
-          "width":"69%"
-        }
-      },
+  "flex-layout.col#section__two--slider": {
+    "title": "Contenedor slider home desktop",
+    "children": ["slider-layout#home__slider--children"],
+    "props": {
+      "width": "69%"
+    }
+  },
 
   "slider-layout#home__slider--children": {
-    "title": "Slider con hijos declarados",
+    "title": "Slider home desktop",
     "props": {
       "itemsPerPage": {
         "desktop": 1,
@@ -44,28 +43,31 @@
     ]
   },
   "image#home__slider--one": {
+    "title": "imagen 1 slider",
     "props": {
       "src": "assets/img/image_slide_1.png"
     }
   },
   "image#home__slider--two": {
+    "title": "imagen 2 slider",
     "props": {
       "src": "assets/img/image_slide_2.png"
     }
   },
   "image#home__slider--three": {
+    "title": "imagen 3 slider",
     "props": {
       "src": "assets/img/image_slide_3.png"
     }
   },
 
   "flex-layout.col#section__two--image": {
-    "title": "image section two",
+    "title": "Imagen sección dos home desktop",
     "children": ["image#home__section__two"],
-    "props":{
-      "blockClass":"section--image",
-      "width":"30%",
-      "padding":"5px"
+    "props": {
+      "blockClass": "section--image",
+      "width": "30%",
+      "padding": "5px"
     }
   }
 

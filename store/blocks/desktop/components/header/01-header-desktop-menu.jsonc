@@ -1,12 +1,25 @@
 {
-    "flex-layout.row#header__section-container--menu-logo": {
-    "children": ["drawer#header__desktop--menu", "logo#header_section--logo"],
+  "flex-layout.row#header__section-container--menu-logo": {
+    "title": "Sección menú y logo",
+    "children": [
+      "flex-layout.col#header__container-menu",
+      "flex-layout.col#header__container-logo"
+    ],
     "props": {
-    "blockClass": "header__desktop-container-menu-logo"
+      "blockClass": "header__desktop-container-menu-logo"
+    }
+  },
+
+  "flex-layout.col#header__container-menu": {
+    "title": "Contenedor menú",
+    "children": ["drawer#header__desktop--menu"],
+    "props": {
+      "blockClass": "container_header-menu"
     }
   },
 
   "drawer#header__desktop--menu": {
+    "title": "Menú",
     "children": ["menu#header--menu"]
     // "blocks":[
     //   "drawer-trigger"
@@ -14,6 +27,7 @@
   },
 
   "menu#header--menu": {
+    "title": "Menú items",
     "children": ["menu-item#department-one", "menu-item#department-two"],
     "props": {
       "orientation": "vertical"
@@ -36,10 +50,12 @@
   },
 
   "submenu.accordion#department--one": {
+    "title": "Sub-menú",
     "children": ["menu#department--one"]
   },
 
   "menu#department--one": {
+    "title": "Sub-menú-items",
     "children": ["menu-item#category__one", "menu-item#category__two"],
     "props": {
       "orientation": "vertical"
@@ -87,8 +103,6 @@
     }
   }
 
-
-
   //   "drawer-trigger":{
   // "children":[
   //   "rich-text#option--menu"
@@ -100,7 +114,4 @@
   //       "text":"Menú"
   //     }
   //   },
-
-  
-
 }
