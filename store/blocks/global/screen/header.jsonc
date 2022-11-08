@@ -1,0 +1,65 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  }
+
+    
+ // codigo para el  header top 
+
+  // "header-row#header__top": {
+  //   "title": "header section top",
+  //   "children": [
+  //     "rich-text#header__top--section-text",
+  //     "header-spacer",
+  //     "rich-text#header__top--section-button"
+  //   ],
+  //   "props": {
+  //     "blockClass": "header__top"
+  //   }
+  // },
+
+  // "rich-text#header__top--section-text": {
+  //   "props": {
+  //     "text": "Disfruta lo mejor del mundial con Panini"
+  //   }
+  // },
+
+  // "rich-text#header__top--section-button": {
+  //   "props": {
+  //     "text": "¡Compra ya!"
+  //   }
+  // }
+
+  //implementacion de un login con modal min 40 video 6
+
+//________________________________________________________________________________
+
+ 
+  // "header-layout.mobile": {
+  //   "children": ["sticky-layout#mobile"]
+  // },
+  // "sticky-layout#mobile": {
+  //   "children": ["flex-layout.row#mobile"]
+  // },
+  // "flex-layout.row#mobile": {
+  //   "children": [
+  //     "drawer",
+  //     "logo",
+  //     "flex-layout.col#spacer",
+  //     "login",
+  //     "minicart.v2"
+  //   ],
+  //   "props": {
+  //     "blockClass": "main-header-mobile",
+  //     "preventHorizontalStretch": true,
+  //     "preserveLayoutOnMobile": true,
+  //     "fullWidth": true
+  //   }
+  // },
+  // "drawer": {
+  //   "children": []
+  // }
+}

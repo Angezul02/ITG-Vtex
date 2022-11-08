@@ -1,0 +1,23 @@
+{
+  "flex-layout.row#header__section-container--search-bar": {
+    "title": "Sección barra de búsqueda",
+    "props": {
+      "blockClass": "header-search-bar-container"
+    },
+    "children": ["search-bar"]
+  },
+
+  "search-bar": {
+    "props": {
+      "placeholder": "¿Qué producto buscas?"
+    }
+  }
+
+  //   "icon-search":{
+  //     "props":{
+  //         "id":"hpa-search",
+  //         "size":40,
+  //         "viewBox":"0 0 16 16"
+  //     }
+
+}

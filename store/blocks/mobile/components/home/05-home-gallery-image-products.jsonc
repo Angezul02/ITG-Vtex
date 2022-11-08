@@ -1,0 +1,233 @@
+{
+  "flex-layout.row#home__mobile-section-galery-product": {
+    "title": "Sección galeria de productos mobile",
+    "children": ["flex-layout.col#home__mobile-section-galery-product"],
+    "props": {
+      "blockClass": "Section-mobile-gallery-products"
+    }
+  },
+  "flex-layout.col#home__mobile-section-galery-product": {
+    "title": "Contenedor titulo y seccion galeria de productos",
+    "children": [
+      "flex-layout.row#home__mobile-title-section-galery-product",
+      "flex-layout.row#home__mobile-section-one-total-galery-product",
+      "flex-layout.row#home__mobile-section-two-galery-product",
+      "flex-layout.row#home__mobile-section-three-galery-product"
+    ],
+    "props": {
+      "blockClass": "container-title-and-images-section-galery"
+    }
+  },
+  "flex-layout.row#home__mobile-title-section-galery-product": {
+    "title": "Contenedor título galeria de productos",
+    "children": ["rich-text#home__mobile-section--five-title"],
+    "props": {
+      "blockClass": "section-mobile-galery-produts-title"
+    }
+  },
+  "rich-text#home__mobile-section--five-title": {
+    "title": "título galeria de productos",
+    "props": {
+      "text": "##### Disfruta nuestras ofertas de Cyber",
+      "blockClass": "title-section-mobile-offert-cyber"
+    }
+  },
+
+"flex-layout.row#home__mobile-section-one-total-galery-product":{
+  "title": "Contenedor total imagenes galeria de productos",
+  "children": [
+    "flex-layout.col#home__mobile-section-one-galery-product",
+    "flex-layout.col#home__mobile-section-one-galery-product2"
+  ],"props": {
+    "blockClass": "Container-section-1-y-2-galery-products"
+  }
+},
+
+  "flex-layout.col#home__mobile-section-one-galery-product": {
+    "title": "Contenedor imagenes seccion 1 galeria de productos",
+    "children": [
+      "flex-layout.col#home__mobile-section-galery-image1"
+     ],
+    "props": { 
+    "blockClass": "container-image-section-one-galery-product",
+    "width":"58%" }
+  },
+
+  "flex-layout.col#home__mobile-section-galery-image1": {
+    "title": "image 1 section galery mobile",
+    "children": ["image#home__mobile-section1-galery-img1"],
+    "props": {
+      "blockClass": "image-1-mobile-section-gallery"
+      
+    }
+  },
+
+  "flex-layout.col#home__mobile-section-one-galery-product2":{
+    "title": "Contenedor imagenes seccion 2 galeria de productos",
+"children": [
+  "flex-layout.row#home__mobile-section2-galery-product"
+  
+],"props": {
+  "width": "42%",
+  "blockClass": "container-image-section2-galery-product"
+}
+  },
+
+  "flex-layout.row#home__mobile-section2-galery-product":{
+    "title": "image 2 y 3 section galery mobile",
+    "children": [
+      "flex-layout.col#home__mobile-section-galery-image2",
+      "flex-layout.col#home__mobile-section-galery-image3"
+    ], "props": {"blockClass": "container-images-2-y-3-section-galery"}
+  },
+
+
+  "flex-layout.col#home__mobile-section-galery-image2": {
+    "title": "image 2 section galery mobile",
+    "children": ["image#home__mobile-section1-galery-img2"],
+    "props": {
+      "blockClass": "image-2-mobile-section-gallery"
+      
+    }
+  },
+  "flex-layout.col#home__mobile-section-galery-image3": {
+    "title": "image 3 section galery mobile",
+    "children": ["image#home__mobile-section1-galery-img3"],
+    "props": {
+      "blockClass": "image-2-mobile-section-gallery"
+      
+    }
+  },
+  "image#home__mobile-section1-galery-img1": {
+    "title": "image section mobile galery img1",
+    "props": {
+      "src": "assets/img/image_home_section-4_img1.png",
+      "title": "gallery mobile one image one",
+      "blockClass": "home__mobile-gallery_section-image1"
+    }
+  },
+  "image#home__mobile-section1-galery-img2": {
+    "title": "image section mobile galery img2",
+    "props": {
+      "src": "assets/img/image_home_section-4_img2.png",
+      "title": "gallery mobile one image two",
+      "blockClass": "home__mobile-gallery_section-image2"
+    }
+  },
+  "image#home__mobile-section1-galery-img3": {
+    "title": "image section mobile galery img3",
+    "props": {
+      "src": "assets/img/image_home_section-4_img3.png",
+      "title": "gallery mobile one image three",
+      "blockClass": "home__mobile-gallery_section-image3"
+    }
+  },
+
+  "flex-layout.row#home__mobile-section-two-galery-product": {
+    "title": "Contenedor imagenes seccion 2 galeria de productos",
+    "children": [
+      "flex-layout.col#home__mobile-section-galery-image4",
+      "flex-layout.col#home__mobile-section-galery-image5",
+      "flex-layout.col#home__mobile-section-galery-image6"
+    ],
+    "props": { "blockClass": "container-image-section-two-galery-product" }
+  },
+
+  "flex-layout.col#home__mobile-section-galery-image4": {
+    "title": "image 4 section galery mobile",
+    "children": ["image#home__mobile-section2-galery-img4"],
+    "props": {
+      "blockClass": "image-4-mobile-section-gallery",
+      "width": "21%"
+    }
+  },
+  "flex-layout.col#home__mobile-section-galery-image5": {
+    "title": "image 5 section galery mobile",
+    "children": ["image#home__mobile-section2-galery-img5"],
+    "props": {
+      "blockClass": "image-5-mobile-section-gallery",
+      "width": "21%"
+    }
+  },
+  "flex-layout.col#home__mobile-section-galery-image6": {
+    "title": "image 6 section galery mobile",
+    "children": ["image#home__mobile-section2-galery-img6"],
+    "props": {
+      "blockClass": "image-6-mobile-section-gallery",
+      "width": "58%"
+    }
+  },
+
+  "image#home__mobile-section2-galery-img4": {
+    "title": "image section mobile galery img4",
+    "props": {
+      "src": "assets/img/image_home_section-4_img4.png",
+      "title": "gallery mobile image four",
+      "blockClass": "home__mobile-gallery_section-image4"
+    }
+  },
+
+  "image#home__mobile-section2-galery-img5": {
+    "title": "image section mobile galery img5",
+    "props": {
+      "src": "assets/img/image_home_section-4_img5.png",
+      "title": "gallery mobile image five",
+      "blockClass": "home__mobile-gallery_section-image5"
+    }
+  },
+
+  "image#home__mobile-section2-galery-img6": {
+    "title": "image section mobile galery img6",
+    "props": {
+      "src": "assets/img/image_home_section-4_img6.png",
+      "title": "gallery mobile image six",
+      "blockClass": "home__mobile-gallery_section-image6"
+    }
+  },
+
+  "flex-layout.row#home__mobile-section-three-galery-product":{
+    "title": "Contenedor imagenes seccion 3 galeria de productos",
+    "children": [
+      "flex-layout.col#home__mobile-section-galery-image7",
+      "flex-layout.col#home__mobile-section-galery-image8"
+    ],
+    "props": { "blockClass": "container-image-section-three-galery-product" }
+  },
+
+  "flex-layout.col#home__mobile-section-galery-image7":{
+    "title": "container image 7 mobile section galery ",
+    "children":
+    ["image#home__mobile-section3-galery-img7"],
+    "props": {
+      "blockClass": "image-7-mobile-section-gallery",
+      "width": "50%"
+    }
+  },
+      "flex-layout.col#home__mobile-section-galery-image8":{
+        "title": "container image 8 mobile section galery ",
+        "children": 
+        ["image#home__mobile-section3-galery-img8"],
+    "props": {
+      "blockClass": "image-8-mobile-section-gallery",
+      "width": "50%"
+    }
+      },
+
+      "image#home__mobile-section3-galery-img7":{
+        "title": "image section mobile galery img7",
+    "props": {
+      "src": "assets/img/image_home_section-4_img7.png",
+      "title": "gallery mobile image seven",
+      "blockClass": "home__mobile-gallery_section-image7"
+    }
+      },
+      "image#home__mobile-section3-galery-img8":{
+        "title": "image section mobile galery img8",
+    "props": {
+      "src": "assets/img/image_home_section-4_img8.png",
+      "title": "gallery mobile image eight",
+      "blockClass": "home__mobile-gallery_section-image8"
+    }
+      }
+
+}

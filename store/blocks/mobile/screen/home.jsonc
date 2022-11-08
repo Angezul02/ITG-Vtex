@@ -1,0 +1,13 @@
+{
+    "responsive-layout.mobile#home__sections--mobile":{
+        "title": "Home mobile",
+        "children": [
+        "flex-layout.row#home__mobile-section--one",
+        "flex-layout.row#home__mobile-section--two",
+        "flex-layout.row#home__mobile-section--three",
+        "flex-layout.row#section__mobile-greenMarket-slider",
+        "flex-layout.row#home__mobile-section-galery-product",
+        "flex-layout.row#home__section--offer gallery"
+        ]
+    }
+}

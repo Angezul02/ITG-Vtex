@@ -1,0 +1,15 @@
+{
+    "header-row#header__section-mobile-top": {
+        "title": "Section header mobile top",
+        "children": [
+          "drawer#header__mobile--menu",
+          "logo#header_mobile-section--logo",
+          "search-bar#mobile",
+          "minicart.v2"
+        ],
+        "props": {
+            "blockClass": "section__header-top-mobile",
+            "sticky": true
+          }
+      }
+}

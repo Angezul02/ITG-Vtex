@@ -1,0 +1,10 @@
+{
+  "header-row#header__section-mobile-middle": {
+    "title": "Mobile Contenedor modal entrega de ordenes",
+    "children": ["modal-trigger#header__modal--orders-delivery"],
+    "props": {
+      "blockClass": "section__header-middle-mobile",
+      "sticky": true
+    }
+  }
+}

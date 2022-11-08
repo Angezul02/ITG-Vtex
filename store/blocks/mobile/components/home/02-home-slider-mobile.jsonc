@@ -1,0 +1,76 @@
+{
+  "flex-layout.row#home__mobile-section--two": {
+    "title": "Sección dos mobile",
+    "children": ["flex-layout.col#section__two--mobile"],
+    "props": {
+      "blockClass": "section__two--home-mobile"
+      // "verticalAling": "middle"
+    }
+  },
+
+  "flex-layout.col#section__two--mobile": {
+    "title": "Contenedor slider e imagen sección 2 mobile",
+    "children": [
+      "flex-layout.col#section__two--slider-mobile",
+      "flex-layout.col#section__two--image-mobile"
+    ]
+  },
+
+  "flex-layout.col#section__two--slider-mobile": {
+    "title": "Contenedor slider sección 2 mobile",
+    "children": ["slider-layout#home__mobile-slider--children"],
+    "props": {
+      "blockClass": "slider__mobile-home-section-two"
+    }
+  },
+
+  "slider-layout#home__mobile-slider--children": {
+    "title": "Slider mobile",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "home_slider-mobile",
+      // "fullWidth": false,
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      //   "flex-layout.row#home__slider--zero",
+      "image#home__mobile-slider--one",
+      "image#home__mobile-slider--two",
+      "image#home__mobile-slider--three"
+    ]
+  },
+  "image#home__mobile-slider--one": {
+    "title": "imagen 1 slider mobile",
+    "props": {
+      "src": "assets/img/image_slide_1.png"
+    }
+  },
+  "image#home__mobile-slider--two": {
+    "title": "imagen 2 slider mobile",
+    "props": {
+      "src": "assets/img/image_slide_2.png"
+    }
+  },
+  "image#home__mobile-slider--three": {
+    "title": "imagen 3 slider mobile",
+    "props": {
+      "src": "assets/img/image_slide_3.png"
+    }
+  },
+
+  "flex-layout.col#section__two--image-mobile": {
+    "title": "Contenedor imagen seccion dos mobile",
+    "children": ["image#home__section__two-mobile"],
+    "props": {
+      "blockClass": "section--image-mobile"
+    }
+  }
+}

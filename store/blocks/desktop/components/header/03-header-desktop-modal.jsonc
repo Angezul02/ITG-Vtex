@@ -1,0 +1,90 @@
+{
+  "flex-layout.row#header__section-container--modal-order": {
+    "title": "Sección modal entrega de ordenes",
+    "children": ["flex-layout.col#header__modal--text"],
+    "props": {
+      "blockClass": "container__header-modal-orders"
+    }
+  },
+
+  "flex-layout.col#header__modal--text": {
+    "title": "Contenedor modal entrega de ordenes",
+    "children": ["modal-trigger#header__modal--orders-delivery"],
+    "props": { "blockClass": "header-container-modal-orders-delivery" }
+  },
+
+  "modal-trigger#header__modal--orders-delivery": {
+    "title": "Contenido modal",
+    "children": ["flex-layout.row#header__modal--orders-delivery"]
+  },
+  "flex-layout.row#header__modal--orders-delivery": {
+    "title": "Items modal",
+    "children": [
+      "flex-layout.col#header__icon-orders",
+      "flex-layout.col#header__modal-orders"
+    ],
+    "props": {
+      "blockClass": "container-icon-modal-orders-delivery"
+    }
+  },
+  "flex-layout.col#header__icon-orders": {
+    "title": "Icon modal",
+    "children": ["icon#header__location"],
+    "props": {
+      "blockClass": "container-icon-orders"
+    }
+  },
+
+  "flex-layout.col#header__modal-orders": {
+    "title": "Texto modal",
+    "children": [
+      "rich-text#header__section-orders-delivery",
+      "modal-layout#header__modal--layout-orders-delivery"
+    ],
+    "props": {
+      "blockClass": "container__header-modal-orders"
+    }
+  },
+
+  "icon#header__location": {
+    "props": {
+      "size": 25,
+      "viewBox": "0 0 16 16",
+      "id": "icon-location",
+      "shape": "circle"
+    }
+  },
+
+  "rich-text#header__section-orders-delivery": {
+    "props": {
+      "text": "¿Cómo quieres recibir tu pedido?",
+      "blockClass": "title-orders-delivery"
+    }
+  },
+
+  "modal-layout#header__modal--layout-orders-delivery": {
+    "title": "Contenedor items del modal",
+    "children": [
+      "modal-header#header__modal--content-title",
+      "modal-content#header__modal--content-images"
+    ]
+  },
+
+  "modal-header#header__modal--content-title": {
+    "title": "Contenedor titulo del modal",
+    "children": ["rich-text#header__modal--content-title"],
+    "props": {
+      "showCloseButton": true
+    }
+  },
+
+  "rich-text#header__modal--content-title": {
+    "props": {
+      "text": "¿Cómo quieres recibir tu pedido?"
+    }
+  },
+
+  "modal-content#header__modal--content-images": {
+    "title": "Contenedor items del modal"
+  }
+}

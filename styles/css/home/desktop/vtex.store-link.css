@@ -1,0 +1,15 @@
+/* ___________________ section three home ________________________ */
+
+.link--section__three-link-product-one,
+.link--section__three-link-product-two,
+.link--section__three-link-product-three,
+.link--section__three-link-product-four,
+.link--section__three-link-product-five,
+.link--section__three-link-product-six
+{
+    display: flex;
+    flex-direction: column-reverse;
+    text-decoration: none;
+    color: black;
+    
+}

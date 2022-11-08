@@ -1,0 +1,130 @@
+{
+    "flex-layout.row#section__mobile-greenMarket-slider": {
+        "title": "Sección mobile slider greenMarket",
+        "children": [
+            "flex-layout.col#section__mobile-container-greenMarket"
+            
+        ],
+        "props": {
+            "blockClass": "section__mobile-greenMarket-slider"
+        }
+    },
+
+    "flex-layout.col#section__mobile-container-greenMarket":{
+        "title": "Contenedor titulo y slider greenMarket",
+        "children": [
+            "flex-layout.col#section__mobile-title-greenMarket",
+            "flex-layout.col#section__mobile-greenMarket-slider"
+        ]
+    },
+
+    "flex-layout.col#section__mobile-title-greenMarket":{
+        "title": "Contenedor título greenMarket",
+        "children": ["rich-text#home__mobile-section--greenMarket-title"]
+    },
+
+    
+
+    "rich-text#home__mobile-section--greenMarket-title":{
+        "title": "Título greenMarket",
+        "props": {
+          "text": "##### Descubre nuestro GreenMarket",
+          "blockClass": "title-greenMarket"
+        }
+    },
+
+    "flex-layout.col#section__mobile-greenMarket-slider":{
+        "title": "Contenedor slider section mobile greenMarket",
+    "children": ["slider-layout#home__-mobile-slider--children"],
+    "props": {
+      "blockClass":"container-mobile-slider-greenMarket"
+     
+    }
+    },
+
+    "slider-layout#home__-mobile-slider--children":{
+        "title": "Slider mobile greenMarket",
+    "props": {
+        
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 4,
+        "mobile": 2
+      },
+      "infinite": true,
+      "blockClass": "home_mobile-slider-greenMarket",
+      // "fullWidth": false,
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      
+        "image#home__mobile-section-green-img1",
+        "image#home__mobile-section-green-img2",
+        "image#home__mobile-section-green-img3",
+        "image#home__mobile-section-green-img4",
+        "image#home__mobile-section-green-img5",
+        "image#home__mobile-section-green-img6"
+    ]
+  },
+
+  "image#home__mobile-section-green-img1": {
+    "title": "image 1  green market",
+    "props": {
+      "src": "assets/img/image_home_section-3.1-green-img1.png",
+      "title": "product one section greenMarket",
+      "blockClass": "home__mobile-section-green--image1"
+    }
+  },
+
+  "image#home__mobile-section-green-img2": {
+    "title": "image 2  green market",
+    "props": {
+      "src": "assets/img/image_home_section-3.1-green-img2.png",
+      "title": "product two section greenMarket",
+      "blockClass": "home__mobile-section-green--image2"
+    }
+  },
+
+  "image#home__mobile-section-green-img3": {
+    "title": "image 3  green market",
+    "props": {
+      "src": "assets/img/image_home_section-3.1-green-img3.png",
+      "title": "product three section greenMarket",
+      "blockClass": "home__mobile-section-green--image3"
+    }
+  },
+  
+  "image#home__mobile-section-green-img4": {
+    "title": "image 4  green market",
+    "props": {
+      "src": "assets/img/image_home_section-3.1-green-img4.png",
+      "title": "product four section greenMarket",
+      "blockClass": "home__mobile-section-green--image4"
+    }
+  },
+
+  "image#home__mobile-section-green-img5": {
+    "title": "image 5 green market",
+    "props": {
+      "src": "assets/img/image_home_section-3.1-green-img5.png",
+      "title": "product five section greenMarket",
+      "blockClass": "home__mobile-section-green--image5"
+    }
+  },
+
+  "image#home__mobile-section-green-img6": {
+    "title": "image 6  green market",
+    "props": {
+      "src": "assets/img/image_home_section-3.1-green-img6.png",
+      "title": "product six section greenMarket",
+      "blockClass": "home__mobile-section-green--image6"
+    }
+  }
+  
+    
+
+
+}

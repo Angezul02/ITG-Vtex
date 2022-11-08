@@ -1,0 +1,13 @@
+.menuIcon{
+    width: 25px;
+    height: 25px;
+}
+
+.menuIcon:hover{
+transform: scale(0.80);
+
+}
+
+.openIconContainer{
+padding: 0px !important;
+}

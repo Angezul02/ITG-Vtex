@@ -1,0 +1,19 @@
+{
+  "image#home__image--banner-mobile": {
+    "title": "imagen sección uno home mobile",
+    "props": {
+      "src": "assets/img/image_home-mobile.png",
+      "title": "banner mobile home section one",
+      "blockClass": "home__image-mobile"
+      //Pendiente adjuntar link de ejemplo video min 1:08:22 dia 3
+    }
+  },
+  "image#home__section__two-mobile": {
+    "title": "imagen sección dos home mobile",
+    "props": {
+      "src": "assets/img/image_section_two_mobile_home.png",
+      "title": "image mobile home section two",
+      "blockClass": "home__image-mobile"
+    }
+  }
+}

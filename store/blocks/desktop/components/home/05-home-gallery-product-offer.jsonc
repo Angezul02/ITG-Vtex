@@ -1,0 +1,133 @@
+{
+  "flex-layout.row#home__section--four": {
+    "title": "Sección cinco galeria de productos",
+    "children": ["flex-layout.col#home__section__galery-product-offer"],
+    "props": {
+      "blockClass": "Section-Four-home"
+    }
+  },
+
+  "flex-layout.col#home__section__galery-product-offer": {
+    "title": "Contenedor título e imagenes galeria de productos",
+    "children": [
+      "flex-layout.row#home__section--four-title",
+      "flex-layout.row#home__section--four-galery-row1",
+      "flex-layout.row#home__section--four-galery-row2",
+      "flex-layout.row#home__section--four-galery-row3"
+    ],
+    "props": {
+      "blockClass": "section-galery-produts-container"
+    }
+  },
+
+  "flex-layout.row#home__section--four-title": {
+    "title": "Contenedor título galeria de productos",
+    "children": ["rich-text#home__section--four-title"],
+    "props": {
+      "blockClass": "section-galery-produts-title"
+    }
+  },
+
+  "rich-text#home__section--four-title": {
+    "title": "título galeria de productos",
+    "props": {
+      "text": "##### Disfruta nuestras ofertas de Cyber",
+      "blockClass": "title--section--offert-cyber"
+    }
+  },
+
+  "flex-layout.row#home__section--four-galery-row1": {
+    "title": "Contenedor imagenes galeria de productos fila 1",
+    "children": [
+      "flex-layout.col#home__section_four-column1-image1",
+      "flex-layout.col#home__section_four-column1-image2",
+      "flex-layout.col#home__section_four-column1-image3"
+    ],
+
+    "props": {
+      "blockClass": "home_section-four-column-1"
+    }
+  },
+
+  "flex-layout.col#home__section_four-column1-image1": {
+    "title": "contenedor imagen 1 galeria de productos",
+    "children": ["image#home__section__four-colum1-img1"],
+    "props": {
+      "blockClass": "image-1-section-gallery-colum1"
+    }
+  },
+  "flex-layout.col#home__section_four-column1-image2": {
+    "title": "contenedor imagen 2 galeria de productos",
+    "children": ["image#home__section__four-colum1-img2"],
+    "props": {
+      "blockClass": "image-2-section-gallery-colum1"
+    }
+  },
+  "flex-layout.col#home__section_four-column1-image3": {
+    "title": "contenedor imagen 3 galeria de productos",
+    "children": ["image#home__section__four-colum1-img3"],
+    "props": {
+      "blockClass": "image-3-section-gallery-colum1"
+    }
+  },
+
+  "flex-layout.row#home__section--four-galery-row2": {
+    "title": "Contenedor imagenes galeria de productos fila 2",
+    "children": [
+      "flex-layout.col#home__section_four-row2-image4",
+      "flex-layout.col#home__section_four-row2-image5",
+      "flex-layout.col#home__section_four-row2-image6"
+    ],
+    "props": {
+      "blockClass": "home_section-four-row-2"
+    }
+  },
+
+  "flex-layout.col#home__section_four-row2-image4": {
+    "title": "contenedor imagen 4 galeria de productos",
+    "children": ["image#home__section__four-row2-img4"],
+    "props": {
+      "blockClass": "image-4-section-gallery-row2"
+    }
+  },
+  "flex-layout.col#home__section_four-row2-image5": {
+    "title": "contenedor imagen 5 galeria de productos",
+    "children": ["image#home__section__four-row2-img5"],
+    "props": {
+      "blockClass": "image-5-section-gallery-row2"
+    }
+  },
+  "flex-layout.col#home__section_four-row2-image6": {
+    "title": "contenedor imagen 6 galeria de productos",
+    "children": ["image#home__section__four-row2-img6"],
+    "props": {
+      "blockClass": "image-6-section-gallery-row2"
+    }
+  },
+
+  "flex-layout.row#home__section--four-galery-row3": {
+    "title": "Contenedor imagenes galeria de productos fila 3",
+    "children": [
+      "flex-layout.col#home__section_four-row3-image7",
+      "flex-layout.col#home__section_four-row3-image8"
+    ],
+    "props": {
+      "blockClass": "home_section-four-row-3"
+    }
+  },
+
+  "flex-layout.col#home__section_four-row3-image7": {
+    "title": "contenedor imagen 7 galeria de productos",
+    "children": ["image#home__section__four-row3-img7"],
+    "props": {
+      "blockClass": "image-7-section-gallery-row3"
+    }
+  },
+  "flex-layout.col#home__section_four-row3-image8": {
+    "title": "contenedor imagen 8 galeria de productos",
+    "children": ["image#home__section__four-row3-img8"],
+    "props": {
+      "blockClass": "image-8-section-gallery-row3"
+    }
+  }
+}
