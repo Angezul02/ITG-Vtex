@@ -1,10 +1,21 @@
 {
+
+  
   "header-layout.mobile": {
     "title": "Header mobile",
-    "children": ["flex-layout.row#header__mobile-container"],
+    "children": ["sticky-layout#header-top-mobile"],
     "props": {
       "blockClass": "header-mobile-container"
+      
     }
+  },
+
+  "sticky-layout#header-top-mobile":{
+    "props": {
+      "position": "TOP"
+    },
+    "children": ["flex-layout.row#header__mobile-container"]
+  
   },
 
   "flex-layout.row#header__mobile-container": {
