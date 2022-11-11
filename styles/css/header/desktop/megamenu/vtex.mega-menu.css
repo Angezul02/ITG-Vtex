@@ -1,0 +1,12 @@
+.menuContainerNav{
+    width: 70% !important;
+}
+
+.menuContainer{
+    width: 400px !important;
+    max-height: 600px !important;
+}
+
+.submenuContainer{
+    max-height: 600px !important;
+}

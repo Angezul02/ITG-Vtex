@@ -10,6 +10,7 @@
       "header-row#header__section": {
         "title": "Section header desktop",
         "children": [
+          
           "flex-layout.row#header__section-container--menu-logo",
           "flex-layout.row#header__section-container--modal-order",
           "flex-layout.row#header__section-container--search-bar",
