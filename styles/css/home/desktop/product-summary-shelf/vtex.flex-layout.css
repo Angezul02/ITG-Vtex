@@ -1,0 +1,32 @@
+.flexRow--container-items-product-summary :global(.vtex-flex-layout-0-x-flexColChild--contaier-image-product-summary){
+    align-items: center;
+    align-content: center;
+    border-right: 1px solid #777777;
+    display: flex;
+    margin-right: 10px;
+}
+.flexRow--container-items-product-summary :global(.vtex-product-summary-2-x-image){
+    width: 110px;
+    height: 120px;
+}
+.flexRow--container-items-product-summary :global(.vtex-product-summary-2-x-element){
+    display: flex !important;
+    justify-content: center !important;
+}
+.flexRow--container-items-product-summary :global(.vtex-product-summary-2-x-brandName){
+    text-transform: uppercase ;
+    color: #777777;
+}
+
+.flexRow--container-items-product-summary :global(.vtex-product-summary-2-x-nameContainer){
+    padding: 5px;
+    text-align: initial;
+}
+
+.flexRow--container-items-product-summary :global(.vtex-add-to-cart-button-0-x-buttonText){
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+
+
