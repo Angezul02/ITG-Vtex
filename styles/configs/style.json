@@ -82,7 +82,7 @@
       "base--inverted": "#03044e",
       "action-primary": "#633b7f",
       "action-secondary": "#633b7f",
-      "emphasis": "#f71963",
+      "emphasis": "#9c4cd5",
       "disabled": "#f2f4f5",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -97,7 +97,7 @@
       "muted-5": "#f2f4f5"
     },
     "hover-background": {
-      "action-primary": "#9c4cd5",
+      "action-primary": "#724293",
       "action-secondary": "#9c4cd5",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
