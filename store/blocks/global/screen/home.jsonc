@@ -188,12 +188,24 @@
       "product-summary-name",
       "product-summary-price",      
       "product-identifier.summary",
-      "product-summary-space",
       "add-to-cart-button"
     ],"props": {
       "blockClass":"container-items-product-summary"
     }
+  },
+
+  "add-to-cart-button":{
+      "props":{
+      "text": "Agregar"
+      
+      
+    }
+       
   }
+
+  
+
+  
 
 
 
