@@ -1,0 +1,141 @@
+{
+  "flex-layout.row#home__title-product-summary-shelf": {
+    "title": "contenedor titulo vitrina de productos",
+    "children": ["rich-text#title-product-summary-shelf"], "props":{
+        "blockClass": "container-tittle-product-summary"
+    }
+  },
+
+  "rich-text#title-product-summary-shelf": {
+    "props": {
+      "text": "##### Disfruta los mejores vinos"
+    }
+  },
+
+  "search-result-layout.customQuery#home_search": {
+    "props": {
+      "querySchema": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#home__search--desktop",
+      "search-result-layout.mobile#home__search--mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.desktop#home__search--desktop": {
+    "children": ["flex-layout.row#home__results"]
+  },
+
+  "search-result-layout.mobile#home__search--mobile": {
+    "children": ["flex-layout.row#home__results"]
+  },
+
+  "flex-layout.row#home__results": {
+    "children": ["flex-layout.col#home__results--search"]
+  },
+
+  "flex-layout.col#home__results--search": {
+    "children": ["list-context.product-list#home__mobile-product-summary"]
+  },
+
+  "list-context.product-list#home__mobile-product-summary": {
+    "blocks": ["product-summary.shelf#home__mobile_product-summary"],
+    "children": ["slider-layout#home__mobile_product-summary"]
+  },
+
+  "slider-layout#home__mobile_product-summary": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 1,
+        "phone": 1
+      },
+      // "infinite": true,
+      // "autoplay": {
+      //   "stopOnHover": true,
+      //   "timeout": 3000
+      // },
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "centerMode": "disabled",
+      "blockClass": "slider__product-summary"
+    }
+  },
+
+  "product-summary.shelf#home__mobile_product-summary": {
+    "children": ["flex-layout.row#container_product_summary"],
+    "props": {
+      "blocklass": "product-summary-shelf"
+    }
+  },
+
+  "flex-layout.row#container_product_summary": {
+    "title": "container__col-product-summary",
+    "children": [
+      "flex-layout.col#container-image-product-summary",
+      "flex-layout.col#container-items-product-summary"
+    ],
+    "props": {
+      "blockClass": "container-items-product-summary"
+    }
+  },
+
+  "flex-layout.col#container-image-product-summary": {
+    "title": "contenedor imagen productos vitrina",
+    "children": ["product-summary-image"],
+    "props": {
+      "blockClass": "contaier-image-product-summary",
+      "width": "35%"
+    }
+  },
+
+  "flex-layout.col#container-items-product-summary": {
+    "title": "contenedor items productos vitrina",
+    "children": [
+      "flex-layout.col#container-items-description-product-summary",
+      "flex-layout.col#container-item-button-product-summary"
+    ],
+    "props": {
+      "blockClass": "container-items-product-summary",
+      "width": "65%"
+    }
+  },
+
+  "flex-layout.col#container-items-description-product-summary": {
+    "title": "Container items descripcion productos vitrina",
+    "children": [
+      "product-summary-name",
+      "product-identifier.summary",
+      "product-summary-price",
+      "product-installments",
+      "product-summary-add-to-list-button"
+    ]
+  },
+
+  "product-summary-price": {
+    "props": {
+      "showListPrice": true,
+      "showInstallments": false,
+      "showLabels": false
+    }
+  },
+
+  "add-to-cart-button": {
+    "props": {
+      "text": "Agregar    "
+    }
+  },
+
+  "flex-layout.col#container-item-button-product-summary": {
+    "title": "contenedor boton productos vitrina",
+    "children": ["add-to-cart-button"],
+
+    "props": {
+      "blockClass": "container-item-button-product-summary"
+    }
+  }
+}
