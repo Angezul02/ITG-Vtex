@@ -1,0 +1,14 @@
+
+.trigger--container-title-disclosure-general--hidden,
+.trigger--container-title-disclosure-general--visible,
+.trigger--hidden,
+.trigger--visible{
+    background-color: white;
+    border: none;
+}
+
+.content--visible{
+    
+    margin: 0px auto;
+    
+}

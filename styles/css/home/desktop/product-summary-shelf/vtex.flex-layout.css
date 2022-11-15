@@ -1,6 +1,6 @@
-.flexRowContent--container-tittle-product-summary {
+/* .flexRowContent--container-tittle-product-summary {
     margin-left: 40px;
-}
+} */
 .flexRow--container-items-product-summary :global(.vtex-flex-layout-0-x-flexColChild--contaier-image-product-summary){
     align-items: center;
     align-content: center;

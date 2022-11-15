@@ -1,0 +1,364 @@
+{
+  "flex-layout.row#disclosure_footer_general": {
+    "title": "Contenedor menú desplegable",
+    "children": ["flex-layout.col#disclosure_footer-more-information"],
+    "props": {
+      "blockClass": "container-disclosure-general-more-information"
+    }
+  },
+
+  "flex-layout.col#disclosure_footer-more-information": {
+    "title": "menú desplegable de más información",
+    "children": ["disclosure-layout-group#footer__menu--more-information"],
+    "props": { "blockClass": "container-col-disclosure-general" }
+  },
+
+  "disclosure-layout-group#footer__menu--more-information": {
+    "title": "Menú desplegable general sobre más información",
+    "children": ["disclosure-layout#footer__more-information"],
+    "props": { "blockClass": "container-content-disclosure-general",
+    "maxVisible": "many" }
+  },
+
+  "disclosure-layout#footer__more-information": {
+    "title": "contenido menú desplegable mas información",
+    "children": [
+      "disclosure-trigger#item-more-information",
+      "disclosure-content#item-more-information"
+    ],
+    "props": { "blockClass": "container-items-disclosure-general" }
+  },
+
+  "disclosure-trigger#item-more-information": {
+    "title": "Contenedor titulo menu desplegable más información",
+    "children": ["rich-text#title-item-more-information"],
+    "props": { "blockClass": "container-title-disclosure-general" }
+  },
+
+  
+
+  "rich-text#title-item-more-information": {
+    "title": "Titulo Menu desplegable general",
+    "props": {
+      "text": "Más Información",
+      "blockClass": "title-disclosure-general"
+    }
+  },
+
+  "disclosure-content#item-more-information": {
+    "children": ["flex-layout.row#disclosure__footer-more-information-items"]
+  },
+
+  "flex-layout.row#disclosure__footer-more-information-items": {
+    "title": "contenedor items menús desplegables",
+    "children": ["flex-layout.row#disclosure__footer-more-information-items-general"],
+    "props": { "blockClass": "container-items-disclusures" }
+  },
+
+  "flex-layout.row#disclosure__footer-more-information-items-general":{
+    "children": [
+        "disclosure-layout-group#footer__menu--group"
+    ],
+    "props": {"blockClass": "container-menus-disclosure"}
+  },
+
+
+  "disclosure-layout-group#footer__menu--group": {
+    "title": "Contenedor menus desplegables de pie de página",
+    "children": [
+      "flex-layout.col#disclosure__footer-item-help",
+      "flex-layout.col#disclosure__footer-item-interest-information",
+      "flex-layout.col#disclosure__footer-item-legal-information"
+    ],"props": {
+        "maxVisible": "many"
+    }
+  },
+
+  "flex-layout.col#disclosure__footer-item-help": {
+    "title": "contenedor menu desplegable ayuda",
+    "children": ["disclosure-layout#footer__item-help"],
+    "props": { "blockClass": "container-disclosure-item-help" }
+  },
+
+  "flex-layout.col#disclosure__footer-item-interest-information": {
+    "title": "contenedor menu desplegable informacion de interes",
+    "children": ["disclosure-layout#footer__item-interest-information"],
+    "props": { "blockClass": "container-disclosure-item-interest-information" }
+  },
+  "flex-layout.col#disclosure__footer-item-legal-information": {
+    "title": "contenedor menu desplegable informacion legal",
+    "children": ["disclosure-layout#footer__item-legal-information"],
+    "props": { "blockClass": "container-disclosure-item-legal-information" }
+  },
+
+  "disclosure-layout#footer__item-help": {
+    "children": ["disclosure-trigger#item-help", "disclosure-content#item-help"]
+  },
+  "disclosure-trigger#item-help": {
+    "children": ["rich-text#title-item-help"]
+  },
+
+  "rich-text#title-item-help": {
+    "title": "titulo menu desplegable centro de ayuda",
+    "props": {
+      "text": "Centro de ayuda",
+      "blockClass": "title-disclosure-help"
+    }
+  },
+  "disclosure-content#item-help": {
+    "children": ["menu#item-help"]
+  },
+
+  "menu#item-help": {
+    "children": [
+      "menu-item#chat",
+      "menu-item#frecuent-questions",
+      "menu-item#exchanges-returns",
+      "menu-item#contact",
+      "menu-item#stors"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "menu-item#chat": {
+    "props": {
+      "id": "menu-chat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Chat",
+        "text": "Chat"
+      }
+    }
+  },
+  "menu-item#frecuent-questions": {
+    "props": {
+      "id": "menu-frecuent-questions",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Preguntas frecuentes",
+        "text": "Preguntas frecuentes"
+      }
+    }
+  },
+  "menu-item#exchanges-returns": {
+    "props": {
+      "id": "menu-exchanges-returns",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Políticas de cambios y devoluciones",
+        "text": "Políticas de cambios y devoluciones"
+      }
+    }
+  },
+  "menu-item#contact": {
+    "props": {
+      "id": "menu-contact",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Contacto",
+        "text": "Contacto"
+      }
+    }
+  },
+  "menu-item#stors": {
+    "props": {
+      "id": "stors",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Almacenes",
+        "text": "Almacenes"
+      }
+    }
+  },
+
+  "disclosure-layout#footer__item-interest-information": {
+    "children": [
+      "disclosure-trigger#item-interest-information",
+      "disclosure-content#item-interest-information"
+    ]
+  },
+  "disclosure-trigger#item-interest-information": {
+    "children": ["rich-text#title-item-interest-information"]
+  },
+
+  "rich-text#title-item-interest-information": {
+    "title": "titulo menu desplegable informacion de interes",
+    "props": {
+      "text": "Información de interés",
+      "blockClass": "title-menu-interest-information"
+    }
+  },
+  "disclosure-content#item-interest-information": {
+    "children": ["menu#item-interest-information"]
+  },
+
+  "menu#item-interest-information": {
+    "children": [
+      "menu-item#super-client",
+      "menu-item#buy-collect",
+      "menu-item#card-carulla",
+      "menu-item#domicilies"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "menu-item#super-client": {
+    "props": {
+      "id": "menu-super-client",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Supercliente",
+        "text": "Supercliente"
+      }
+    }
+  },
+  "menu-item#buy-collect": {
+    "props": {
+      "id": "menu-buy-collect",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Compra y recoge",
+        "text": "Compra y recoge"
+      }
+    }
+  },
+  "menu-item#card-carulla": {
+    "props": {
+      "id": "menu-card-carulla",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Tarjeta Carulla Mastercard",
+        "text": "Tarjeta Carulla Mastercard"
+      }
+    }
+  },
+  "menu-item#domicilies": {
+    "props": {
+      "id": "menu-domicilies",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Domicilios",
+        "text": "Domicilios"
+      }
+    }
+  },
+
+  "disclosure-layout#footer__item-legal-information": {
+    "children": [
+      "disclosure-trigger#item-legal-information",
+      "disclosure-content#item-legal-information"
+    ]
+  },
+  "disclosure-trigger#item-legal-information": {
+    "children": ["rich-text#title-item-legal-information"]
+  },
+
+  "rich-text#title-item-legal-information": {
+    "title": "titulo menu desplegable informacion legal",
+    "props": {
+      "text": "Información legal",
+      "blockClass": "title-menu-legal-information"
+    }
+  },
+  "disclosure-content#item-legal-information": {
+    "children": ["menu#item-legal-information"]
+  },
+
+  "menu#item-legal-information": {
+    "children": [
+      "menu-item#legal",
+      "menu-item#regulations",
+      "menu-item#terms-and-conditions",
+      "menu-item#terms-and-conditions-marketplace",
+      "menu-item#terms-privacy-policies"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "menu-item#legal": {
+    "props": {
+      "id": "menu-legal",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Legales",
+        "text": "Legales"
+      }
+    }
+  },
+  "menu-item#regulations": {
+    "props": {
+      "id": "menu-item-regulations",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Reglamentos",
+        "text": "Reglamentos"
+      }
+    }
+  },
+  "menu-item#terms-and-conditions": {
+    "props": {
+      "id": "menu-terms-and-conditions",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Términos y condiciones",
+        "text": "Términos y condiciones"
+      }
+    }
+  },
+
+  "menu-item#terms-and-conditions-marketplace": {
+    "props": {
+      "id": "menu-terms-and-conditions-marketplace",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Términos y condiciones Marketplace",
+        "text": "Términos y condiciones Marketplace"
+      }
+    }
+  },
+
+  "menu-item#terms-privacy-policies": {
+    "props": {
+      "id": "menu-privacy-policies",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Políticas de privacidad",
+        "text": "Políticas de privacidad"
+      }
+    }
+  }
+}

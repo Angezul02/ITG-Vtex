@@ -8,7 +8,8 @@
 
   "rich-text#title-product-summary-shelf": {
     "props": {
-      "text": "##### Disfruta los mejores vinos"
+      "text": "##### Disfruta los mejores vinos",
+      "blockClass":"text-title-summary-shelf"
     }
   },
 
