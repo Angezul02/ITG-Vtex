@@ -1,0 +1,147 @@
+{
+    "flex-layout.row#footer_desktop-banner-information": {
+        "title": "Contenedor banner-footer promesa seguridad compras ",
+        "children": [
+          "flex-layout.col#footer_banner-info-products",
+          "flex-layout.col#footer_banner-safe-shopping",
+          "flex-layout.col#footer_banner-points",
+          "flex-layout.col#footer_banner-online-payments"
+        ],"props": {"blockClass": "container_items-total-banner-footer"}
+      },
+    
+      "flex-layout.col#footer_banner-info-products": {
+        "title": "contenedor informacion al ciente",
+        "children": ["flex-layout.row#footer__banner_item1"],
+        "props": {
+          "blockClass": "container-image1-text-banner-footer"
+        }
+      },
+    
+      "flex-layout.row#footer__banner_item1": {
+        "title": "contenedor item 1 barra pie de página",
+        "children": [
+          "image#footer_banner-info-products",
+          "rich-text#footer_banner-text-info-products"
+        ],"props": {"blockClass": "container-item1-banner-footer"}
+      },
+      "image#footer_banner-info-products": {
+        "title": "imagen 1 banner footer  ",
+        "props": {
+          "src": "assets/img/image_footer_iconbanner.img2.png",
+          "title": "icon_banner_footer_img1",
+          "blockClass": "icon_banner_footer_img1",
+          "width":"27%"
+          
+        }
+      },
+    
+      "rich-text#footer_banner-text-info-products": {
+        "title": "Texto barra pie de página información productos",
+        "props": {
+          "text": "Más de 1000 productos",
+          "blockClass": "text-footer-banner-item1"
+          
+    
+        }
+      },
+    
+      "flex-layout.col#footer_banner-safe-shopping": {
+        "title": "contenedor compras seguras",
+        "children": ["flex-layout.row#footer__banner_item2"],
+        "props": {
+          "blockClass": "container-image2-text-banner-footer"
+        }
+      },
+    
+      "flex-layout.row#footer__banner_item2": {
+        "title": "contenedor item 2 barra pie de página",
+        "children": [
+          "image#footer_banner-safe-shopping",
+          "rich-text#footer_banner-text-safe-shopping"
+        ],"props": {"blockClass": "container-item2-banner-footer"}
+      },
+      "image#footer_banner-safe-shopping": {
+        "title": "imagen 2 banner footer  ",
+        "props": {
+          "src": "assets/img/image_footer_iconbanner.img1.png",
+          "title": "icon_banner_footer_img2",
+          "blockClass": "icon_banner_footer_img2",
+          "width":"27%"
+        }
+      },
+    
+      "rich-text#footer_banner-text-safe-shopping": {
+        "title": "Texto barra pie de página compras seguras",
+        "props": {
+          "text": "Compras seguras",
+          "blockClass": "text-footer-banner-item2"
+        }
+      },
+    
+      "flex-layout.col#footer_banner-points": {
+        "title": "contenedor acumular puntos",
+        "children": ["flex-layout.row#footer__banner_item3"],
+        "props": {
+          "blockClass": "container-image3-text-banner-footer"
+        }
+      },
+    
+      "flex-layout.row#footer__banner_item3": {
+        "title": "contenedor item 3 barra pie de página",
+        "children": [
+          "image#footer_banner-banner-points",
+          "rich-text#footer_banner-text-banner-points"
+        ],"props": {"blockClass": "container-item3-banner-footer"}
+      },
+      "image#footer_banner-banner-points": {
+        "title": "imagen 3 banner footer  ",
+        "props": {
+          "src": "assets/img/image_footer_iconbanner.img3.png",
+          "title": "icon_banner_footer_img3",
+          "blockClass": "icon_banner_footer_img3",
+          "width":"27%"
+        }
+      },
+    
+      "rich-text#footer_banner-text-banner-points": {
+        "title": "Texto barra pie de página acumular puntos",
+        "props": {
+          "text": "Acumulas Puntos",
+          "blockClass": "text-footer-banner-item3"
+        }
+      },
+    
+      "flex-layout.col#footer_banner-online-payments": {
+        "title": "contenedor pagos en línea",
+        "children": ["flex-layout.row#footer__banner_item4"],
+        "props": {
+          "blockClass": "container-image4-text-banner-footer"
+        }
+      },
+    
+      "flex-layout.row#footer__banner_item4": {
+        "title": "contenedor item 4 barra pie de página",
+        "children": [
+          "image#footer_banner-online-payments",
+          "rich-text#footer_banner-text-online-payments"
+        ],"props": {"blockClass": "container-item4-banner-footer"}
+      },
+      "image#footer_banner-online-payments": {
+        "title": "imagen 4 banner footer  ",
+        "props": {
+          "src": "assets/img/image_footer_iconbanner.img4.png",
+          "title": "icon_banner_footer_img4",
+          "blockClass": "icon_banner_footer_img4",
+          "width":"27%"
+        }
+      },
+    
+      "rich-text#footer_banner-text-online-payments": {
+        "title": "Texto barra pie de página pagos en línea",
+        "props": {
+          "text": "Paga en línea o en efectivo",
+          "blockClass": "text-footer-banner-item4"
+        }
+      }
+    
+}
