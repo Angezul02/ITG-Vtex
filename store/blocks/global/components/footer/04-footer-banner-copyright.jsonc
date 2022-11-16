@@ -1,0 +1,114 @@
+{
+  "flex-layout.row#footer-banner-links-copyright": {
+    "title": "Contenedor links y copyright",
+    "children": [
+      "flex-layout.col#footer_banner-images-links",
+      "flex-layout.col#footer_banner-text-copyright"
+    ],
+    "props": {
+      "blockClass": "container-total-items-copyright"
+    }
+  },
+
+  "flex-layout.col#footer_banner-images-links": {
+    "title": "contenedor total links visita otras tiendas",
+    "children": ["flex-layout.row#footer_banner-images-links"],
+    "props": { "blockClass": "container-total-items-other-store" }
+  },
+
+  "flex-layout.row#footer_banner-images-links": {
+    "title": "contenedor imagenes links visita otras tiendas",
+    "children": [
+      "flex-layout.col#footer_text-other-stores",
+      "flex-layout.col#footer_images-other-stores"
+      
+    ],
+    "props": {
+      "blockClass": "container-text-links-other-store"
+    }
+  },
+
+  "flex-layout.col#footer_text-other-stores":{
+    "children": [
+      "rich-text#footer_text-other-stores"
+    ]
+  },
+
+  "flex-layout.col#footer_images-other-stores":{
+    "children": [
+      "image#footer_store-exito",
+      "image#footer_store-vivaexito",
+      "image#footer_store-superinter",
+      "image#footer_store-surtimax"
+    ]
+  },
+
+  "rich-text#footer_text-other-stores": {
+    "title": "texto visita otras tiendas pie de página",
+    "props": {
+      "text": "Visita también:",
+      "blockClass": "text-footer-other-stores"
+    }
+  },
+  "image#footer_store-exito": {
+    "title": "imagen exito tienda",
+    "props": {
+      "src": "assets/img/image_footer-logo-exito.png",
+      "title": "image-logo-exito",
+      "blockClass": "image-logo-exito-footer",
+      "link": {
+        "url": "https://www.exito.com/"
+      }
+    }
+  },
+
+  "image#footer_store-vivaexito": {
+    "title": "imagen viva exito tienda",
+    "props": {
+      "src": "assets/img/image_footer-logo-vivaexito.png",
+      "title": "image-logo-vivaexito",
+      "blockClass": "image-logo-vivaexito-footer",
+      "link": {
+        "url": "https://www.vivaonline.com.co/"
+      }
+    }
+  },
+  "image#footer_store-superinter": {
+    "title": "imagen super inter tienda",
+    "props": {
+      "src": "assets/img/image_footer-logo-superinter.png",
+      "title": "image-logo-superinter",
+      "blockClass": "image-logo-superinter-footer",
+      "link": {
+        "url": "https://www.superinter.com.co/"
+      }
+    }
+  },
+  "image#footer_store-surtimax": {
+    "title": "imagen surtimax tienda",
+    "props": {
+      "src": "assets/img/image_footer-logo-surtimax.png",
+      "title": "image-logo-surtimax",
+      "blockClass": "image-logo-surtimax-footer",
+      "link": {
+        "url": "https://www.surtimax.com.co/"
+      }
+    }
+  },
+
+  "flex-layout.col#footer_banner-text-copyright": {
+    "title": "contenedor texto copyright",
+    "children": ["rich-text#footer_text-copyright"],
+    "props": {
+      "blockClass": "container-text-copyright-footer"
+    }
+  },
+
+  "rich-text#footer_text-copyright": {
+    "title": "texto derechos autor pie de página",
+    "props": {
+      "text": "2022 Carulla ® marca registrada de Grupo Éxito S.A. NIT 890900608-9. Todos los derechos reservados.",
+      "blockClass": "text-footer-copyright"
+    }
+  }
+}

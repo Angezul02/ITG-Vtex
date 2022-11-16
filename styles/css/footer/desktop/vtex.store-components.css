@@ -1,8 +1,40 @@
-/* .imageElement--icon_banner_footer_img1,
+.imageElement--image-qr-code-app {
+  width: 40% !important;
+  height: 40%;
+  margin: auto 0px;
+}
+
+.imageElement--image-logo-code-app {
+  width: 20%;
+  height: 20%;
+  margin: auto 0px;
+}
+.imageElement--image-logo-exito-footer,
+.imageElement--image-logo-vivaexito-footer {
+  width: 50%;
+}
+
+.imageElementLink--image-logo-exito-footer,
+.imageElementLink--image-logo-vivaexito-footer,
+.imageElementLink--image-logo-superinter-footer,
+.imageElementLink--image-logo-surtimax-footer {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width:780px){
+.imageElement--image-qr-code-app{
+  display: none !important;
+}
+}
+
+@media (max-width:425px){
+
+.imageElement--icon_banner_footer_img1,
 .imageElement--icon_banner_footer_img2,
 .imageElement--icon_banner_footer_img3,
 .imageElement--icon_banner_footer_img4{
-    width: 22px;
-    height: 28px;
-} */
+  width: 20% !important;
+}
 
+}

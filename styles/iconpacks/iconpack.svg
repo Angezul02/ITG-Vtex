@@ -544,5 +544,22 @@
 </svg>
 </g>
 
+<g id="icon-angle--down">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="16px" viewBox="0 0 16 16" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 8 10.332031 C 7.644531 10.332031 7.308594 10.195312 7.058594 9.941406 L 3.527344 6.414062 L 4.472656 5.472656 L 8 9 L 11.527344 5.472656 L 12.472656 6.414062 L 8.941406 9.941406 C 8.691406 10.191406 8.355469 10.332031 8 10.332031 Z M 8 10.332031 "/>
+</g>
+</svg>
+</g>
+
+<g id="icon-angle--up">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="16px" viewBox="0 0 16 16" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 11.527344 10.136719 L 8 6.609375 L 4.472656 10.136719 L 3.527344 9.195312 L 7.058594 5.667969 C 7.578125 5.144531 8.421875 5.144531 8.941406 5.667969 L 12.472656 9.195312 Z M 11.527344 10.136719 "/>
+</g>
+</svg>
+
+</g>
+
   </defs>
 </svg>

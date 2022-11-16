@@ -1,11 +1,14 @@
+.link--link-text-item1,
+.link--link-text-item2,
+.link--link-text-item3,
+.link--link-text-item4,
+.link--link-text-item5 {
+  text-decoration: none;
+  color: #5a5a5a;
+  font-size: 15px;
+  font-weight: 700 !important;
+}
 
-    .link--link-text-item1,
-    .link--link-text-item2,
-    .link--link-text-item3,
-    .link--link-text-item4,
-    .link--link-text-item5{
-        text-decoration: none;
-        color: #5a5a5a;
-        font-size: 15px;
-        font-weight: 700 !important;
-    }
+.label--link-text-item6 {
+  color: #5a5a5a;
+}
