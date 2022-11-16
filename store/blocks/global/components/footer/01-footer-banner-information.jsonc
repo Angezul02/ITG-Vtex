@@ -38,7 +38,7 @@
       "rich-text#footer_banner-text-info-products": {
         "title": "Texto barra pie de página información productos",
         "props": {
-          "text": "Más de 1000 productos",
+          "text": "Más de 100 productos",
           "blockClass": "text-footer-banner-item1"
           
     

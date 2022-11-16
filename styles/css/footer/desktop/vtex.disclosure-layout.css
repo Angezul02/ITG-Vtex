@@ -1,14 +1,45 @@
-
 .trigger--container-title-disclosure-general--hidden,
 .trigger--container-title-disclosure-general--visible,
 .trigger--hidden,
-.trigger--visible{
-    background-color: white;
-    border: none;
+.trigger--visible {
+  background-color: white;
+  border: none;
 }
 
-.content--visible{
-    
-    margin: 0px auto;
-    
+.content--visible {
+  margin: 0px auto;
+}
+
+.trigger--container-title-disclosure-general--hidden,
+.trigger--container-title-disclosure-general--visible{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px auto;
+  padding: 5px 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+@media (max-width:425px){
+.trigger--container-title-disclosure-general--visible{
+  display: none;
+}
+.content--container-menu-content-item-help--visible,
+.content--container-menu-content-item-interest-information--visible,
+.content--container-menu-content-item-legal-information--visible{
+  margin: 0px;
+}
+
+.content--container-menu-content-item-help--visible :global(.vtex-menu-2-x-styledLink),
+.content--container-menu-content-item-interest-information--visible :global(.vtex-menu-2-x-styledLink),
+.content--container-menu-content-item-legal-information--visible :global(.vtex-menu-2-x-styledLink){
+  color: #9a9a9a;
+    font-size: 16px;
+}
+
+/* color: #9a9a9a;
+    font-size: 16px; */
+    /* vtex-menu-2-x-styledLink */
+
 }

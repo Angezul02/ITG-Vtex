@@ -24,14 +24,17 @@
     "title": "contenido menú desplegable mas información",
     "children": [
       "disclosure-trigger#item-more-information",
-      "disclosure-content#item-more-information"
+      "disclosure-content#item-more-information",
+      "disclosure-state-indicator"
     ],
-    "props": { "blockClass": "container-items-disclosure-general" }
+    "props": { 
+      "blockClass": "container-items-disclosure-general",
+      "initialVisibility": "visible" }
   },
 
   "disclosure-trigger#item-more-information": {
     "title": "Contenedor titulo menu desplegable más información",
-    "children": ["rich-text#title-item-more-information"],
+    "children": ["rich-text#title-item-more-information","icon#imageprueba"],
     "props": { "blockClass": "container-title-disclosure-general" }
   },
 
@@ -91,11 +94,27 @@
     "props": { "blockClass": "container-disclosure-item-legal-information" }
   },
 
+  // "disclosure-state-indicator":{
+  //    "props": {
+  //       "Show":"icon-angle--down",  
+  //       "Hide": "icon-angle--up"
+  //     }
+  // },
+
+ 
+
+  "icon#imageprueba":{
+    "props": {
+      "id": "icon-angle--down"
+    }
+  },
+  
   "disclosure-layout#footer__item-help": {
     "children": ["disclosure-trigger#item-help", "disclosure-content#item-help"]
   },
   "disclosure-trigger#item-help": {
-    "children": ["rich-text#title-item-help"]
+    "children": ["rich-text#title-item-help"],
+    "props": {"blockClass":"container-title-item-help"}
   },
 
   "rich-text#title-item-help": {
@@ -106,7 +125,10 @@
     }
   },
   "disclosure-content#item-help": {
-    "children": ["menu#item-help"]
+    "children": ["menu#item-help"],
+    "props":{
+      "blockClass":"container-menu-content-item-help"
+    }
   },
 
   "menu#item-help": {
@@ -190,7 +212,10 @@
     ]
   },
   "disclosure-trigger#item-interest-information": {
-    "children": ["rich-text#title-item-interest-information"]
+    "children": ["rich-text#title-item-interest-information"],
+    "props": {
+      "blockClass":"container-tittle-item-interest-information"
+    }
   },
 
   "rich-text#title-item-interest-information": {
@@ -201,7 +226,10 @@
     }
   },
   "disclosure-content#item-interest-information": {
-    "children": ["menu#item-interest-information"]
+    "children": ["menu#item-interest-information"],
+    "props":{
+      "blockClass":"container-menu-content-item-interest-information"
+    }
   },
 
   "menu#item-interest-information": {
@@ -272,7 +300,10 @@
     ]
   },
   "disclosure-trigger#item-legal-information": {
-    "children": ["rich-text#title-item-legal-information"]
+    "children": ["rich-text#title-item-legal-information"],
+    "props": {
+      "blockClass":"container-tittle-item-legal-information"
+    }
   },
 
   "rich-text#title-item-legal-information": {
@@ -283,7 +314,10 @@
     }
   },
   "disclosure-content#item-legal-information": {
-    "children": ["menu#item-legal-information"]
+    "children": ["menu#item-legal-information"],
+    "props":{
+      "blockClass":"container-menu-content-item-legal-information"
+    }
   },
 
   "menu#item-legal-information": {

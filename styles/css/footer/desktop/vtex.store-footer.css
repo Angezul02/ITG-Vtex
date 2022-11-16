@@ -1,0 +1,12 @@
+.socialNetworksContainer {
+  justify-content: space-around;
+  padding-left: 50px;
+}
+
+
+@media (max-width:780px){
+.socialNetworksContainer{
+  padding: 0px;
+  width: 60%;
+}
+}
