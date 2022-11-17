@@ -29,18 +29,28 @@
   },
 
   "flex-layout.col#footer_text-other-stores":{
+    "title": "contenedor texto visita tambien",
     "children": [
       "rich-text#footer_text-other-stores"
-    ]
+    ],"props": {
+      "blockClass":"container-text-other-stores-div",
+      "width":"25%"
+
+    }
   },
 
   "flex-layout.col#footer_images-other-stores":{
+    "title": "contenedor imagenes visita otras tiendas",
     "children": [
       "image#footer_store-exito",
       "image#footer_store-vivaexito",
       "image#footer_store-superinter",
       "image#footer_store-surtimax"
-    ]
+    ],"props": {
+      "blockClass":"container-images-other-stores-div",
+      "width":"50%"
+
+    }
   },
 
   "rich-text#footer_text-other-stores": {

@@ -73,6 +73,10 @@
   margin: 5px 10px;
 }
 
+.container--text-footer-other-stores{
+  justify-content: center;
+}
+
 @media (max-width:780px){
 .container--title-app-box-tittle-footer,
 .container--container-text-social-networks,
@@ -96,6 +100,11 @@
 .paragraph--text-footer-banner-item4{
 font-size: 12px;
 text-align: center;
+}
+
+.container--text-footer-other-stores{
+  justify-content: flex-start;
+  margin-left: 10px;
 }
 
 }
