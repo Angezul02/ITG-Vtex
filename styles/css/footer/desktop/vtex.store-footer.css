@@ -6,7 +6,19 @@
 
 @media (max-width:780px){
 .socialNetworksContainer{
-  padding: 0px;
-  width: 60%;
+  padding-left: 50px;
+  justify-content: center;
+  
 }
+}
+
+
+@media (max-width:425px){
+  .socialNetworksContainer{
+
+    justify-content: flex-start;
+    padding: 0px;
+    gap: 20px;
+  }
+
 }
