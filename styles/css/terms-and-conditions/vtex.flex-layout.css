@@ -1,0 +1,35 @@
+.flexCol--container-terms-and-conditions-general :global(.vtex-rich-text-0-x-paragraph),
+.flexCol--container-terms-and-conditions-specific :global(.vtex-rich-text-0-x-paragraph){
+    color: #7d7d7d !important;
+    line-height: 28px;
+    font-size: 14px;
+    text-align: justify
+}
+
+.flexCol--container-terms-and-conditions-general :global(.vtex-rich-text-0-x-heading-level-1),
+.flexCol--container-terms-and-conditions-specific :global(.vtex-rich-text-0-x-heading-level-1){
+    color: #7d7d7d;
+    font-size: 2em;
+    font-weight: bold !important;
+}
+
+.flexCol--container-terms-and-conditions-specific :global(.vtex-rich-text-0-x-heading-level-3){
+    color: #7d7d7d;
+    font-size: 24px;
+}
+
+.flexCol--container-terms-and-conditions-specific :global(.vtex-rich-text-0-x-list){
+    color: #7d7d7d;
+}
+
+.flexCol--container-terms-and-conditions-specific :global(.vtex-rich-text-0-x-strong){
+    font-weight: 900 !important;
+    font-size: 17px;
+    text-decoration:dashed;
+    
+}
+
+.flexCol--container-terms-and-conditions-specific{
+    width: 71%;
+    margin: 0px auto;
+}

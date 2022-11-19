@@ -106,8 +106,8 @@
           "itemsPerRow": 1
         }
       ],
-      "ListSummary": "product-summary.shelf",
-      "GridSummary": "product-summary.shelf"
+      "ListSummary": "product-summary.shelf#page-list-product",
+      "GridSummary": "product-summary.shelf#page-list-product"
     }
   },
   "gallery-layout-switcher": {
@@ -158,7 +158,27 @@
       "textColor": "c-auto",
       "blockClass": "layout-option"
     }
+  },
+
+  "product-summary.shelf#page-list-product":{
+      "children": [
+        "product-summary-image",
+        "product-summary-name",       
+        "product-list-price",
+        "product-selling-price",
+        "product-price-savings",
+        "product-summary-sku-selector",
+        "add-to-cart-button"
+
+      ]
+  },
+  "product-summary-name":{
+    "props": {
+      "tag": "h3"
+    }
   }
+
+
 //   "store.search#department": {
 //     "blocks": ["search-result-layout#department"]
 //   },

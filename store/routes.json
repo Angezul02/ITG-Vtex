@@ -1,5 +1,9 @@
 {
     "store.custom#home-test": {
     "path": "/home-test"
+  },
+
+  "store.custom#terms-and-conditions":{
+    "path": "/terms-and-conditions"
   }
 }
