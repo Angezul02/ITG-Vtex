@@ -263,7 +263,7 @@
       "checkboxLabel": "Acepto {firstLink} y autorizo el {secondLink}",
       "firstLabelLink": {
         "text": "términos y condiciones, términos y condiciones Marketplace",
-        "url": "/"
+        "url": "/terms-and-conditions"
       },
       "secondLabelLink": {
         "text": "tratamiento de mis datos personales con las siguientes condiciones.",

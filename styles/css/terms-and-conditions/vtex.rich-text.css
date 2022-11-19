@@ -1,0 +1,15 @@
+.container--tittle-terms-and-conditions-content,
+.container--tittle-terms-and-conditions-market,
+.container--tittle-terms-and-conditions-item1
+{
+justify-content: center;
+}
+
+.container--text-terms-terms-and-conditions,
+.container--text-terms-and-conditions-market,
+.container--item-terms-and-conditions-market{
+
+    width: 71%;
+        margin: 0px auto;
+        text-align: justify
+}
