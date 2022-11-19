@@ -1,0 +1,110 @@
+.paragraph--text-footer-banner-item1,
+.paragraph--text-footer-banner-item2,
+.paragraph--text-footer-banner-item3,
+.paragraph--text-footer-banner-item4 {
+  color: #5a5a5a;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.paragraph--text-contact-box-item1,
+.paragraph--text-contact-box-item2,
+.paragraph--text-contact-box-item3,
+.paragraph--text-contact-box-item4,
+.paragraph--text-contact-box-item5,
+.paragraph--text-contact-box-item6 {
+  color: #7d7d7d;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.paragraph--text-contact-box-tittle-footer {
+  color: #7d7d7d;
+  font-size: 15px;
+}
+
+.headingLevel5--title-contact-box-tittle-footer,
+.headingLevel5--title-newsletter-box-footer,
+.headingLevel5--title-app-box-tittle-footer {
+  color: #5a5a5a;
+  margin-bottom: 20px;
+}
+
+.container--title-app-box-tittle-footer,
+.container--container-text-social-networks,
+.container--title-app-safe-purchase-footer {
+  padding-left: 80px;
+}
+
+.heading--container-text-box-app-donwload {
+  border-left: 2px solid #d3d3d3;
+  color: #9a9a9a;
+  font-size: 26px;
+  font-weight: 700;
+  padding-left: 15px;
+  text-align: center;
+  margin: auto 0px;
+}
+.container--container-text-box-app-donwload {
+  display: flex;
+  align-items: center;
+}
+.paragraph--container-text-social-networks {
+  color: #5a5a5a;
+  font-size: 14px;
+  font-weight: bold !important;
+}
+
+.headingLevel6--title-app-safe-purchase-footer {
+  font-size: 16px;
+  color: #5a5a5a;
+  margin-top: 25px;
+}
+
+.paragraph--text-footer-other-stores,
+.paragraph--text-footer-copyright {
+  color: #4d5766;
+  font-size: 13px;
+}
+
+.container--text-footer-copyright {
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px 10px;
+}
+
+.container--text-footer-other-stores{
+  justify-content: center;
+}
+
+@media (max-width:780px){
+.container--title-app-box-tittle-footer,
+.container--container-text-social-networks,
+.container--title-app-safe-purchase-footer{
+  padding-left: 60px;
+}
+
+}
+
+@media (max-width:425px){
+
+.container--title-app-box-tittle-footer,
+.container--container-text-social-networks,
+.container--title-app-safe-purchase-footer{
+  padding: 0px;
+}
+
+.paragraph--text-footer-banner-item1,
+.paragraph--text-footer-banner-item2,
+.paragraph--text-footer-banner-item3,
+.paragraph--text-footer-banner-item4{
+font-size: 12px;
+text-align: center;
+}
+
+.container--text-footer-other-stores{
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+
+}

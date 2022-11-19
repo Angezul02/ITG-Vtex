@@ -1,0 +1,430 @@
+{
+  "flex-layout.row#footer_desktop-box-information-general": {
+    "title": "Contenedor general píe de página informacion al cliente",
+    "children": [
+      "flex-layout.col#footer_contact-box-information",
+      "flex-layout.col#footer_newsletter-box-information",
+      "flex-layout.col#footer_app-box-information"
+    ],
+    "props": { "blockClass": "Container-box-information-footer" }
+  },
+  "flex-layout.col#footer_contact-box-information": {
+    "title": "Conenedor información contacto",
+    "children": [
+      "flex-layout.row#contact-box-information-tittle",
+      "flex-layout.row#contact-box-information-item1",
+      "flex-layout.row#contact-box-information-item2",
+      "flex-layout.row#contact-box-information-item3",
+      "flex-layout.row#contact-box-information-item4",
+      "flex-layout.row#contact-box-information-item5",
+      "flex-layout.row#contact-box-information-item6"
+    ],
+    "props": { "blockClass": "container-items-general-contact-footer" }
+  },
+
+  "flex-layout.row#contact-box-information-tittle": {
+    "title": "Contenedor título contactenos",
+    "children": ["rich-text#contact-box-tittle"],
+    "props": {
+      "blockClass": "container-tittle-contact-box-footer"
+    }
+  },
+
+  "rich-text#contact-box-tittle": {
+    "title": "Título Contactenos píe de página",
+    "props": {
+      "text": "##### Contáctanos",
+      "blockClass": "title-contact-box-tittle-footer"
+    }
+  },
+
+  "flex-layout.row#contact-box-information-item1": {
+    "title": "Contenedor información contactenos item 1",
+    "children": [
+      "flex-layout.col#text-contact-box-item1",
+      "flex-layout.col#link-contact-box-item1"
+    ],
+    "props": { "blockClass": "container-text-link-item1-contact-box" }
+  },
+
+  "flex-layout.col#text-contact-box-item1": {
+    "children": ["rich-text#contact-box-item1"],
+    "props": {
+      "blockClass": "container-text-contact-box-item1"
+    }
+  },
+  "flex-layout.col#link-contact-box-item1": {
+    "children": ["link#footer-contact-box-item1"],
+    "props": {
+      "blockClass": "container-link-contact-box-item1"
+    }
+  },
+
+  "rich-text#contact-box-item1": {
+    "title": "texto item 1 contáctanos",
+    "props": {
+      "text": "Ventas telefónicas: ",
+      "blockClass": "text-contact-box-item1"
+    }
+  },
+
+  "link#footer-contact-box-item1": {
+    "title": "texto 2 item 1 contáctanos",
+    "props": {
+      "href": "/",
+      "label": "(601)4252828",
+      "blockClass": "link-text-item1"
+    }
+  },
+  "flex-layout.row#contact-box-information-item2": {
+    "title": "Contenedor información contactenos item 2",
+    "children": [
+      "rich-text#contact-box-item2",
+      "link#footer-contact-box-item2"
+    ],
+    "props": { "blockClass": "container-text-link-item2-contact-box" }
+  },
+
+  "rich-text#contact-box-item2": {
+    "title": "texto item 2 contáctanos",
+    "props": {
+      "text": "Ventas Whatsapp: ",
+      "blockClass": "text-contact-box-item2"
+    }
+  },
+
+  "link#footer-contact-box-item2": {
+    "title": "texto 2 item 2 contáctanos",
+    "props": {
+      "href": "/",
+      "label": "(+57)3052614467",
+      "blockClass": "link-text-item2"
+    }
+  },
+
+  "flex-layout.row#contact-box-information-item3": {
+    "title": "Contenedor información contactenos item 3",
+    "children": [
+      "rich-text#contact-box-item3",
+      "link#footer-contact-box-item3"
+    ],
+    "props": { "blockClass": "container-text-link-item3-contact-box" }
+  },
+
+  "rich-text#contact-box-item3": {
+    "title": "texto item 3 contáctanos",
+    "props": {
+      "text": "Servicio al cliente Whatsapp: ",
+      "blockClass": "text-contact-box-item3"
+    }
+  },
+
+  "link#footer-contact-box-item3": {
+    "title": "texto 2 item 3 contáctanos",
+    "props": {
+      "href": "/",
+      "label": "(+57)3052615442",
+      "blockClass": "link-text-item3"
+    }
+  },
+  "flex-layout.row#contact-box-information-item4": {
+    "title": "Contenedor información contactenos item 4",
+    "children": [
+      "rich-text#contact-box-item4",
+      "link#footer-contact-box-item4"
+    ],
+    "props": { "blockClass": "container-text-link-item4-contact-box" }
+  },
+
+  "rich-text#contact-box-item4": {
+    "title": "texto item 4 contáctanos",
+    "props": {
+      "text": "Línea de servicio al cliente nacional: ",
+      "blockClass": "text-contact-box-item4"
+    }
+  },
+
+  "link#footer-contact-box-item4": {
+    "title": "texto 2 item 4 contáctanos",
+    "props": {
+      "href": "/",
+      "label": "018000428800",
+      "blockClass": "link-text-item4"
+    }
+  },
+
+  "flex-layout.row#contact-box-information-item5": {
+    "title": "Contenedor información contactenos item 5",
+    "children": [
+      "rich-text#contact-box-item5",
+      "link#footer-contact-box-item5"
+    ],
+    "props": { "blockClass": "container-text-link-item5-contact-box" }
+  },
+
+  "rich-text#contact-box-item5": {
+    "title": "texto item 5 contáctanos",
+    "props": {
+      "text": "Medellín: ",
+      "blockClass": "text-contact-box-item5"
+    }
+  },
+  "link#footer-contact-box-item5": {
+    "title": "texto 2 item 5 contáctanos",
+    "props": {
+      "href": "/",
+      "label": "(4)6041919",
+      "blockClass": "link-text-item5"
+    }
+  },
+
+  "flex-layout.row#contact-box-information-item6": {
+    "title": "Contenedor información contactenos item 6",
+    "children": ["link#footer-contact-box-item6"],
+    "props": { "blockClass": "container-text-item6-contact-box" }
+  },
+
+  "link#footer-contact-box-item6": {
+    "title": "texto 2 item 6 contáctanos",
+    "props": {
+      "href": "/",
+      "label": "Resto de ciudades",
+      "blockClass": "link-text-item6"
+    }
+  },
+
+  "flex-layout.col#footer_newsletter-box-information": {
+    "title": "Conenedor información newsletter",
+    "children": [
+      "flex-layout.col#footer_newsletter-box-text",
+      "flex-layout.row#footer_newsletter-box"
+    ],
+    "props": {
+      "blockClass": "container-tittle-newsletter-box-footer"
+    }
+  },
+
+  "flex-layout.col#footer_newsletter-box-text": {
+    "title": "Contenedor titulo y parrafo suscripcion newsletter",
+    "children": [
+      "rich-text#newsletter-box-tittle",
+      "rich-text#newsletter-box-paragraph"
+    ],
+    "props": { "blockClass": "container-tittle-text-box-newsletter" }
+  },
+
+  "rich-text#newsletter-box-tittle": {
+    "title": "Título suscripción Newsletter píe de página",
+    "props": {
+      "text": "##### Suscríbete a nuestro Newsletter",
+      "blockClass": "title-newsletter-box-footer"
+    }
+  },
+
+  "rich-text#newsletter-box-paragraph": {
+    "title": "Texto suscripción Newsletter píe de página",
+    "props": {
+      "text": "Entérate de nuestras ofertas y lanzamientos exclusivos",
+      "blockClass": "text-contact-box-tittle-footer"
+    }
+  },
+
+  "flex-layout.row#footer_newsletter-box": {
+    "title": "Contenedor formulario Newsletter",
+    "children": ["newsletter-form#footer__newsletter"]
+  },
+
+  "newsletter-form#footer__newsletter": {
+    "children": [
+      "newsletter-input-email",
+      "newsletter-submit",
+      "newsletter-checkbox-confirmation"
+    ],
+    "props": {
+      "blocks": ["ErrorState", "SuccessState", "LoadingState"]
+    }
+  },
+
+  "newsletter-input-email": {
+    "props": {
+      "placeholderText": "Ingresa tu correo",
+      "errorMessage": "Debes ingresar un correo válido"
+    }
+  },
+
+  "newsletter-submit": {
+    "props": {
+      "submitButtonLabel": "Suscríbete"
+    }
+  },
+
+  "newsletter-checkbox-confirmation": {
+    "props": {
+      "checkboxLabel": "Acepto {firstLink} y autorizo el {secondLink}",
+      "firstLabelLink": {
+        "text": "términos y condiciones, términos y condiciones Marketplace",
+        "url": "/terms-and-conditions"
+      },
+      "secondLabelLink": {
+        "text": "tratamiento de mis datos personales con las siguientes condiciones.",
+        "url": "/"
+      },
+      "blockClass":"container-check-box-footer"
+    }
+  },
+
+  "flex-layout.col#footer_app-box-information": {
+    "title": "Conenedor información descarga app",
+    "children": [
+      "flex-layout.row#app-box-tittle",
+      "flex-layout.row#app-link-qr-box",
+      "flex-layout.row#app-box-text-paragraph",
+      "flex-layout.row#app-box-social-networks",
+      "flex-layout.row#app-box-text2-paragraph",
+      "flex-layout.row#images-safe-purchase"
+    ],
+    "props": { "blockClass": "container-app-total-items" }
+  },
+
+  "flex-layout.row#app-box-tittle": {
+    "title": "Contenedor título descarga app",
+    "children": ["rich-text#app-box-tittle"],
+    "props": {
+      "blockClass": "container-tittle-app-box-footer"
+    }
+  },
+
+  "rich-text#app-box-tittle": {
+    "title": "Título Descarga app píe de página",
+    "props": {
+      "text": "##### ¡Descarga gratis la app!",
+      "blockClass": "title-app-box-tittle-footer"
+    }
+  },
+
+  "flex-layout.row#app-link-qr-box": {
+    "title": "Contenedor imagen qr descarga app",
+    "children": ["link#footer-app-qr-box"],
+    "props": { "blockClass": "container-link-qr-app-footer" }
+  },
+
+  "link#footer-app-qr-box": {
+    "children": [
+      "image#footer_box-app-qr-img1",
+      "rich-text#footer-box-app",
+      "image#footer_box-app-qr-img2"
+    ]
+  },
+
+  "image#footer_box-app-qr-img1": {
+    "title": "imagen código qr app",
+    "props": {
+      "src": "assets/img/image_footer-app-qr-img1.png",
+      "title": "image qr code app",
+      "blockClass": "image-qr-code-app",
+      "width": "20%"
+    }
+  },
+
+  "rich-text#footer-box-app": {
+    "title": "texto enlace descarga app",
+    "props": {
+      "text": "## app",
+      "blockClass": "container-text-box-app-donwload"
+    }
+  },
+
+  "image#footer_box-app-qr-img2": {
+    "title": "imagen logo descarga app",
+    "props": {
+      "src": "assets/img/image_footer-app-qr-img2.png",
+      "title": "image logo code app",
+      "blockClass": "image-logo-code-app"
+    }
+  },
+
+  "flex-layout.row#app-box-text-paragraph": {
+    "title": "Contenedor parrafo descarga app",
+    "children": ["rich-text#app-box-paragraph"],
+    "props": {
+      "blockClass": "container-paragraph-app-box-footer"
+    }
+  },
+
+  "rich-text#app-box-paragraph": {
+    "title": "parrafo redes sociales",
+    "props": {
+      "text": "Síguenos en:",
+      "blockClass": "container-text-social-networks"
+    }
+  },
+
+  "flex-layout.row#app-box-social-networks": {
+    "title": "contenedor items redes sociales",
+    "children": ["social-networks"],
+    "props": {
+      "blockClass": "container-total-items-social-networks"
+    }
+  },
+
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "url": "https://www.facebook.com/exito",
+          "name": "Facebook"
+        },
+        {
+          "url": "https://twitter.com/almacenesexito",
+          "name": "Twitter"
+        },
+        {
+          "url": "https://www.instagram.com/exito/?hl=es-la",
+          "name": "Instagram"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCmFF7DHCnRoK79xjS3bcTIA",
+          "name": "YouTube"
+        }
+      ]
+    }
+  },
+  "flex-layout.row#app-box-text2-paragraph": {
+    "title": "Contenedor título e imagenes compras seguras",
+    "children": ["rich-text#app-box-text-safe-purchase"],
+    "props": {
+      "blockClass": "container-text-safe-purchase-footer"
+    }
+  },
+
+  "rich-text#app-box-text-safe-purchase": {
+    "title": "Título compra segura píe de página",
+    "props": {
+      "text": "###### Tus compras seguras con:",
+      "blockClass": "title-app-safe-purchase-footer"
+    }
+  },
+
+  "flex-layout.row#images-safe-purchase": {
+    "title": "contenedor imagenes compra segura",
+    "children": [
+      "image#safe-purchase-globalpay",
+      "image#safe-purchase-placetopay"
+    ],
+    "props": { "blockClass": "container-images-safe-purchase" }
+  },
+  "image#safe-purchase-globalpay": {
+    "title": "imagen compra segura globalpay",
+    "props": {
+      "src": "assets/img/image_footer-app-global-pay.png",
+      "blockClass": "image-safe-purchase-gobalpay"
+    }
+  },
+  "image#safe-purchase-placetopay": {
+    "title": "imagen compra segura placetopay",
+    "props": {
+      "src": "assets/img/image_footer-app-place-to-pay.png",
+      "blockClass": "image-safe-purchase-placetopay"
+    }
+  }
+}

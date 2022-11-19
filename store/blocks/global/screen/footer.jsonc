@@ -1,0 +1,41 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer_desktop-banner-information",
+      "flex-layout.row#footer_desktop-box-information-general",
+      "flex-layout.row#disclosure_footer_general",
+      "flex-layout.row#footer-banner-links-copyright"
+      // "disclosure-layout-group#footer__menu--group"
+    ]
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer_desktop-banner-information",
+      "flex-layout.row#footer_desktop-box-information-general",
+      "flex-layout.row#disclosure_footer_general",
+      "flex-layout.row#footer-banner-links-copyright"
+      // "disclosure-layout-group#footer__menu--group"
+    ]
+  }
+
+  
+  // ___________________________________________________________
+
+ 
+
+  
+  // "flex-layout.row#footer": {
+  //   "children": [
+  //     "image"
+  //   ]
+  // },
+  // "image": {
+  //   "props": {
+  //     "width": 100,
+  //     "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+  //   }
+  // }
+}
