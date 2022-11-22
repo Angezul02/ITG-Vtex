@@ -1,15 +1,31 @@
 .container--tittle-terms-and-conditions-content,
 .container--tittle-terms-and-conditions-market,
-.container--tittle-terms-and-conditions-item1
-{
-justify-content: center;
+.container--tittle-terms-and-conditions-item1 {
+  justify-content: center;
 }
 
 .container--text-terms-terms-and-conditions,
 .container--text-terms-and-conditions-market,
-.container--item-terms-and-conditions-market{
+.container--item-terms-and-conditions-market {
+  width: 80%;
+  margin: 0px auto;
+  text-align: justify;
+}
+.list--item11-terms-and-conditions-content {
+  width: 100%;
+  list-style-type: none;
+  text-align: justify;
+  font-size: 14px;
+}
 
-    width: 71%;
-        margin: 0px auto;
-        text-align: justify
+
+@media screen and (max-width:425px){
+.list--item11-terms-and-conditions-content{
+    width: 90%;
+}
+
+.link--item11-terms-and-conditions-content{
+    color:#7d7d7d;
+    font-size: 5px;
+}
 }

@@ -1,0 +1,485 @@
+{
+  "flex-layout.col#text-terms-and-conditions-row2": {
+    "title": "Contenedor terminos y condiciones especificaciones",
+    "children": [
+      "rich-text#terms-and-conditions-tittle-item1",
+      "rich-text#terms-and-conditions-subtittle-item1",
+      "rich-text#terms-and-conditions-content-item1",
+
+      "rich-text#terms-and-conditions-subtittle-item2",
+      "rich-text#terms-and-conditions-content-item2",
+
+      "rich-text#terms-and-conditions-subtittle-item3",
+      "rich-text#terms-and-conditions-content-item3",
+
+      "rich-text#terms-and-conditions-subtittle-item4",
+      "rich-text#terms-and-conditions-content-item4",
+
+      "rich-text#terms-and-conditions-subtittle-item5",
+      "rich-text#terms-and-conditions-content-item5",
+
+      "rich-text#terms-and-conditions-subtittle-item6",
+      "rich-text#terms-and-conditions-content-item6",
+
+      "rich-text#terms-and-conditions-service-details",
+
+      "rich-text#terms-and-conditions-subtittle-item7",
+      "rich-text#terms-and-conditions-content-item7",
+
+      "rich-text#terms-and-conditions-subtittle-item8",
+      "rich-text#terms-and-conditions-content-item8",
+
+      "rich-text#terms-and-conditions-subtittle-item9",
+      "rich-text#terms-and-conditions-content-item9",
+
+      "rich-text#terms-and-conditions-subtittle-item10",
+      "rich-text#terms-and-conditions-content-item10",
+
+      "rich-text#terms-and-conditions-subtittle-item11",
+      "rich-text#terms-and-conditions-content-item11",
+
+      "rich-text#terms-and-conditions-subtittle-item12",
+      "rich-text#terms-and-conditions-content-item12",
+
+      "rich-text#terms-and-conditions-subtittle-item13",
+      "rich-text#terms-and-conditions-content-item13",
+
+      "rich-text#terms-and-conditions-subtittle-item14",
+      "rich-text#terms-and-conditions-content-item14",
+
+      "rich-text#terms-and-conditions-subtittle-item15",
+      "rich-text#terms-and-conditions-content-item15",
+
+      "rich-text#terms-and-conditions-final-considerations",
+
+      "rich-text#terms-and-conditions-subtittle-item16",
+      "rich-text#terms-and-conditions-content-item16",
+
+      "rich-text#terms-and-conditions-subtittle-item17",
+      "rich-text#terms-and-conditions-content-item17",
+
+      "rich-text#terms-and-conditions-subtittle-item18",
+      "rich-text#terms-and-conditions-content-item18",
+
+      "rich-text#terms-and-conditions-subtittle-item19",
+      "rich-text#terms-and-conditions-content-item19",
+
+      "rich-text#terms-and-conditions-subtittle-item20",
+      "rich-text#terms-and-conditions-content-item20",
+
+      "rich-text#terms-and-conditions-subtittle-item21",
+      "rich-text#terms-and-conditions-content-item21",
+
+      "rich-text#terms-and-conditions-subtittle-item22",
+      "rich-text#terms-and-conditions-content-item22",
+
+      "rich-text#terms-and-conditions-subtittle-item23",
+      "rich-text#terms-and-conditions-content-item23",
+
+      "rich-text#terms-and-conditions-subtittle-item24",
+      "rich-text#terms-and-conditions-content-item24",
+
+      "rich-text#terms-and-conditions-subtittle-item25",
+      "rich-text#terms-and-conditions-content-item25"
+    ],
+    "props": {
+      "blockClass": "container-terms-and-conditions-specific"
+    }
+  },
+  "rich-text#terms-and-conditions-tittle-item1": {
+    "title": "titulo terminos y condiciones especificaciones",
+    "props": {
+      "text": "# Términos y condiciones",
+      "blockClass": "tittle-terms-and-conditions-item1"
+    }
+  },
+  "rich-text#terms-and-conditions-subtittle-item1": {
+    "title": "subtitulo terminos y condiciones - especificaciones item1",
+    "props": {
+      "text": "### 1. INFORMACIÓN",
+      "blockClass": "sub-tittle-terms-and-conditions-item1"
+    }
+  },
+  "rich-text#terms-and-conditions-content-item1": {
+    "title": "texto terminos y condiciones especificaciones",
+    "props": {
+      "text": "Almacenes Éxito S.A. (“Éxito”) es una sociedad comercial domiciliada en la República de Colombia quien para los efectos del presente acuerdo de Términos y Condiciones se entenderá como el “Vendedor” de una plataforma virtual, que permite la exhibición y comercialización de bienes y/o servicios (“los Productos”) para la adquisición en línea de los mismos por parte de los consumidores (“Clientes” o “Usuarios”).",
+      "blockClass": "item1-terms-and-conditions-content"
+    }
+  },
+
+  "rich-text#terms-and-conditions-subtittle-item2": {
+    "title": "subtitulo terminos y condiciones - especificaciones item2",
+    "props": {
+      "text": "### 2. NATURALEZA JURÍDICA",
+      "blockClass": "sub-tittle-terms-and-conditions-item2"
+    }
+  },
+  "rich-text#terms-and-conditions-content-item2": {
+    "title": "texto terminos y condiciones especificaciones tem2",
+    "props": {
+      "text": "Los presentes términos y condiciones de uso regulan la relación contractual de carácter comercial que une a los Consumidores que acceden a la plataforma virtual y al vendedor, especialmente en la autorización de uso que otorga el vendedor en favor de aquel.",
+      "blockClass": "item2-terms-and-conditions-content"
+    }
+  },
+
+  "rich-text#terms-and-conditions-subtittle-item3": {
+    "title": "subtitulo terminos y condiciones - especificaciones item3",
+    "props": {
+      "text": "### 3. DEFINICIONES",
+      "blockClass": "sub-tittle-terms-and-conditions-item3"
+    }
+  },
+  "rich-text#terms-and-conditions-content-item3": {
+    "title": "texto terminos y condiciones especificaciones tem3",
+    "props": {
+      "text": "**Comercio Electrónico** Comprende el envío, transmisión, recepción, almacenamiento de mensajes de datos por vía electrónica. Las dudas que surjan respecto de la eficacia y validez de los mensajes de datos y demás actividades vinculadas al comercio electrónico se interpretarán de conformidad con la ley 527 de 1999. \n \n **Consumidores:** Toda persona natural o jurídica que, como destinatario final, use La Plataforma para adquirir y disfrutar o utilizar productos, cualquiera que sea su naturaleza para la satisfacción de una necesidad propia, privada, familiar o doméstica y empresarial cuando no esté ligada intrínsecamente a su actividad económica. \n \n Bajo el anterior concepto se excluyen del concepto de consumidor, aquellas personas identificados como revendedores o compradores mayoristas cuyo objeto de la comercialización posterior de los productos que adquiere a través de La Plataforma. \n \n **Relación de Consumo:** Es aquel acuerdo de voluntades celebrado entre el Vendedor y los Consumidores, donde el Vendedor realiza una oferta y el Consumidor se obliga realizar un pago a favor del Vendedor. \n \n **Datos personales:** Facultad de acceso por parte de los Consumidores para conocer los productos y servicios exhibidos por el Vendedor y ofrecidos por el Vendedor, así como la publicidad puesta a disposición en La Plataforma. \n \n **Mayor de edad** Persona natural mayor de dieciocho (18) años \n \n **Mensajes de datos:** La información generada, enviada, recibida, almacenada o comunicada por medios electrónicos, ópticos o similares, como pudieran ser, entre otros, el Intercambio Electrónico de Datos (EDI), Internet, el correo electrónico, el telegrama, el télex o el telefax. \n \n **Pasarela de pagos:** Servicio que permite la realización de pagos por parte de los Consumidores directamente al Vendedor a través de medios electrónicos utilizando plataformas tecnológicas (software). \n \n **Plataforma:** Aplicativo web y móvil administrado por el Vendedor que permite la concurrencia en un mercado de oferentes y demandantes, para la celebración de negocios jurídicos determinados. \n \n **Pasarela de pagos:** Servicio que permite la realización de pagos por parte de los Consumidores a través de medios electrónicos utilizando plataformas tecnológicas. \n \n **Publicidad:** Es toda forma de comunicación realizada por el Vendedor, con el fin de brindar información sobre productos, actividades comerciales y comunicar estrategias o campañas publicitarias o de mercadeo, propias o de terceros ; realizada como mecanismo de referencia y no como oferta pública. \n \n **Cookies:** Cadenas de texto enviadas virtualmente que son almacenadas por el uso de La Plataforma por el Vendedor, para la consulta de actividades y preferencias del Consumidor. \n \n **Producto:** Bien de consumo exhibido a través de La Plataforma. \n \n **Términos y condiciones de uso de La Plataforma:** Constituyen los términos que han de regular el uso que los Consumidores dan a La Plataforma, así como de las relaciones contractuales que se pueden generar entre Consumidores y el Vendedor. \n \n **Vendedor:** Persona natural o jurídica que reúne las condiciones establecidas en el numeral 11 del artículo 5 de la ley 1480 de 2011, es decir, quien de manera habitual, directa o indirectamente, comercializa productos y ofrece servicios a través de La Plataforma, para acceder a las ofertas de productos y servicios de los consumidores. Para los efectos de esta plataforma es Almacenes Éxito S.A.",
+      "blockClass": "item3-terms-and-conditions-content"
+    }
+  },
+
+  "rich-text#terms-and-conditions-subtittle-item4": {
+    "title": "subtitulo terminos y condiciones - especificaciones item4",
+    "props": {
+      "text": "### 4. OBJETO",
+      "blockClass": "sub-tittle-terms-and-conditions-item4"
+    }
+  },
+  "rich-text#terms-and-conditions-content-item4": {
+    "title": "texto terminos y condiciones especificaciones tem4",
+    "props": {
+      "text": "Los presentes términos y condiciones regulan la autorización de uso que otorga el Vendedor a los Consumidores, para que éstos ingresen a www.carulla.com en adelante La Plataforma virtual, se informen sobre los productos de consumo exhibidos, para que sean utilizados como referencia y puedan realizar la transacción de compra-venta directa o indirectamente con el Vendedor. \n \n  El Vendedor a través de La Plataforma realiza las siguientes acciones: i) exhibe diferentes productos y servicios de consumo de forma publicitaria para que puedan servir de referencia a los Consumidores, ii) facilita el encuentro entre Consumidores y el Vendedor para la ejecución de una relación de consumo iii) permite el uso de La Plataforma de pagos, sin que en este proceso implique vínculo alguno con el Vendedor, ya que por la tecnología implementada el pago se realiza directamente al Vendedor iv) sirve de medio de envío de comunicaciones entre los Consumidores y el Vendedor. \n \n La celebración de la relación de consumo entre el Vendedor y Los Consumidores, se da con Consumidores que se encuentren en el territorio nacional o que, estando en el extranjero, compran los productos para que sean entregados en Colombia, pagando una contraprestación económica mediante el sistema de pago electrónico por las plataformas electrónicas “GLOBAL PAY” o en dinero en efectivo al momento de la recepción de los productos, a elección del Consumidor. \n \n A través de La Plataforma se exhiben productos que el Vendedor comercializa al detal, para consumo final y sin vocación comercial; lo cual es conocido y aceptado por los Consumidores quienes buscan satisfacer una necesidad privada, personal o familiar, y en ningún momento para su comercialización, reventa o cualquier otro tipo de transacción comercial o interés. Si esto fuese identificado por el Vendedor, podría abstenerse de realizar la venta de los productos.",
+      "blockClass": "item4-terms-and-conditions-content"
+    }
+  },
+
+  "rich-text#terms-and-conditions-subtittle-item5": {
+    "title": "subtitulo terminos y condiciones - especificaciones item5",
+    "props": {
+      "text": "### 5. PLATAFORMA TECNOLÓGICA QUE PERMITE SU USO",
+      "blockClass": "sub-tittle-terms-and-conditions-item5"
+    }
+  },
+  "rich-text#terms-and-conditions-content-item5": {
+    "title": "texto terminos y condiciones especificaciones item5",
+    "props": {
+      "text": "Es una plataforma que permite su uso gratuito por varios medios, a saber: i) portal web www.carulla.com y cualquier otro que derive en páginas registradas a nombre de Éxito. Los Consumidores podrán utilizar La Plataforma exclusivamente para su uso personal, sin que esto implique el otorgamiento de una licencia del aplicativo de ningún tipo.",
+      "blockClass": "item5-terms-and-conditions-content"
+    }
+  },
+  "rich-text#terms-and-conditions-subtittle-item6": {
+    "title": "subtitulo terminos y condiciones - especificaciones item6",
+    "props": {
+      "text": "### 6. MODIFICACIÓN",
+      "blockClass": "sub-tittle-terms-and-conditions-item6"
+    }
+  },
+  "rich-text#terms-and-conditions-content-item6": {
+    "title": "texto terminos y condiciones especificaciones item6",
+    "props": {
+      "text": "El Vendedor podrá modificar autónomamente y en cualquier momento en aspectos formales, procedimentales o sustanciales los presentes Términos y Condiciones de uso de La Plataforma, los cuales serán actualizados y puestos a disposición de los Consumidores en La Plataforma, siendo la última versión publicada la que regulará las relaciones de consumo que se generen al momento de realizarse la transacción. Así mismo, cuenta con plena autonomía para modificar los usos de La Plataforma permitidos a los Consumidores, con el único deber de informarlo por un medio virtual que permita su publicación y comunicación al público.",
+      "blockClass": "item6-terms-and-conditions-content"
+    }
+  },
+
+  "rich-text#terms-and-conditions-service-details": {
+    "title": "subtitulo detalles del servicio",
+    "props": {
+      "text": "## DETALLE DEL SERVICIO",
+      "blockClass": "sub-tittle-service-details"
+    }
+  },
+
+  "rich-text#terms-and-conditions-subtittle-item7": {
+    "title": "subtitulo terminos y condiciones - especificaciones item7",
+    "props": {
+      "text": "### 7. CONSUMIDOR",
+      "blockClass": "sub-tittle-terms-and-conditions-item7"
+    }
+  },
+  "rich-text#terms-and-conditions-content-item7": {
+    "title": "texto terminos y condiciones especificaciones item7",
+    "props": {
+      "text": "Toda persona natural o jurídica que, como destinatario final, use La Plataforma para adquirir y disfrutar o utilizar productos, cualquiera que sea su naturaleza para la satisfacción de una necesidad propia, privada, familiar o doméstica y empresarial cuando no esté ligada intrínsecamente a su actividad económica. El uso de La Plataforma lo realiza el Consumidor como persona capaz, y manifestando que para la celebración de contratos de compra-venta con el Vendedor, cuenta con plena capacidad legal para ser sujeto de derechos y obligaciones, calidades que refrenda al momento de generar su registro.",
+      "blockClass": "item7-terms-and-conditions-content"
+    }
+  },
+
+  "rich-text#terms-and-conditions-subtittle-item8": {
+    "title": "subtitulo terminos y condiciones - especificaciones item8",
+    "props": {
+      "text": "### 8. VENDEDORES",
+      "blockClass": "sub-tittle-terms-and-conditions-item8"
+    }
+  },
+  "rich-text#terms-and-conditions-content-item8": {
+    "title": "texto terminos y condiciones especificaciones item8",
+    "props": {
+      "text": "Personas naturales o jurídicas que de manera habitual, teniendo capacidad de contratación, acceden a La Plataforma para ofrecer y comercializar productos a los Consumidores. Las calidades de los Vendedores se encuentran establecidas en el numeral 11 del artículo 5 de la ley 1480 de 2011. Para efectos de esta plataforma – comercio electrónico, el único Vendedor es Almacenes Éxito S.A.",
+      "blockClass": "item8-terms-and-conditions-content"
+    }
+  },
+
+  "rich-text#terms-and-conditions-subtittle-item9": {
+    "title": "subtitulo terminos y condiciones - especificaciones item9",
+    "props": {
+      "text": "### 9. CUENTA DE USUARIO ",
+      "blockClass": "sub-tittle-terms-and-conditions-item9"
+    }
+  },
+  "rich-text#terms-and-conditions-content-item9": {
+    "title": "texto terminos y condiciones especificaciones item9",
+    "props": {
+      "text": "Los Consumidores usan como referencia para su compra los productos que se encuentran exhibidos en La Plataforma, teniendo como condición necesaria la creación de una Cuenta de Usuario, donde se solicitarán datos como nombre, celular, dirección, dirección de correo electrónico, tipo de documento, documento; esta información se utiliza para la plena identificación de las personas que pretenden adquirir los productos, para el cumplimiento del contrato, para la prevención de fraudes, para vincular al Consumidor con el Vendedor y en general para los fines definidos en el acápite Manejo de información. \n \n  Una vez suministrada la información, se valida por parte del Vendedor el nombre de usuario y contraseña para acceder a La Plataforma. \n \n Los consumidores aceptarán recibir correos electrónicos, mensajes de texto, push y splash de la marca con el fin de enviar ofertas o comunicación relacionada con el canal. \n \n El uso de las cuentas es personal e intransferible, por lo cual los Consumidores no se encuentran facultados para ceder los datos de validación para el acceso a La Plataforma. En caso de olvido de los datos de validación o de usurpación de éstos, es obligación del Consumidor informarlo al Vendedor a través de la opción “olvidó su contraseña” o a través de comunicación enviada al correo electrónico sclientee@exito.com \n \n Las cuentas de usuarios serán administradas por el Vendedor o por la persona que éste designe, teniendo plena facultad para la conservación o no de la cuenta, cuando la información suministrada por los Consumidores no sea veraz, completa o segura; o cuando se presente incumplimiento de las obligaciones de los Consumidores. \n \n En ningún momento el Vendedor solicitará al Consumidor información que NO resulte necesaria para su vinculación con el Vendedor y para la facilitación del pago , por lo tanto los datos de tarjetas débito o crédito, solo se solicitarán al momento de realizar el pago virtual si así lo define el Consumidor, éstos datos no serán almacenados por el Vendedor, serán inscritos directamente en las pasarelas de pagos “PAYMETEZ” o “PAYU”, y se utilizarán directamente por el Consumidor en ésta, donde se informará las condiciones de seguridad y privacidad en que se efectúa el mismo. \n \n Con la creación de la Cuenta de Usuario, los Consumidores están manifestando su voluntad de aceptación expresa e inequívoca de los presentes Términos y Condiciones de uso de La Plataforma. \n \n Parágrafo. Autoriza expresamente el Consumidor al momento de la aceptación de los presentes Términos, el uso de Cookies, envío de push y splash por parte del Vendedor en toda actividad de uso que realice de La Plataforma.",
+      "blockClass": "item9-terms-and-conditions-content"
+    }
+  },
+
+  "rich-text#terms-and-conditions-subtittle-item10": {
+    "title": "subtitulo terminos y condiciones - especificaciones item10",
+    "props": {
+      "text": "### 10. CAPACIDAD ",
+      "blockClass": "sub-tittle-terms-and-conditions-item10"
+    }
+  },
+  "rich-text#terms-and-conditions-content-item10": {
+    "title": "texto terminos y condiciones especificaciones item10",
+    "props": {
+      "text": "Es claro para el Consumidor que la relación de consumo que se puede llegar a generar por el uso de La Plataforma será directamente con el Vendedor, relación en la cual el Consumidor es el comprador y el Vendedor es el oferente. \n \n En virtud de las condiciones de capacidad legal establecidas en el código civil Colombiano y de la validez de la manifestación de voluntad a través de medios electrónicos establecida en la ley 527 de 1999, los Consumidores al momento de la creación de la Cuenta de Usuario, manifiestan expresamente tener capacidad para celebrar el tipo de transacciones que se pueden realizar usando La Plataforma; y con base en lo prescrito en la ley 1098 de 2006 de la República de Colombia los menores de edad cuentan con capacidad para celebrar éste tipo de transacciones, no obstante el Vendedor deberá: i) Excluir del sistema de información los datos de menores de edad que hayan utilizado La Plataforma; ii) Dar a conocer a las autoridades de cualquier situación de la que tenga conocimiento que ponga en peligro la integridad de un menor de edad; iii) Informar a los menores que se encuentren interesados en adquirir productos a través de La Plataforma usando medios de pago electrónico, que deberán realizar la transacción económica de carácter electrónico a través de sus padres o representantes, previo registro y contratación con éstos; iv) Informar al momento de seleccionar productos de comercialización restringida o prohibida para menores de edad, para que de manera expresa se confirme la edad del Consumidor.",
+      "blockClass": "item10-terms-and-conditions-content"
+    }
+  },
+
+  "rich-text#terms-and-conditions-subtittle-item11": {
+    "title": "subtitulo terminos y condiciones - especificaciones item11",
+    "props": {
+      "text": "### 11. DESCRIPCIÓN DEL SERVICIO ",
+      "blockClass": "sub-tittle-terms-and-conditions-item11"
+    }
+  },
+  "rich-text#terms-and-conditions-content-item11": {
+    "title": "texto terminos y condiciones especificaciones item11",
+    "props": {
+      "text": "El Vendedor exhibe a través de La Plataforma productos de consumo como alimentos, bebidas, productos de aseo personal, productos de aseo general, electrodomésticos, textiles etc, que están a disposición de los Consumidores para su conocimiento general. Esta comunicación de productos sirve como referencia a los Consumidores para su adquisición, usando La Plataforma como medio para realizar ofertas a los Vendedores y finalizar su uso con la celebración del contrato de compra-venta celebrado por medios electrónicos. \n \n Para el proceso de compra los Consumidores deben estar plenamente identificados en su Cuenta de Usuario y seguir el siguiente procedimiento: \n \n - A. Ingresar a La Plataforma especificando el domicilio para determinar los productos que se encuentran disponibles en este sector. \n - B. Seleccionar el lugar de entrega. Se debe suministrar por el Consumidor la dirección exacta donde se realizará la entrega del (los) producto (s) seleccionados, esta dirección debe encontrarse en el rango de cobertura de entrega, en caso de no encontrarse en dicho rango no se permitirá la finalización de la transacción. \n - C. Seleccionar compra y recoge. El consumidor puede elegir la opción de recoger su pedido previamente seleccionado en La Plataforma en el almacén más cercano o de su preferencia, luego de elegir ésta opción, procede a finalizar la transacción. \n - D. Seleccionar el producto. Una vez seleccionado se pone a disposición del Consumidor las características y valor total del producto por medio de fotografías y notas de referencias, que permiten la plena individualización del producto para el análisis detallado del Consumidor. \n - E. Validación del producto. Cumplido el paso anterior, el Vendedor deberá exhibir al consumidor un resumen del producto en cuanto a sus condiciones generales tales como la marca y la presentación suministrada. De esta manera el Consumidor podrá validar y confirmar la información y el producto seleccionado. \n - F. Ingreso del producto al carrito de compras. Este ingreso corresponde a la voluntad inequívoca del Consumidor de adquirir un producto determinado, ya que se ha informado con suficiencia las características del mismo, teniendo la posibilidad de adquirirlo o no. El Vendedor tiene total autonomía para limitar el ingreso de productos al carrito de compras con ocasión a la cantidad \n - G. Valor. Una vez se han agotado los pasos precedentes, se pone a disposición del Consumidor el valor a pagar por los productos seleccionados, el cual se encuentra discriminado unitariamente y en conjunto por todos los productos a adquirir. El valor corresponderá al valor total del producto incluyendo costos de envío, de transacción e impuestos. \n - H. Pago. El pago que realiza el vendedor a través de las plataformas de pago. \n - I. Forma de pago. El Consumidor deberá seleccionar el medio de pago que desea utilizar, teniendo en cuenta como posibilidades: i) el pago contra-entrega a través de dinero en efectivo o ii) por medio de pago electrónico a través de La Plataforma de pago PAYMENTEZ, disponible en la aplicación; en este momento se configura la oferta que realiza el Consumidor al Vendedor. \n - J. Registro. Al momento de definir la forma de pago, el Usuario deberá crear su cuenta personal en la cual se requerirán los datos personales que permitan su identificación, más no su individualización, además de los datos para la realización del pago a través del medio electrónico. \n - K. Resumen y Correo electrónico. Una vez completados los pasos anteriores se le exhibirá a través de una ventana emergente al Consumidor un resumen detallado de la transacción y la información completa del Vendedor que ha aceptado su oferta y con el cual se celebra la relación de consumo; dicho resumen será enviado por correo electrónico al Consumidor con ésta información de forma detallada. \n - L. Factura. En todo caso, sea que el pago realice en dinero en efectivo o a través de la pasarela de pagos, se enviara vía correo electrónico la confirmación con el detalle de la transacción. La factura física se entregará junto con el pedido. \n - M. Entrega. Verificados todos los datos correspondientes a la transacción y al ámbito de cobertura de entrega de productos, el Vendedor entregará en la dirección suministrada y en el término definido al finalizar la operación, los productos comprados. En caso de no poderse realizar la entrega por razones imputables al Consumidor, deberá el Vendedor dejar constancia de este hecho. Si el consumidor eligió su pedido para Compra y Recoge, al acercarse al almacén escogido, debe presentar su identificación para reclamar su pedido. \n - N. Entrega. Verificados todos los datos correspondientes a la transacción y al ámbito de cobertura de entrega de productos, el Vendedor entregará en la dirección suministrada y en el término definido al finalizar la operación, los productos comprados. En caso de no poderse realizar la entrega por razones imputables al Consumidor, deberá el Vendedor dejar constancia de este hecho. Si el consumidor eligió su pedido para Compra y Recoge, al acercarse al almacén escogido, debe presentar su identificación para reclamar su pedido. \n - O. Puntos Colombia aplica en Almacenes Éxito, Carulla, Surtimax y Super Inter a nivel nacional. Para obtener los beneficios del programa los clientes deben estar inscritos en Puntos Colombia a través de la página www.puntoscolombia.com o en Servicio al Cliente de los Almacenes Éxito, Carulla, Surtimax y Super Inter. Al momento de pertenecer a Puntos Colombia el cambio de su saldo de puntos será así: 1 punto equivaldra a $7 y por cada $700 en compras acumulará 1 punto. El pago con Puntos no se puede realizar de forma simultánea con el medio de pago EPM, Brilla, Codensa y Chec. Aplica términos y condiciones del programa consúltalos en: \n - P. https://www.exito.com/static/exitonew/puntoscolombia/img/Reglamento_del_programa_PCO_11-10-2018_V3.pdf  o en Servicio al Cliente del Almacén \n - Q. **Parágrafo.** El perfeccionamiento de la relación de consumo celebrada por medios electrónicos se da en el momento en que el Consumidor realiza el pago y este es aceptado por el Vendedor. Verificados los pasos de proceso de compra el Vendedor puede aceptar total o parcialmente la compra realizada por el Consumidor, evento en el cual informará en el resumen sobre cuales productos se celebra la relación de consumo.",
+      "blockClass": "item11-terms-and-conditions-content"
+    }
+  },
+
+  "rich-text#terms-and-conditions-subtittle-item12": {
+    "title": "subtitulo terminos y condiciones - especificaciones item12",
+    "props": {
+      "text": "### 12. DEBERES DEL CONSUMIDOR ",
+      "blockClass": "sub-tittle-terms-and-conditions-item12"
+    }
+  },
+  "rich-text#terms-and-conditions-content-item12": {
+    "title": "texto terminos y condiciones especificaciones item12",
+    "props": {
+      "text": "Con la aceptación de los presentes términos El Consumidor se obliga a: (1) Suministrar información veraz y fidedigna al momento de crear su Cuenta de Usuario; (2) Abstenerse de transferir a terceros los datos de validación (nombre de usuario y contraseña); (3) Abstenerse de utilizar La Plataforma para realizar actos contrarios a la moral, el orden público y buenas costumbres en contra del Vendedor o de terceros; (4) Pagar oportunamente al Vendedor la contraprestación económica definida en el proceso de compra; (5) Informar inmediatamente al Vendedor en caso de olvido o usurpación de los datos de validación; (6) Abstenerse de realizar conductas atentatorias del funcionamiento de La Plataforma; (7) Abstenerse de suplantar la identidad de otros Consumidores; (8) Abstenerse de descifrar, descompilar o desensamblar cualquier elemento de La Plataforma o de cualquiera de sus partes; (9) Habilitar la utilización de ventanas emergentes durante la operación, permitir permisos para push, ubicación y habilitar la cámara; (10) En general todas aquellas conductas necesarias para la ejecución del negocio jurídico, como i) la recepción de los productos solicitados, ii) exhibir la identificación en caso de venta de productos de uso restringido, iii) verificar al momento de la validación que los productos seleccionados si corresponden a los necesitados, iv) informarse sobre las instrucciones de uso y consumo de los productos.",
+      "blockClass": "item12-terms-and-conditions-content"
+    }
+  },
+
+  "rich-text#terms-and-conditions-subtittle-item13": {
+    "title": "subtitulo terminos y condiciones - especificaciones item13",
+    "props": {
+      "text": "### 13. DEBERES DEL VENDEDOR ",
+      "blockClass": "sub-tittle-terms-and-conditions-item13"
+    }
+  },
+  "rich-text#terms-and-conditions-content-item13": {
+    "title": "texto terminos y condiciones especificaciones item13",
+    "props": {
+      "text": "En virtud de los presentes términos el Vendedor, se obliga a (1) Suministrar información cierta, fidedigna, suficiente, clara y actualizada respecto de los productos que exhibe; (2) Indicar las características generales del producto para que sirvan de referencia a los Consumidores, para el efecto son marca y presentación; (3) Informar suficientemente sobre los medios habilitados para que los Consumidores realicen el pago; (4) Informar en el momento indicado y con suficiencia los datos de los Vendedores con los cuales los Consumidores han de celebrar el contrato de compra-venta; (5) Enviar al correo electrónico suministrado por el Consumidor constancia de la transacción; (6) Poner a disposición de los Consumidores los términos y condiciones de uso de La Plataforma de forma actualizada; (7) Utilizar la información únicamente para los fines establecidos en los presentes términos; (8) Utilizar mecanismos de información y validación durante la transacción como ventanas emergentes (Pop Ups), que permitan al Consumidor aceptar o no cada paso del proceso de compra.",
+      "blockClass": "item13-terms-and-conditions-content"
+    }
+  },
+
+  "rich-text#terms-and-conditions-subtittle-item14": {
+    "title": "subtitulo terminos y condiciones - especificaciones item14",
+    "props": {
+      "text": "### 14. DESCRIPCIÓN DE LOS PRODUCTOS ",
+      "blockClass": "sub-tittle-terms-and-conditions-item14"
+    }
+  },
+  "rich-text#terms-and-conditions-content-item14": {
+    "title": "texto terminos y condiciones especificaciones item14",
+    "props": {
+      "text": "Los productos exhibidos y ofrecidos por el Vendedor son productos de consumo doméstico como alimentos, bebidas, productos de aseo personal, productos de aseo general, entre otros. Todos los productos cuentan con una descripción general; esta descripción se realiza por el Vendedor a partir de prácticas legales de visualización, que en todo caso dependen el dispositivo en donde el Consumidor observe el producto. La disponibilidad será definida en cada caso en concreto al momento en que el Vendedor realice el proceso de obtención del producto de Proveedores oficiales. Dentro del proceso de compra el Consumidor determinará qué acción debe realizar el Vendedor en caso de no hallar el producto o productos solicitados, entre: (i) Cumplir con el pedido excluyendo el producto o productos solicitados no hallados, caso en el cual se descontará su valor del valor total del pedido y, en caso de ser sólo un producto y no se halla, deberá elegir entre la cancelación del pedido o el cumplimiento con uno sustituto o similar en precio y tipo; (ii) Comunicarse con el Consumidor para concertar el cumplimiento con un producto sustituto obteniendo su autorización para llevar un producto similar en precio y tipo. \n \n Los productos de uso restringido, como tabaco y bebidas embriagantes, solo se comercializarán por parte del Vendedor a Consumidores que cuenten con mayoría de edad, quienes manifiestan expresamente esta calidad al momento de registrarse o de seleccionar el producto. Para el caso de menores de dieciocho (18) años, no se permitirá la compra de estos productos de uso restringido mencionados anteriormente, por lo que el Vendedor no aceptará la transacción y en el evento de haber pagado por el producto, tendrá la posibilidad de definir el mecanismo para la devolución del dinero. En el evento de haber solicitado junto con los productos de uso restringido otros de diferente calidad e igualmente se incumpla la obligación acá descrita, aplicarán las mismas consecuencias jurídicas aquí definidas, pero solo en relación con los productos de uso restringido. \n \n El Vendedor se reserva el derecho de actualizar, modificar y/o descontinuar los productos exhibidos en La Plataforma. Para productos en oferta es permitido el máximo de unidades diarias de la misma referencia determinada en la oferta. En caso de que se supere el límite de unidades, el Vendedor rechazará de plano las compras que superen el número máximo de unidades autorizadas para un (1) número de identificación. Lo anterior significa que una persona identificada conforme a las Leyes de la República de Colombia, podrá realizar compras, por día, por el número máximo de autorizadas según corresponda. Dichas restricciones pueden incluir pedidos realizados a partir de la misma cuenta inscrita en el Sitio, pagos realizados con la misma tarjeta de crédito y/o débito y pedidos con la misma dirección de envío o de facturación. Las ofertas y comunicación de  los productos de Mercado en frutas, verduras y carnes rojas el precio corresponde a la  unidad y no al gramaje y peso del producto.. Las ofertas de mercado no aplican en farmacia, compotas, fórmulas infantiles, licores de rentas departamentales: aguardiente, ron, cigarrillos, pañales, cosméticos, iluminación, papel higiénico, aceite, granos, eléctricos, pilas, azúcar ni panela. Si el pedido contiene más de 4 kilos de carnes rojas este será despachado en bolsa granel y en corte entero. Para productos de Mercado la promesa de entrega del Vendedor es de 3 horas para pedidos menores o iguales a 15 productos y de 24 horas para pedidos mayores o iguales a 16 productos. El envío tendrá el valor determinado en la liquidación de las compras. Las ofertas comunicadas no son acumulables entre sí. Los productos de ambientación de las fotos, no hacen parte de las ofertas. El tamaño de las fotos no necesariamente representa el tamaño real del producto. Consulta el tamaño real en las especificaciones del producto. Las compras que excedan el número de unidades anunciadas como máximo permitido por cliente, serán canceladas y en caso de haberse efectuado el pago se procederá a la devolución del dinero de acuerdo con el medio de pago. Los licores nacionales e importados, productos de cuidado personal, y los medicamentos no tendrán cambio.",
+      "blockClass": "item14-terms-and-conditions-content"
+    }
+  },
+
+  "rich-text#terms-and-conditions-subtittle-item15": {
+    "title": "subtitulo terminos y condiciones - especificaciones item15",
+    "props": {
+      "text": "### 15. RECLAMACIONES Y GARANTÍAS ",
+      "blockClass": "sub-tittle-terms-and-conditions-item15"
+    }
+  },
+  "rich-text#terms-and-conditions-content-item15": {
+    "title": "texto terminos y condiciones especificaciones item15",
+    "props": {
+      "text": "Las reclamaciones derivadas de la calidad y/o garantía de los productos y del servicio se deberán realizar directamente al Vendedor, será este el responsable de estos asuntos. Las garantías de los Productos vendidos por los Vendedores en La Plataforma se especifican en los comentarios de la oferta realizada por el Vendedor. Para preguntas acerca de las garantías correspondientes a los Productos ofrecidos a través de La Plataforma el Usuario tiene la posibilidad - antes de ordenar - de hacer preguntas por medio del chat del Sitio. El consumidor siempre deberá contactar directamente al Vendedor para hacer efectiva la garantía. Para realizar algún cambio, el cliente debe llamar en Medellín: 3604010 y para el resto del país al 018000112858 El cliente puede cambiar los productos en un almacén o pedir que los productos sean recogidos por el transportador. El cliente no asume el costo de la devolución del producto para pedidos de mercado. Para efectuar la devolución se deben cumplir las siguientes condiciones: \n \n Productos perecederos: Cambios del producto por calidad, se verificará el estado del producto motivo de cambio y se pedirá la respectiva autorización al almacén. Cambios máximo 12 horas después de recibido el producto. Los productos deben conservar las características originales. Para carnes, lácteos, frutas y verduras, el cambio debe ser máximo 4 horas después de recibido el producto. Los productos de panadería tendrán un tiempo máximo 4 horas. Para los productos congelados y carnes se verificará que los productos estén a la temperatura del producto obligatoria con un tiempo de máximo 4 horas. Para todos los cambios la factura debe ser presentada. Delicatessen: Los productos tajados no tienen cambio. \n \n Productos no perecederos: Cambios máximo 24 horas después de recibido el producto. Los productos son relacionados a la calidad del mismo y deben conservar las características originales. Para todos los cambios se debe presentar la factura.",
+      "blockClass": "item15-terms-and-conditions-content"
+    }
+  },
+
+  "rich-text#terms-and-conditions-final-considerations": {
+    "title": "subtitulo consideraciones finales",
+    "props": {
+      "text": "## CONSIDERACIONES FINALES",
+      "blockClass": "sub-tittle-final-considerations"
+    }
+  },
+
+  "rich-text#terms-and-conditions-subtittle-item16": {
+    "title": "subtitulo terminos y condiciones - especificaciones item16",
+    "props": {
+      "text": "### 16. CONTENIDOS ",
+      "blockClass": "sub-tittle-terms-and-conditions-item16"
+    }
+  },
+  "rich-text#terms-and-conditions-content-item16": {
+    "title": "texto terminos y condiciones especificaciones item16",
+    "props": {
+      "text": "A través de La Plataforma el Vendedor podrá poner a disposición de los Consumidores información de carácter comercial y publicitario, propio o de terceros de conformidad a las buenas costumbres comerciales. En estos casos el Vendedor no avala, garantiza o compromete su responsabilidad frente a los servicios y/o productos que se comercialicen por éstos terceros, ya que La Plataforma sirve como canal de comunicación y publicidad, mas no como herramienta de prestación de servicios; en consecuencia es total responsabilidad de los Consumidores el acceso a los sitios que remite la publicidad, asumiendo la obligación de verificar y conocer los términos de los servicios ofrecidos por los terceros. \n \n Toda la información puesta a disposición en La Plataforma como imágenes, publicidad, nombres, marcas, lemas y demás elementos de propiedad intelectual; son utilizados legítimamente por el Vendedor sea porque son de su propiedad, porque tienen autorización para ponerlos a disposición o porque en virtud de las decisiones 351 de 1993 y 486 de 2000 de la Comunidad Andina de Naciones, o en virtud de la ley 23 de 1982 se encuentra facultado para hacerlo.",
+      "blockClass": "item16-terms-and-conditions-content"
+    }
+  },
+
+  "rich-text#terms-and-conditions-subtittle-item17": {
+    "title": "subtitulo terminos y condiciones - especificaciones item17",
+    "props": {
+      "text": "### 17. FUNCIONAMIENTO DE LA PLATAFORMA ",
+      "blockClass": "sub-tittle-terms-and-conditions-item17"
+    }
+  },
+  "rich-text#terms-and-conditions-content-item17": {
+    "title": "texto terminos y condiciones especificaciones item17",
+    "props": {
+      "text": "El Vendedor administra directamente o por medio de terceras personas La Plataforma, toda la información que se comunica allí corresponde a información cierta y actualizada. En ningún caso responderá por daños directos o indirectos que sufra el Consumidor por la utilización o incapacidad de utilización de La Plataforma. \n \n La Plataforma se encuentra disponible las 24 horas del día para su acceso y consulta, sin embargo el Vendedor no garantiza la disponibilidad y continuidad permanente de la misma, en tanto eso depende de los horarios de los establecimientos de comercio del Vendedor donde se pueden adquirir los productos. \n \n El Vendedor se reserva el derecho de cancelar las cuentas de usuarios y/o de prohibir el acceso a La Plataforma a los Consumidores que realicen conductas violatorias de los presentes términos o que incumplan las obligaciones contraídas.",
+      "blockClass": "item17-terms-and-conditions-content"
+    }
+  },
+
+  "rich-text#terms-and-conditions-subtittle-item18": {
+    "title": "subtitulo terminos y condiciones - especificaciones item18",
+    "props": {
+      "text": "### 18. DERECHO DE RETRACTO",
+      "blockClass": "sub-tittle-terms-and-conditions-item18"
+    }
+  },
+  "rich-text#terms-and-conditions-content-item18": {
+    "title": "texto terminos y condiciones especificaciones item18",
+    "props": {
+      "text": "Conforme al artículo 47 del Estatuto del Consumidor los Usuarios podrán ejercer el derecho de retracto del Producto adquirido dentro de los (5) cinco días hábiles posteriores a la recepción del bien, siempre y cuando lo permita su naturaleza y el estado del bien y su empaque sea el mismo en el que lo recibió. Las reversiones se harán por el valor del Producto pagado por el Cliente en la respectiva transacción. En ningún caso Éxito hará reversiones parciales del valor de un Producto. \n \n Para devolver un Producto, el Usuario deberá ponerse en contacto con el Éxito. La devolución de un Producto se hará de conformidad con los términos y condiciones indicados en el Estatuto del Consumidor, y, en lo que no contradiga a éste, por los términos y condiciones especificados por el Vendedor. Todo Producto debe ser devuelto en las mismas condiciones en las cuales fue recibido, con todos los accesorios suministrados de ser el caso (cuerdas, garantías, manuales, software, etc.), sin daños, sin ser utilizado, en su embalaje original, y debe ser enviado a la dirección comunicada por el Vendedor. \n \n No se aceptará la devolución para efectos de retracto los teléfonos que no presenten los sellos de seguridad, hayan sido usados o manipulados en su operación bajo condiciones que se estiman van más allá de las necesarias para verificar sus condiciones de entrega. \n \n Después de realizar el retracto en página, el cliente tendrá 5 días hábiles para comunicarnos la guía de logística inversa para la devolución de producto, si el producto no es enviado dentro de este plazo, se entenderá que el cliente desea cancelar el retracto. \n \n Por orden del Vendedor, Éxito realizará el reembolso al Usuario a través de los mismos medios de pago utilizados para cancelar su pedido. Por lo tanto: si el Usuario pagó su pedido con tarjeta Éxito Mastercard Gold, Éxito reembolsará mediante el abono al Comprador en su tarjeta de crédito.",
+      "blockClass": "item18-terms-and-conditions-content"
+    }
+  },
+
+  "rich-text#terms-and-conditions-subtittle-item19": {
+    "title": "subtitulo terminos y condiciones - especificaciones item19",
+    "props": {
+      "text": "### 19. COMERCIO ELECTRÓNICO",
+      "blockClass": "sub-tittle-terms-and-conditions-item19"
+    }
+  },
+  "rich-text#terms-and-conditions-content-item19": {
+    "title": "texto terminos y condiciones especificaciones item19",
+    "props": {
+      "text": "En cumplimiento de las disposiciones colombianas sobre mensajes de datos según la ley 527 de 1999, se comunica que la legislación nacional reconoce validez a los mensajes de datos y por tanto ellos adquieren carácter y entidad probatoria. En consecuencia, entienden los Consumidores, que mediante el cruce de mensajes de datos los intervinientes pueden dar lugar al nacimiento, modificación y extinción de obligaciones, siendo de su resorte exclusivo el contenido, consecuencias, responsabilidades y efectos de la información generada. \n \n La transacción comercial que nace por este medio entre Consumidores y Vendedores, es la celebración de una relación de consumo por medios electrónicos, el cual se describe en la ventana emergente que acepta el Consumidor al momento de la celebración del negocio jurídico, en ningún momento se configura relación contractual diferente como suministro, distribución o demás similares.",
+      "blockClass": "item19-terms-and-conditions-content"
+    }
+  },
+
+  "rich-text#terms-and-conditions-subtittle-item20": {
+    "title": "subtitulo terminos y condiciones - especificaciones item20",
+    "props": {
+      "text": "### 20. MANEJO DE INFORMACIÓN",
+      "blockClass": "sub-tittle-terms-and-conditions-item20"
+    }
+  },
+  "rich-text#terms-and-conditions-content-item20": {
+    "title": "texto terminos y condiciones especificaciones item20",
+    "props": {
+      "text": "El Consumidor, al hacer uso de La Plataforma, autoriza de manera previa, expresa e informada a el Vendedor, sus filiales y vinculadas, para que sus datos personales puedan ser almacenados y usados con el fin de lograr una eficiente comunicación durante proceso de la transacción realizada a través de La Plataforma, puedan ser tratados exclusivamente conforme a lo dispuesto en la Ley 1581 de 2012 y sus Decretos Reglamentarios, con el fin de recibir información acerca de productos, servicios, ofertas, promociones, alianzas, estudios, concursos, contenidos, entre otros. \n \n Así mismo, el Consumidor reconoce que ha sido informado acerca de la política para la protección de datos personales disponible en el Sitio, en la cual se incluyen los procedimientos de consulta y reclamación que permiten hacer efectivos los derechos de los Usuarios al acceso, conocimiento, consulta, rectificación, actualización, y supresión de los datos, e igualmente tiene conocimiento que podrá presentar cualquier solicitud referida a sus datos personales a través del correo electrónico: pdatos@grupo-exito.com. \n \n La información estrictamente necesaria para efectos del procesamiento de los pedidos realizados a través de La Plataforma, será suministrada por parte del Operador al Vendedor.",
+      "blockClass": "item20-terms-and-conditions-content"
+    }
+  },
+
+  "rich-text#terms-and-conditions-subtittle-item21": {
+    "title": "subtitulo terminos y condiciones - especificaciones item21",
+    "props": {
+      "text": "### 21. DOMICILIO Y LEGISLACIÓN APLICABLE",
+      "blockClass": "sub-tittle-terms-and-conditions-item21"
+    }
+  },
+  "rich-text#terms-and-conditions-content-item21": {
+    "title": "texto terminos y condiciones especificaciones item21",
+    "props": {
+      "text": "Los presentes Términos y Condiciones de Uso de La Plataforma se acogen en el territorio Colombiano, conforme a su normatividad general y sectorial. Su adopción implica el ejercicio de su libre voluntad y que la relación que surge de este documento se regirá en todos sus efectos por su contenido y en su defecto por la ley comercial colombiana.",
+      "blockClass": "item21-terms-and-conditions-content"
+    }
+  },
+
+  "rich-text#terms-and-conditions-subtittle-item22": {
+    "title": "subtitulo terminos y condiciones - especificaciones item22",
+    "props": {
+      "text": "### 22. ACEPTACIÓN TOTAL DE LOS TÉRMINOS",
+      "blockClass": "sub-tittle-terms-and-conditions-item22"
+    }
+  },
+  "rich-text#terms-and-conditions-content-item22": {
+    "title": "texto terminos y condiciones especificaciones item22",
+    "props": {
+      "text": "El Consumidor manifiesta expresamente tener capacidad legal para usar La Plataforma y para celebrar las transacciones comerciales que se puedan generar con los Vendedores; así mismo, manifiesta haber suministrado información real, veraz y fidedigna; por ende de forma expresa e inequívoca declara que ha leído, que entiende y que acepta la totalidad de las situaciones reguladas en el presente escrito de Términos y Condiciones de Uso de La Plataforma, por lo que se compromete al cumplimiento total de los deberes, obligaciones, acciones y omisiones aquí expresadas. \n \n En caso que Consumidores de otros países utilicen La Plataforma se sujetan completamente a lo dispuesto en los presentes términos.",
+      "blockClass": "item22-terms-and-conditions-content"
+    }
+  },
+
+  "rich-text#terms-and-conditions-subtittle-item23": {
+    "title": "subtitulo terminos y condiciones - especificaciones item23",
+    "props": {
+      "text": "### 23. REVERSIONES DE PAGO.",
+      "blockClass": "sub-tittle-terms-and-conditions-item23"
+    }
+  },
+  "rich-text#terms-and-conditions-content-item23": {
+    "title": "texto terminos y condiciones especificaciones item23",
+    "props": {
+      "text": "De acuerdo con lo dispuesto por el Decreto 587 de 2016, cuya vigencia inicia el día 11 de Octubre de 2016, el Consumidor podrá solicitar la reversión del pago en los siguientes casos: 1) Cuando el consumidor sea objeto de fraude 2) Cuando corresponda a una operación no solicitada 3) Cuando el producto adquirido no sea recibido 4) Cuando el producto entregado no corresponda a lo solicitado, no cumpla con las características inherentes a las atribuibles por la información que se suministre sobre él 5) Cuando el producto entregado se encuentre defectuoso. \n \n Cuando la adquisición corresponda a varios productos, el consumidor podrá solicitar la reversión parcial del pago de aquellos respecto de los cuales se presente alguno de los eventos mencionados anteriormente. La queja podrá ser presentada en el formulario dispuesto en La Plataforma. La queja deberá ser presentada dentro de los cinco (5) días hábiles siguientes a la fecha en que el consumidor tuvo noticia de la operación fraudulenta o no solicitada, o en que debió haber recibido el producto o lo recibió, con lo cual se entenderá satisfecha la obligación de devolverlo. \n \n La queja ante el Vendedor deberá contener como mínimo: 1) Manifestación expresa de las razones que fundamentan la solicitud de reversión del pago 2) Indicación de la causal que sustenta la petición, que deberá corresponder a alguna o algunas de las señalas en el primer párrafo 3) Valor por el que se solicita la reversión 4) Identificación de la cuenta bancaria, tarjeta de crédito o instrumento de pago al que fue cargada la operación. Tratándose de productos el Consumidor deberá poner a disposición el bien para recogerlo en las mismas condiciones y en el mismo lugar en que se recibió.",
+      "blockClass": "item23-terms-and-conditions-content"
+    }
+  },
+
+  "rich-text#terms-and-conditions-subtittle-item24": {
+    "title": "subtitulo terminos y condiciones - especificaciones item24",
+    "props": {
+      "text": "### 24. USO DE GEOLOCALIZACIÓN DEL CLIENTE.",
+      "blockClass": "sub-tittle-terms-and-conditions-item24"
+    }
+  },
+  "rich-text#terms-and-conditions-content-item24": {
+    "title": "texto terminos y condiciones especificaciones item24",
+    "props": {
+      "text": "La app Carulla requiere el uso de la geolocalización del cliente para habilitar las siguientes funcionalidades (estos datos no son almacenados, tratados ni recolectados): \n \n **Chequeador de precios:** Esta funcionalidad le permite al cliente consultar los precios e inventario de los productos en cada uno de los almacenes, debido a que estos pueden variar entre los diferentes almacenes, se requiere la geolocalización del cliente para entender en cual almacén se encuentra para presentarle el precio correcto e inventario actualizado. \n \n **Encuéntranos:** Esta funcionalidad le permite al cliente ubicar los almacenes más cercanos a su ubicación actual.",
+      "blockClass": "item24-terms-and-conditions-content"
+    }
+  },
+
+  "rich-text#terms-and-conditions-subtittle-item25": {
+    "title": "subtitulo terminos y condiciones - especificaciones item25",
+    "props": {
+      "text": "### Día sin IVA 2022",
+      "blockClass": "sub-tittle-terms-and-conditions-item25"
+    }
+  },
+  "rich-text#terms-and-conditions-content-item25": {
+    "title": "texto terminos y condiciones especificaciones item25",
+    "props": {
+      "text": "Para acceder al beneficio de exención de IVA otorgado por el Gobierno Nacional a través de la Ley 2155 del 14 de septiembre de 2021, en las fechas decretadas para el año 2022 debes (i) Ser persona natural (ii) Iidentificarte en nuestros registros como adquirente consumidor final de los bienes, de tal forma que podamos atender los requisitos que ha establecido el Gobierno en relación con la factura y otorgar el beneficio de exención del IVA, realizar el control de las 3 unidades máximas adquiridas por género y efectuar los reportes correspondientes, para esto deberás ingresar a www.carulla.com/diasiniva y registrarte. Te recordamos que en cualquier momento, puedes solicitar la supresión parcial o total de tu información personal, revocar la autorización para el tratamiento de tus datos o presentar cualquier otra solicitud relacionada con tus datos personales, a través del correo proteccion.datos@grupo-exito.com y demás canales dispuestos en nuestra política publicada en www.grupo-exito.com.co (iii) Pagar con efectivo, tarjeta de crédito, tarjeta débito. (iv) Comprar máximo 3 unidades por género de los bienes que a continuación se señalan: VESTUARIO. Son las prendas de vestir de todo tipo, entendiéndose por cualquier pieza de vestido o calzado, sin tener en cuenta el material de elaboración. Se excluyen las materias primas. Precio de venta por unidad igual o inferior a veinte (20) UVT -($$760.080), sin incluir el Impuesto sobre las Ventas- IVA. COMPLEMENTOS DE VESTUARIO. Son aquellos complementos que acompañan el vestuario de una persona, que incluyen únicamente los morrales, maletines, bolsos de mano, carteras, gafas, paraguas, pañoletas y bisutería. Precio de venta por unidad igual o inferior a veinte (20) UVT – ($$760.080), sin incluir el Impuesto sobre las Ventas –IVA. ELECTRODOMÉSTICOS, COMPUTADORES Y EQUIPOS DE COMUNICACIONES. Son los aparatos eléctricos que se utilizan en el hogar, que incluyen únicamente televisores, parlantes de uso doméstico, tabletas, refrigeradores, congeladores, lavaplatos eléctricos, máquinas de lavar y secar para el hogar, aspiradoras, estufas, enceradoras de piso, trituradores eléctricos de desperdicios, aparatos eléctricos para preparar y elaborar alimentos, máquinas de afeitar eléctricas, cepillos de dientes eléctricos, calentadores de agua eléctricos, secadores eléctricos, planchas eléctricas, calentadores de ambiente y ventiladores de uso doméstico, aires acondicionados, hornos eléctricos, hornos microondas, planchas para cocinar, tostadores, cafeteras o teteras eléctricas y resistencias eléctricas para calefacción, y computadores personales y equipos de comunicaciones. En esta categoría se incluyen los bienes descritos en este numeral que utilizan el gas combustible o energía solar para su funcionamiento. Precio de venta por unidad igual o inferior a ochenta (80) UVT - ($3.040.320), sin incluir el Impuesto sobre las Ventas -IVA. ELEMENTOS DEPORTIVOS. Son los artículos especializados para la práctica de deportes, que incluyen únicamente pelotas de caucho, bolas, balones, raquetas, bates, mazos, gafas de natación, trajes de neopreno, aletas, salvavidas, cascos, protectores de manos, codos y espinillas, manillas, guantes de béisbol y sóftbol, guantes de boxeo y zapatos especializados para la práctica de deportes. Esta categoría incluye bicicletas y bicicletas eléctricas. Precio de venta por unidad igual o inferior a ochenta (80) UVT- ($3.040.320), sin incluir el Impuesto sobre las Ventas -IVA. JUGUETES Y JUEGOS. Son los objetos para entretener y divertir a las personas, especialmente niños, que incluyen únicamente las muñecas, los muñecos que representen personajes, los animales de juguete, muñecos de peluche y de trapo, instrumentos musicales de juguete, naipes, juegos de tablero, juegos electrónicos y videojuegos, trenes eléctricos, sets de construcción, juguetes con ruedas diseñados para ser utilizados como vehículos, rompecabezas y canicas. Esta categoría no incluye artículos de fiesta, carnavales y artículos recreativos, programas informáticos ni softwares. \n \n . Esta categoría incluye patinetas y patinetas eléctricas. Precio de venta por unidad igual o inferior a diez (10) UVT ($380.040), sin incluir el Impuesto sobre las Ventas -IVA. ÚTILES ESCOLARES. Son el conjunto de artículos necesarios para el desarrollo de actividades pedagógicas en el contexto escolar y universitario que incluyen únicamente cuadernos, software educativo, lápices, esferos, borradores, taja lápices, correctores, plastilina, pegantes y tijeras. Precio de venta por unidad igual o inferior a cinco (5) UVT-($ 190.020), sin incluir el Impuesto sobre las Ventas -IVA. BIENES E INSUMOS PARA EL SECTOR AGROPECUARIO. Esta categoría incluye únicamente las semillas y frutos para la siembra, los abonos de origen animal, vegetal, mineral y/o químicos, insecticidas, raticidas y demás antirroedores, fungicidas, herbicidas, inhibidores de germinación y reguladores del crecimiento de las plantas, sistemas de riego, aspersores y goteros para sistemas de riego, guadañadoras, cosechadoras, trilladoras, partes de máquinas, aparatos y artefactos de cosechar o trillar, concentrados y/o medicamentos para animales, alambres de púas y cercas. Precio de venta por unidad igual o inferior a ochenta (80) UVT - ($3.040.320), sin incluir el impuesto sobre las ventas -IVA. Montos máximos dados antes de IVA. La exención del beneficio del IVA se visualizará en el resumen de compra, previo a que se haga efectivo el pago del bien. Verificación. En atención al numeral 4 del artículo 39 de la Ley 2155 del 14 de septiembre de 2021, los pedidos que se realicen a través de www.carulla.com los Días sin IVA decretados por el Gobierno Nacional, entraran a revisión con el fin de verificar que el número de unidades que hayas adquirido en la compañía (“Almacenes Éxito”) -Éxito, Carulla, Superinter, Surtimax y sus canales de e-commerce incluyendo compras por Rappi - no sobrepasen los tres artículos por género sobre los cuales opera el beneficio de exención de IVA otorgado por el Gobierno Nacional. Una vez verificado que el beneficio aplica sobre tus compras, a más tardar dentro de los cuatro días siguientes, la compañía, confirmará mediante correo electrónico tu compra, en caso contrario, dentro de las mencionadas fechas, procederemos a informarte sobre la cancelación de tu pedido y realizaremos la devolución de dinero atendiendo las políticas de devolución, las cuales se encuentran publicadas en la página https://www.carulla.com/terminos-condiciones. Entrega. Confirmado tu pedido, la entrega de los productos se realizará a más tardar dentro de las dos (2) semanas siguientes a la emisión de la factura. **“La deducción que aplica a la presente venta, corresponde a la exención establecida en la Ley 2155 del 14 de septiembre de 2021. NO es una promoción”.**",
+      "blockClass": "item25-terms-and-conditions-content"
+    }
+  }
+}

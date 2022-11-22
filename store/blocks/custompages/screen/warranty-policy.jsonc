@@ -1,0 +1,196 @@
+{
+  "store.custom#warranty-policy": {
+    "blocks": ["flex-layout.row#warranty-policy"]
+  },
+
+  "flex-layout.row#warranty-policy": {
+    "title": "contenedor columnas politica de garantia",
+    "children": ["flex-layout.col#warranty-policy-total"],
+    "props": {
+      "blockClass": "content-rows-warranty-policy"
+    }
+  },
+
+  "flex-layout.col#warranty-policy-total": {
+    "title": "contenedor total items politica de garantias",
+    "children": [
+      "flex-layout.col#warranty-policy-text-row1",
+      "flex-layout.col#warranty-policy-text-and-images-row2"
+    ],
+    "props": { "blockClass": "container-colums-content-total-warranty-policy" }
+  },
+
+  "flex-layout.col#warranty-policy-text-row1": {
+    "title": "contenedor texto inicial politica de garantias",
+    "children": ["rich-text#warranty-policy-text-inicial"],
+    "props": { "blockClass": "" }
+  },
+
+  "rich-text#warranty-policy-text-inicial": {
+    "title": "texto inicial fila 1 politicas de garantia",
+    "props": {
+      "text": "En el Grupo Éxito pensamos en ti, es por esto que nos interesa que conozcas sobre la política y generalidades en el proceso de garantía. A continuación te detallamos lo que debes tener en cuenta:",
+      "blockClass": "text-row1-warranty-policy"
+    }
+  },
+  "flex-layout.col#warranty-policy-text-and-images-row2": {
+    "title": "contenido politicas de garantia texto e imagenes",
+    "children": [
+      "rich-text#warranty-policy-tittle-item1",
+      "rich-text#warranty-policy-subtittle-item1",
+
+      "rich-text#warranty-policy-tittle-item2",
+      "rich-text#warranty-policy-subtittle-item2",
+
+      "flex-layout.row#image-policy-img1",
+
+      "rich-text#warranty-policy-subtittle-item3",
+
+      "flex-layout.row#image-policy-img2",
+
+      "rich-text#warranty-policy-subtittle-item4",
+
+      "flex-layout.row#image-policy-img3",
+
+      "rich-text#warranty-policy-subtittle-item5",
+      "rich-text#warranty-policy-tittle-item5",
+
+      "rich-text#warranty-policy-subtittle-item6",
+
+      "rich-text#warranty-policy-tittle-item7",
+      "rich-text#warranty-policy-subtittle-item7"
+    ],
+    "props": { "blockClass": "container-items-total-content-warranty-policy" }
+  },
+
+  "rich-text#warranty-policy-tittle-item1": {
+    "title": "titulo fila 2 politicas de garantia",
+    "props": {
+      "text": "### Política",
+      "blockClass": "tittle-row2-warranty-policy"
+    }
+  },
+  "rich-text#warranty-policy-subtittle-item1": {
+    "title": "texto fila 2 politicas de garantia",
+    "props": {
+      "text": "\n - Cuando adquieras un producto, recibirás información sobre las instrucciones para la instalación, mantenimiento y utilización de los productos de acuerdo con la naturaleza de estos.\n - Todo trámite se gestionará en un tiempo máximo de treinta (30) días hábiles siguientes a la recepción (En cualquiera de nuestros canales de atención o directamente en el Centro de Servicios Autorizado (CSA)) dado que la primera instancia es la reparación del producto y éste se enviará al proveedor para su diagnóstico técnico y su reparación (si aplica). Si requieren el diagnóstico, éste se emitirá dentro de los quince (15) días hábiles contados a partir del día siguiente a la recepción de la solicitud. (Decreto 735 del 2013).\n - Si la garantía de tu artículo es procedente, se realizará la reparación totalmente gratuita de los defectos del bien y se suministrarán oportunamente los repuestos requeridos. Si el producto no admite reparación, a elección del consumidor, se procederá a realizar su reposición o la devolución del precio pagado al momento de la compra. *La garantía no es procedente cuando se evidencia una mala manipulación del artículo por parte del cliente, o cuando ha superado el tiempo límite de reclamación ofrecido por el fabricante / vendedor. \n - En el evento en que la devolución o reintegro del precio pagado se realice a través de la nota de cambio, la nueva compra generará los impuestos legalmente establecidos a que haya lugar, salvo que la misma se realice en el Día Sin IVA decretado por el Gobierno Nacional y a los productos le sea aplicable según la categoría, el beneficio de exención al que hace referencia la Ley 2155 del 14 de septiembre de 2021. \n - Según el artículo 16 de la Ley 1480, su producto no tendrá garantía, si el diagnóstico emitido es: \n  *  Hubo fuerza mayor o caso fortuito \n  *  El hecho de un tercero \n  *  El uso indebido del bien por parte de cliente \n  *  o Que el consumidor no haya atendido las instrucciones de instalación, uso o mantenimiento indicados en el manual del producto y en la garantía \n - Una vez el producto es revisado, el Centro de Servicios Autorizado (CSA) entregará un informe técnico en el cual se indicarán las condiciones de calidad e idoneidad en que el producto fue recibido, se indicarán las reparaciones - si hubo lugar a ellas - y las demás justificaciones de naturaleza técnica que nos permitan concluir el trámite con una respuesta por parte del Grupo Éxito. \n - En caso de repetirse la falla, a elección del consumidor se procederá a una nueva reparación, la devolución del precio pagado o al cambio del producto por otro de la misma especie, similares características o especificaciones técnicas (Art. 11, Ley 1480). \n - El término legal de la garantía es de un (1) año, excepto cuando su empaque o la publicación de la página web se indique otra vigencia. \n - El término de la garantía se suspenderá mientras el producto se encuentre en el Centro de Servicios Autorizados. \n Una vez expire el término de la garantía legal el cliente deberá asumir el pago de cualquier revisión, diagnóstico, reparación y/o repuesto que requiera el bien. \n - Los teléfonos celulares tienen el mismo trámite de garantías que cualquier bien, según lo indica la Ley 1480 de 2011. Recuerda seleccionar muy bien tu celular, pues NO tendrá cambio por inconformidad - sólo se cambiará por fallas en la calidad o idoneidad, siempre y cuando sea procedente. (Salvo el Derecho de Retracto que le asiste a las compras realizadas a través de métodos de venta no tradicionales cómo plataformas virtuales. Artículo 47 Ley 1480 de 2011) \n - En el caso de optarse por la reposición del producto objeto de garantía legal, ésta deberá realizarse a más tardar dentro de los diez (10) días hábiles siguientes al momento en pongas a disposición del vendedor/ productor el bien \n - Cuando se trate de la garantía de un servicio, se procederá a la prestación del servicio en las condiciones en que fue contratado o a la devolución del precio pagado. \n - En el evento en que la devolución o reintegro del precio pagado se realice a través de la nota de cambio, la nueva compra generará los impuestos legalmente establecidos a que haya lugar, salvo que la misma se realice en el Día Sin IVA decretado por el Gobierno Nacional y a los productos le sea aplicable según la categoría, el beneficio de exención al que hace referencia la Ley 2155 del 14 de septiembre de 2021",
+      "blockClass": "text-row2-warranty-policy-item1"
+    }
+  },
+
+  "rich-text#warranty-policy-tittle-item2": {
+    "title": "titulo fila 2 politicas de garantia-item2",
+    "props": {
+      "text": "### Generalidades:",
+      "blockClass": "tittle-row2-warranty-policy-item2"
+    }
+  },
+  "rich-text#warranty-policy-subtittle-item2": {
+    "title": "texto fila 2 politicas de garantia-item2",
+    "props": {
+      "text": "\n - Podrás agilizar la respuesta a tu trámite de garantía, contactando directamente al Centro de Servicios Autorizado (CSA) por el fabricante. Lo anterior también aplica para productos instalados. Si quieres saber cuál es el CSA más cercano, puedes dirigirte al área de servicio al cliente de nuestros almacenes para que te brinden esta información o a través de la línea telefónica Nacional 018000428800 \n - Para hacer efectiva una garantía también podrás hacerlo de manera directa en nuestras tiendas Éxito donde podrás dejar los productos de tecnología y electrónica, y nosotros nos encargaremos de enviar el producto al Centro de Servicios Autorizado por el proveedor. Para los productos vendidos por la modalidad Market Place, la solicitud de la garantía se deberá gestionar por medio de la línea de atención del Grupo Éxito 01 8000 428 800. Para identificar si un artículo es vendido por esta modalidad, lo podrás ver en la parte derecha a la foto del producto como se muestra a continuación. También puedes comunicarte a nuestra línea de atención 018000428800 o acercarte a cualquiera de nuestras tiendas para recibir ayuda con esta identificación.",
+      "blockClass": "text-row2-warranty-policy-item2"
+    }
+  },
+
+  "flex-layout.row#image-policy-img1": {
+    "title": "contenedor imagen politicas de garantia 1",
+    "children": ["image#warranty-policy-description-img1"],
+    "props": {
+      "blockClass": "container-image1-warranty-policy"
+    }
+  },
+
+  "image#warranty-policy-description-img1": {
+    "title": "imagen politicas de garantia 1",
+    "props": {
+      "src": "assets/img/image-warranty-policy-img1.png",
+      "blockClass": "image1-warranty-policy"
+    }
+  },
+
+  "rich-text#warranty-policy-subtittle-item3": {
+    "title": "texto fila 2 politicas de garantia-item2",
+    "props": {
+      "text": "\n - Para identificar los productos vendidos por Carulla, lo podrás ver en la parte derecha a la foto del producto como se muestra a continuación.",
+      "blockClass": "text-row2-warranty-policy-item2"
+    }
+  },
+
+  "flex-layout.row#image-policy-img2": {
+    "title": "contenedor imagen politicas de garantia 2",
+    "children": ["image#warranty-policy-description-img2"],
+    "props": {
+      "blockClass": "container-image2-warranty-policy"
+    }
+  },
+
+  "image#warranty-policy-description-img2": {
+    "title": "imagen politicas de garantia 2",
+    "props": {
+      "src": "assets/img/image-warranty-policy-img2.png",
+      "blockClass": "image2-warranty-policy"
+    }
+  },
+
+  "rich-text#warranty-policy-subtittle-item4": {
+    "title": "texto fila 3 politicas de garantia-item2",
+    "props": {
+      "text": "\n - Para agilizar tu trámite de garantía, te sugerimos conservar la factura y en lo posible, guardar los empaques originales mientras esté vigente la garantía del artículo. Si no cuentas con la factura (tirilla), nos debes suministrar los datos de la compra para proporcionártela y gestionar tu trámite de garantía. \n - Para agilizar tu proceso de garantía te recomendamos contar con las evidencias del estado del producto como fotos y/o videos. \n - El Centro de Servicios Autorizado (CSA) por la marca, es el único ente con la capacidad, autorización, experiencia e idoneidad para revisar y reparar tu producto. Todas las garantías están sujetas a un diagnostico técnico. \n - Cuando se trate de instalación de electrodomésticos de gran tamaño o artículos de nuestra tienda digital como: lavadoras, neveras, estufas, calentadores, aires acondicionados, televisores superiores a 55 pulgadas y otros; deberás llamar al Centro de Servicios Autorizado por el proveedor y programar una visita técnica para que el producto sea instalado en tu domicilio. Para las garantías de productos instalados se programará una visita técnica de verificación – teniendo en cuenta que el producto debió haber sido instalado por un Centro de Servicios Autorizado – de lo contrario no cubrirá su garantía. \n - Las actualizaciones de software y restauraciones de sistema operativo no son considerados fallas técnicas \n - El término de la garantía legal del producto será la indicada por el vendedor de Marketplace. Para identificar esta información, lo podrás ver en la parte derecha a la foto del producto como se muestra a continuación.",
+      "blockClass": "text-row2-warranty-policy-item3"
+    }
+  },
+
+  "flex-layout.row#image-policy-img3": {
+    "title": "contenedor imagen politicas de garantia 3",
+    "children": ["image#warranty-policy-description-img3"],
+    "props": {
+      "blockClass": "container-image3-warranty-policy"
+    }
+  },
+
+  "image#warranty-policy-description-img3": {
+    "title": "imagen politicas de garantia 3",
+    "props": {
+      "src": "assets/img/image-warranty-policy-img3.png",
+      "blockClass": "image3-warranty-policy"
+    }
+  },
+
+  "rich-text#warranty-policy-subtittle-item5": {
+    "title": "texto fila 2 politicas de garantia-item5",
+    "props": {
+      "text": "\n - Para las compras realizadas por medio de nuestra página www.carulla.com, estaremos enviándote un correo donde confirmamos el pedido y detallamos algunos temas importantes a tener en cuenta como la garantía que aplica para esa compra. Te sugerimos revisar esta información.",
+      "blockClass": "text-row2-warranty-policy-item5"
+    }
+  },
+  "rich-text#warranty-policy-tittle-item5": {
+    "title": "titulo fila 2 politicas de garantia-item5",
+    "props": {
+      "text": "### Recomendaciones antes de realizar una compra:",
+      "blockClass": "tittle-row2-warranty-policy-item5"
+    }
+  },
+  "rich-text#warranty-policy-subtittle-item6": {
+    "title": "texto fila 2 politicas de garantia-item6",
+    "props": {
+      "text": "\n -  * Validar el tamaño del artículo con el espacio físico en casa, antes de realizar la compra \n  - No se entrega por balcones, ventanas, ni por escalas superiores al quinto piso \n  - No se entrega por escalas de difícil acceso, previa validación por el transportador \n  - Tener en cuenta las zonas de cobertura * (valídalas en el área de electro-digital) \n  - Debes brindar una dirección con nomenclatura para el envío del artículo o la mayoría de datos posible, para poder llegar al domicilio \n  - Se debe presentar la tirilla original de compra en el momento del recibo del artículo \n  - Revisa el artículo físicamente antes de firmar a conformidad, una vez firmado no da lugar a reclamaciones \n  - En caso de requerir desmonte de puertas, tendrá un costo adicional que define cada proveedor. \n  - No hay horarios exactos de entrega, se realizan en el transcurso del día según promesa de servicio sea en la mañana o en la tarde. \n  - Los transportadores no están autorizados para la instalación de artículos, esto debe hacerse a través de los centros de servicio autorizados por las marcas – de lo contrario, perderás la garantía \n  - La entrega se realiza a personas mayores de edad, quienes serán responsables de la revisión y firma de recibo a conformidad \n  - Ten presente que algunas marcas entregan directamente. \n  - A través del servicio de Garantía Extendida Almacenes Éxito ofrece la posibilidad a sus clientes de comprar una garantía adicional a la de fábrica por 1 año. Consulta restricciones y condiciones con el asesor de Garantía Extendida de cada almacén. \n  - Para mayor facilidad en caso de ser necesario un trámite de garantía, te sugerimos informar tu número de cédula.",
+      "blockClass": "text-row2-warranty-policy-item6"
+    }
+  },
+
+  "rich-text#warranty-policy-tittle-item7": {
+    "title": "titulo fila 2 politicas de garantia-item7",
+    "props": {
+      "text": "### SIC Facilita:",
+      "blockClass": "tittle-row2-warranty-policy-item7"
+    }
+  },
+  "rich-text#warranty-policy-subtittle-item7": {
+    "title": "texto fila 2 politicas de garantia-item7",
+    "props": {
+      "text": "SIC FACILITA es una herramienta virtual en donde la SIC actúa como facilitadora para que consumidores y proveedores alcancen acuerdos sobre reclamaciones relacionados con derechos del consumidor en cuanto a las garantías de los productos. Proveedores y consumidores se reunirán a través de un chat dirigido por la Superintendencia de Industria y Comercio, con el objetivo de resolver problemas derivados de su relación de consumo (garantías), procurando lograr una solución rápida y eficaz sin necesidad de acudir a las instancias judiciales. La página es: www.sicfacilita.sic.gov.co",
+      "blockClass": "text-row2-warranty-policy-item7"
+    }
+  }
+}

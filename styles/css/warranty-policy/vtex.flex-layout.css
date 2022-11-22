@@ -1,0 +1,29 @@
+.flexRowContent--content-rows-warranty-policy :global(.vtex-rich-text-0-x-paragraph){
+    color: black;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.flexRowContent--content-rows-warranty-policy :global(.vtex-rich-text-0-x-heading-level-2){
+    color: black;
+    
+}
+
+.flexRowContent--content-rows-warranty-policy :global(.vtex-rich-text-0-x-list){
+    color: black;
+    font-size: 16px;
+    
+}
+
+.flexCol--container-items-total-content-warranty-policy{
+    padding: 5px 10px;
+}
+
+.flexCol--container-items-total-content-warranty-policy{
+    background-color: #f1f1f1;
+    width: 100%;
+}
+
+.flexColChild--container-items-total-content-warranty-policy :global(.vtex-store-components-3-x-imageElement){
+    justify-content: center;
+}

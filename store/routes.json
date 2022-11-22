@@ -5,5 +5,9 @@
 
   "store.custom#terms-and-conditions":{
     "path": "/terms-and-conditions"
+  },
+
+  "store.custom#warranty-policy":{
+    "path": "/warraty-policy"
   }
 }
