@@ -1,0 +1,18 @@
+{
+  "store.custom#terms-and-conditions": {
+    
+    "blocks": ["flex-layout.row#terms-and-conditions"]
+  },
+  "flex-layout.row#terms-and-conditions": {
+    "title": "Contenedor total terminos y condiciones",
+    "children": ["flex-layout.col#text-total-terms-and-conditions"]
+  },
+  "flex-layout.col#text-total-terms-and-conditions": {
+    "title": "contenedor items terminos y condiciones",
+    "children": [
+      "flex-layout.col#text-terms-and-conditions-row1",
+      "flex-layout.col#text-terms-and-conditions-row2",
+      "flex-layout.col#text-terms-and-conditions-image-row3"
+    ]
+  }
+}

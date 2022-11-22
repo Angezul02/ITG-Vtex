@@ -1,0 +1,20 @@
+.galleryItem--list :global(.vtex-product-summary-2-x-container){
+    max-width: 100% !important;
+}
+
+.galleryItem--list :global(.vtex-product-summary-2-x-element){
+    
+    flex-direction: row;
+    height: 300px;
+}
+
+.gallery--list{
+    gap: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.galleryItem--list :global(.vtex-button){
+    width: 50% !important;
+    height: 20% !important;
+}
