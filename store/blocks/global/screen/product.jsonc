@@ -1,0 +1,13 @@
+{
+  "store.product": {
+    "children": [
+      "rich-text#textoprueba"
+    ]
+  },
+
+  "rich-text#textoprueba":{
+    "props": {
+      "text": "esta es una página de producto"
+    }
+  }
+}

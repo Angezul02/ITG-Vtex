@@ -1,6 +1,7 @@
 {
     "search-result-layout.mobile": {
         "children": [
+          "flex-layout.row#itemsuggestion",
           "flex-layout.row#searchinfomobile",
           "flex-layout.row#searchbread",
           "flex-layout.row#productCountMobile",
@@ -15,6 +16,15 @@
             "mode2": "normal"
           },
           "defaultGalleryLayout": "grid"
+        }
+      },
+
+      "flex-layout.row#itemsuggestion":{
+        "title": "contenedor sugerencias vista mobile",
+        "children": [
+          "flex-layout.row#suggestion"
+        ], "props": {
+          "blockClass": "container-itemsuggestions-plp-mobile"
         }
       }
 }

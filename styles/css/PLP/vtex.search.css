@@ -1,0 +1,24 @@
+
+.suggestionsListItem::before{
+    display: none;
+    
+}
+
+.suggestionsList{
+    gap: 10px;
+}
+
+.suggestionsListLink{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.suggestionsListPrefix{
+    font-size: 18px;
+    color: #9a9a9a;
+}
+
+.suggestionListWrapper{
+    margin-bottom: 10px;
+}
