@@ -1,101 +1,161 @@
-.flexCol--filter-search-product-plp{
-    width: 300px;
-    box-shadow: 4px 4px 6px rgb(0 0 0 / 16%);
-    z-index: 1 !important;
+.flexCol--filter-search-product-plp {
+  width: 300px;
+  box-shadow: 4px 4px 6px rgb(0 0 0 / 16%);
+  z-index: 1 !important;
 }
 
-.flexCol--container-result-searc-plp{
-    width: 1000px;
-    background-color: #f4f4f4;
-    
+.flexCol--container-result-searc-plp {
+  width: 1030px;
+  background-color: #f4f4f4;
 }
 
-.flexCol--container-modal-icon-add-to-list{
-    align-items: flex-end;
-    justify-content: center;
+.flexCol--container-modal-icon-add-to-list {
+  align-items: flex-end;
+  justify-content: center;
 }
-.flexCol--container-result-searc-plp :global(.vtex-product-summary-2-x-element){
-    
-
-    height: 550px;
-    justify-content: space-between;
-    background-color: white;
+.flexCol--container-result-searc-plp
+  :global(.vtex-product-summary-2-x-element) {
+  height: 550px;
+  justify-content: space-between;
+  background-color: white;
 }
 
-.flexCol--container-result-searc-plp :global(.vtex-product-summary-2-x-container){
-    background: #fff 0 0 no-repeat padding-box;
-    /* border: 1px solid #e5e5e5;
+.flexCol--container-result-searc-plp
+  :global(.vtex-product-summary-2-x-container) {
+  background: #fff 0 0 no-repeat padding-box;
+  /* border: 1px solid #e5e5e5;
     border-radius: 8px!important; */
-    
 }
 
-.flexCol--container-result-searc-plp :global(.vtex-search-result-3-x-galleryItem--normal){
-    background: #fff 0 0 no-repeat padding-box;
-    border: 1px solid #e5e5e5;
-    border-radius: 8px!important;
-    
+.flexCol--container-result-searc-plp
+  :global(.vtex-search-result-3-x-galleryItem--normal) {
+  background: #fff 0 0 no-repeat padding-box;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px !important;
+  margin-top: 15px;
 }
 
-
-.flexCol--container-result-searc-plp :global(.vtex-search-result-3-x-gallery--grid){
-    gap: 15px;
+.flexCol--container-result-searc-plp
+  :global(.vtex-search-result-3-x-gallery--grid) {
+  gap: 15px;
 }
 
-.flexCol--container-result-searc-plp :global(.vtex-product-summary-2-x-imageContainer){
-
-    border-bottom: 1px solid #e5e5e5;
-    
+.flexCol--container-result-searc-plp
+  :global(.vtex-product-summary-2-x-imageContainer) {
+  border-bottom: 1px solid #e5e5e5;
 }
 
-.flexCol--container-result-searc-plp :global(.vtex-product-summary-2-x-brandName){
-    text-transform: uppercase;
-    color: #a5a5a5;
+.flexCol--container-result-searc-plp
+  :global(.vtex-product-summary-2-x-brandName) {
+  text-transform: uppercase;
+  color: #a5a5a5;
 }
 
-.flexCol--container-result-searc-plp :global(.vtex-product-summary-2-x-nameContainer){
-    text-align: left !important;
-    justify-content: flex-start;
-    padding: 0px;
+.flexCol--container-result-searc-plp
+  :global(.vtex-product-summary-2-x-nameContainer) {
+  text-align: left !important;
+  justify-content: flex-start;
+  padding: 0px;
 }
 
-.flexCol--container-result-searc-plp :global(.vtex-product-price-1-x-sellingPrice),
+.flexCol--container-result-searc-plp
+  :global(.vtex-product-price-1-x-sellingPrice),
 .flexCol--container-result-searc-plp :global(.vtex-product-price-1-x-listPrice),
-.flexCol--container-result-searc-plp :global(.vtex-product-price-1-x-savings)
-{
-    text-align: left;
-    padding: 0px;
+.flexCol--container-result-searc-plp :global(.vtex-product-price-1-x-savings) {
+  text-align: left;
+  padding: 0px;
 }
 
-
-
-.flexCol--container-result-searc-plp :global(.vtex-add-to-cart-button-0-x-buttonDataContainer)::after{
-    content: url(assets/img/image-icon-add-to-cart.png);
+.flexCol--container-result-searc-plp
+  :global(.vtex-add-to-cart-button-0-x-buttonDataContainer)::after {
+  content: url(assets/img/image-icon-add-to-cart.png);
 }
 
-.flexCol--container-result-searc-plp :global(.vtex-add-to-cart-button-0-x-buttonText){
-    text-transform: capitalize;
-    margin-right: 10px;
-    font-size: 18px
+.flexCol--container-result-searc-plp
+  :global(.vtex-add-to-cart-button-0-x-buttonText) {
+  text-transform: capitalize;
+  margin-right: 10px;
+  font-size: 18px;
 }
 
-.flexCol--container-modal-icon-add-to-list{
-    border-bottom: 1px solid #e5e5e5;
+.flexCol--container-modal-icon-add-to-list {
+  border-bottom: 1px solid #e5e5e5;
 }
 
-.flexColChild--container-modal-icon-add-to-list{
-    
+.flexColChild--container-modal-icon-add-to-list {
+  border: 1px solid #b6b6b6;
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+}
 
+.flexCol--container-result-searc-plp
+  :global(.vtex-search-result-3-x-orderByButton) {
+  border-radius: 20px;
+  margin-top: 5px;
+}
 
-    border: 1px solid #b6b6b6;
-    border-radius: 20px;
-    width: 30px;
-    height: 30px;
-    margin-bottom: 5px;
-    padding-top: 5px;
+.flexRowContent--container-items-product-plp {
+  flex-direction: column;
+}
+
+.flexRowContent--container-items-product-plp
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+}
+.flexRowContent--container-items-product-plp
+  :global(.vtex-product-price-1-x-sellingPrice),
+.flexRowContent--container-items-product-plp
+  :global(.vtex-product-price-1-x-listPrice),
+.flexRowContent--container-items-product-plp
+  :global(.vtex-product-price-1-x-savings) {
+  color: #5a5a5a;
+}
+
+.flexCol--container-icon-and-image-plp {
+  height: 50%;
+}
+
+.flexColChild--productCountCol {
+  display: flex !important;
+  justify-content: center !important;
+  margin-top: 10px !important;
+}
+
+.flexRowContent--orderByAndSwitcher-plp {
+  justify-content: space-evenly;
+}
+
+.flexRowContent--container-items-result-search-plp {
+  margin: 20px auto;
+}
+
+.flexRowContent--suggestions-search-desktop :global(.vtex-search-2-x-suggestionsListItem){
+    width: max-content;
+    padding: 1px 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #8c57b1;
+    display: flex;
+    flex-direction: row;
+   
 
 }
 
-.flexCol--container-result-searc-plp :global(.vtex-search-result-3-x-orderByButton){
-    border-radius: 20px;
-    margin-top: 5px;
+.suggestionsListItem::before{
+    display: none;
+    content: none;
 }
+
+.flexCol--container-items-button-add-to-list-viewlist{
+flex-direction: row;
+}
+
+@media screen and (max-width:780px){
+    .flexRowContent--container-items-product-plp{
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width:425px){}
