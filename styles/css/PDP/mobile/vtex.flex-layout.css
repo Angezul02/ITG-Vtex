@@ -1,0 +1,23 @@
+.flexCol--container-data-product-and-buy-button-mobile-pdp
+  :global(.vtex-button__label)::after {
+  content: url(assets/img/image_icon-cart-carulla-pdp.png);
+}
+
+.flexColChild--container-data-product-and-buy-button-mobile-pdp{
+    margin-bottom: 10px;
+}
+
+.flexColChild--container-share-product-pdp-mobile
+  :global(.vtex-store-components-3-x-shareContainer){
+    margin-left: 8px;
+    width: 80% !important;
+  }
+
+  .flexColChild--container-data-product-and-buy-button-mobile-pdp :global(.vtex-flex-layout-0-x-flexRowContent--container-items-sold-by),
+  .flexColChild--container-data-product-and-buy-button-mobile-pdp :global(.vtex-flex-layout-0-x-flexRowContent--container-items-buy-and-collect),
+  .flexColChild--container-data-product-and-buy-button-mobile-pdp :global(.vtex-flex-layout-0-x-flexRowContent--container-items-colombian-points),
+  .flexColChild--container-data-product-and-buy-button-mobile-pdp :global(.vtex-flex-layout-0-x-flexRowContent--container-text-promo-colombians-points){
+    display: flex;
+    flex-direction: row;
+  }
+
