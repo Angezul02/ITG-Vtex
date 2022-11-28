@@ -1,0 +1,19 @@
+.paragraph--text-title-product-specifications-pdp,
+.paragraph--text-title-product-description-pdp {
+    color: #222;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 30px;
+    vertical-align: -webkit-baseline-middle;
+}
+
+
+.paragraph--text-colombian-points,
+.paragraph--text-sold-by
+{
+    margin: 0px;
+    color: #838383 !important;
+}
+
+/* .paragraph--text-sold-by */
+

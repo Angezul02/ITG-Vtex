@@ -1,0 +1,20 @@
+{
+  "flex-layout.col#text-terms-and-conditions-image-row3": {
+    "title": "contendor imagen politicas de garantias",
+    "children": ["image#policies-and-guarantees"],
+    "props": {
+      "blockClass": "container-image-policies-and-guarantees"
+    }
+  },
+
+  "image#policies-and-guarantees": {
+    "title": "imagen politicas de garantias",
+    "props": {
+      "src": "assets/img/image-terms-and-conditions-img1.png",
+      "blockClass": "image-policies-and-guarantees-link",
+      "link": {
+        "url": "/warraty-policy"
+      }
+    }
+  }
+}

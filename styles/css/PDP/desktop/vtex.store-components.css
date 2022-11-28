@@ -1,0 +1,53 @@
+.productNameContainer {
+  text-transform: uppercase;
+}
+
+.specificationsTitle,
+.productDescriptionTitle {
+  display: none;
+}
+
+.currencyContainer {
+  font-size: 17px;
+  font-weight: 500;
+  color: #5a5a5a;
+}
+
+.sellingPriceLabel {
+  font-size: 17px;
+  font-weight: 700;
+  color: #5a5a5a;
+}
+
+.price_sellingPriceContainer,
+.sellingPriceValue {
+  display: flex;
+}
+
+.shareContainer {
+  display: flex;
+  width: 79%;
+  margin: 0px auto;
+}
+.shareButtons {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.shareSocialIcon--pinterest{
+    display: none;
+}
+
+.shareSocialIcon--facebook,
+.shareSocialIcon--twitter,
+.shareSocialIcon--whatsapp{
+    width: 70%;
+}
+
+.shareLabel{
+    display: flex;
+    align-items: center;
+    color: #8a8a8a;
+    font-size: 18px;
+}

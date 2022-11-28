@@ -1,0 +1,33 @@
+{
+  "store.product": {
+    "blocks": [
+      "responsive-layout.desktop#pdp"
+      // "responsive-layout.mobile#pdp"
+    ],
+    "children": [
+      
+    ]
+  },
+
+  "responsive-layout.desktop#pdp": {
+    "title": "",
+    "children": [
+      "flex-layout.row#product__breadcrum_pdp",
+      "flex-layout.row#product_info-pdp",
+      "flex-layout.row#product_tabs"
+    ]
+  },
+
+   "responsive-layout.mobile#pdp":{
+    "title":"",
+    "children":[
+      "flex-layout.row#product__breadcrum-mobile_pdp"
+    ]
+   },
+
+  "flex-layout.row#product_tabs": {
+    "title": "informacion adicional",
+    "children": [],
+    "props": {}
+  }
+}

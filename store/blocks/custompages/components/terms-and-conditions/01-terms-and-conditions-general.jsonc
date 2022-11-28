@@ -1,0 +1,53 @@
+{
+  "flex-layout.col#text-terms-and-conditions-row1": {
+    "title": "Contenedor terminos y condiciones especificaciones generales",
+    "children": [
+      "rich-text#terms-and-conditions-title",
+      "rich-text#terms-and-conditions-content",
+      "rich-text#terms-and-conditions-market-title",
+      "rich-text#terms-and-conditions-market-content",
+      "rich-text#terms-and-conditions-market-content-item"
+    ],
+    "props": {
+      "blockClass": "container-terms-and-conditions-general"
+    }
+  },
+
+  "rich-text#terms-and-conditions-title": {
+    "title": "Titulo terminos y condiciones",
+    "props": {
+      "text": "# Términos y condiciones",
+      "blockClass": "tittle-terms-and-conditions-content"
+    }
+  },
+  "rich-text#terms-and-conditions-content": {
+    "title": "Contenido terminos y condiciones",
+    "props": {
+      "text": "Los siguientes términos y condiciones aplican para carulla.com, y app carulla. Válido desde las 6:00 am del 1 de Noviembre hasta las 11:59 pm del 30 de Noviembre del 2022. (hora Colombiana) o hasta agotar existencias. Precios sujetos a cambios sin previo aviso. Para productos en oferta es permitida la compra de máximo 2 unidades diarias de la misma referencia por cédula en productos de electro hogar, digital, deporte, tiempo libre y relojes y máximo 4 unidades diarias de la misma referencia por cédula en productos de hogar, moda, juguetería y accesorios de bebe. Nuestra promesa de entrega para productos de tienda (no alimentos) es de 7 a 10 días hábiles a partir de la aprobación del pedido (no aplica para productos Marketplace). La promesa de entrega en evento se amplía de 10 a 12 días hábiles después de la aprobación del pedido. El despacho del producto está sujeto a disponibilidad. La promesa de entrega puede variar de acuerdo al tipo de despacho (almacén, centro de distribución o directamente del proveedor).Para productos Marketplace las unidades disponibles comunicadas son variables y dependen de las ventas del vendedor en ésta y otras plataformas. Por la compra de productos Marketplace no acumulas Puntos Colombia. Aplican condiciones y restricciones para mayoristas. Las ofertas comunicadas no son acumulables entre sí. El tamaño de las fotos no necesariamente representa el tamaño real del producto. Consulta el tamaño real en las especificaciones del producto. Las ofertas marcadas como exclusivo en www.carulla.com no aplican en los almacenes. Las compras que excedan el número de unidades anunciadas como máximo permitido por cliente, serán canceladas y en caso de haberse efectuado el pago se procederá a la devolución del dinero de acuerdo con el medio de pago. Por compras realizadas a través de www.carulla.com no se otorgan minutos a móvil Éxito. *Ofertas exclusivas comprando por carulla.com.",
+      "blockClass": "text-terms-terms-and-conditions"
+    }
+  },
+
+  "rich-text#terms-and-conditions-market-title": {
+    "title": "título terminos y condiciones marketplace",
+    "props": {
+      "text": "# Términos y condiciones Marketplace",
+      "blockClass": "tittle-terms-and-conditions-market"
+    }
+  },
+  "rich-text#terms-and-conditions-market-content": {
+    "title": "contenido terminos y condiciones marketplace",
+    "props": {
+      "text": "Estos productos son vendidos por terceros, este detalle lo encontrarás en el ítem: “vendido por”. Los productos a los que les aplica el beneficio del Gobierno Nacional estarán marcados con: “Beneficio IVA”. La factura de ese producto será emitida por un tercero, quien es el responsable de la venta. Recuerda que máximo puedes comprar 3 unidades de cada género o tipo de producto por vendedor. Tus compras deben ser canceladas por un medio electrónico, como tarjetas de crédito, débito o PSE. Cualquier pedido que no cumpla con las condiciones estipuladas bajo el Decreto, podrá ser cancelado de forma automática. El recaudo es realizado por Almacenes Carulla S.A y en caso de devolución será el éste el que haga la devolución del dinero atendiendo las políticas de devoluciones.",
+      "blockClass": "text-terms-and-conditions-market"
+    }
+  },
+
+  "rich-text#terms-and-conditions-market-content-item": {
+    "title": "contenido terminos y condiciones marketplace -item",
+    "props": {
+      "text": "**“La deducción que aplica a la presente venta, corresponde a la exención establecida en la Ley 2155 del 14 de septiembre de 2021. NO es una promoción”**",
+      "blockClass": "item-terms-and-conditions-market"
+    }
+  }
+}

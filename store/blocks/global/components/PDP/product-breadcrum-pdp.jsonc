@@ -1,0 +1,14 @@
+{
+    
+  "flex-layout.row#product__breadcrum_pdp":{
+    "title": "contenedor miga de pan general",
+    "children": ["flex-layout.col#breadcrum"],
+    "props": {}
+  },
+
+  "flex-layout.col#breadcrum":{
+    "title": "contenedor miga de pan",
+    "children": ["breadcrumb"],
+    "props": {}
+  }
+}
