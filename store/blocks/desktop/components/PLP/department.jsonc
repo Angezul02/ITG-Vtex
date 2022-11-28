@@ -167,7 +167,6 @@
 
   "product-summary.shelf#page-grid-product": {
     "children": [
-      
       "flex-layout.col#icon-and-image-add-to-list",
       "flex-layout.row#items-product-add-to-list",
       "flex-layout.row#button-add-to-list"
@@ -343,63 +342,5 @@
     }
   }
 
-  //   "store.search#department": {
-  //     "blocks": ["search-result-layout#department"]
-  //   },
-
-  //   "search-result-layout#department": {
-  //     "blocks": [
-  //       "search-result-layout.desktop#department",
-  //       "search-result-layout.mobile#department",
-  //       "search-not-found-layout"
-  //     ]
-  //   },
-  //   "search-result-layout.desktop#department": {
-  //     "children": ["flex-layout.row#department__breadcrumb"]
-  //   },
-  //   "flex-layout.row#department__breadcrumb": {
-  //     "children": ["flex-layout.col#department__breadcrumb"]
-  //   },
-
-  //   "flex-layout.col#department__breadcrumb": {
-  //     "children": ["breadcrumb.search"]
-  //   },
-
-  //   "breadcrumb.search": {
-  //     "props": {
-  //       "showOnMobile": true
-  //     }
-  //   },
-
-  //   "search-result-layout.mobile#department": {
-  //     "children": [
-  //       "flex-layout.row#department__breadcrumb",
-  //       "flex-layout.row#department__results"
-  //     ]
-  //   },
-  //   "flex-layout.row#department__results": {
-  //     "title": "Resultados departamento",
-  //     "children": ["gallery-layout-switcher"
-  //     // , "search-content#phone"
-  // ]
-  //   },
-  //   "gallery-layout-switcher": {
-  //     "children": [
-  //       "gallery-layout-option#grid__two-columns",
-  //       "gallery-layout-option#grid__one-column"
-  //     ]
-  //   },
-
-  //   "gallery-layout-option#grid__two-columns": {
-  //     "props": {
-  //       "name": "grid-two-columns",
-  //       "blockClass": "grid__selector--two-columns"
-  //     }
-  //   },
-  //   "gallery-layout-option#grid__one-column": {
-  //     "props": {
-  //       "name": "grid-one-column",
-  //       "blockClass": "grid__selector--one-column"
-  //     }
-  //   }
+  
 }

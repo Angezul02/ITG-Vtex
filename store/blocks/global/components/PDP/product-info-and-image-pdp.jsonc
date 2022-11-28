@@ -1,0 +1,283 @@
+{
+  "flex-layout.row#product_info-pdp": {
+    "title": "informacion general de pdp",
+    "children": [
+      "flex-layout.col#info--image",
+      "flex-layout.col#info-data-product"
+    ],
+    "props": {"blockClass": "container-total-items-pdp"}
+  },
+
+  "flex-layout.col#info--image": {
+    "title": "contenedor imagen y detalle de producto pdp",
+    "children": [
+      "flex-layout.col#info--nameproduct",
+      "flex-layout.col#info--image-product",
+      "flex-layout.col#info--product-pdp"
+    ],
+    "props": {
+      "blockClass":"container-image-and-description-product-pdp"
+    }
+  },
+
+  "flex-layout.col#info--nameproduct": {
+    "title": "contenedor nombre e identificador de producto pdp",
+    "children": [
+      "vtex.store-components:product-name",
+      "product-identifier.product"
+    ],
+    "props": {"blockClass": "container-name-and-identifier-product-pdp"}
+  },
+  "flex-layout.col#info--image-product": {
+    "title": "contenedor imagen de producto",
+    "children": ["product-images"],
+    "props": {"blockClass": "container-image-product-pdp"}
+  },
+  "product-images": {
+    "title": "imagen producto",
+    "props": {
+      "displayMode": "carousel",
+      "zoomMode": "in-place-click",
+      "zoomFactor": 2
+    }
+  },
+  "flex-layout.col#info--product-pdp": {
+    "title": "contenedor items especificaciones de producto pdp",
+    "children": ["disclosure-layout-group#product-specifications"],
+    "props": {"blockClass": "container-disclousure-product-specifications-pdp"}
+  },
+
+  "disclosure-layout-group#product-specifications":{
+    "title": "barra desplegable especificaciones del producto pdp",
+    "children": [
+      "disclosure-layout#product-specifications-pdp",
+      "disclosure-layout#product-description"
+    ],"props": {"maxVisible": "many"}
+    
+  },
+
+  "disclosure-layout#product-specifications-pdp":{
+    "title": "contenedor items barra desplegable 1 pdp",
+"children": [
+  "disclosure-trigger#product-specifications-pdp",
+"disclosure-content#product-specifications-pdp"
+
+]
+  },
+
+  "disclosure-trigger#product-specifications-pdp":{
+    "title": "barra desplegable especificaciones de producto pdp",
+    "children": ["rich-text#product-specifications"]
+  },
+
+  "rich-text#product-specifications":{
+    "title": "titulo barra desplegable especificaciones tecnicas de producto",
+    "props": {"text": "Especificaciones técnicas",
+  "blockClass":"text-title-product-specifications-pdp"}
+    
+  },
+
+  "disclosure-content#product-specifications-pdp":{
+    "children": [
+      "flex-layout.col#item1-disclosure-product"      
+    ]
+  },
+
+  "flex-layout.col#item1-disclosure-product":{
+    "title": "contenedor items barra desplegable 1",
+    "children": ["product-identifier.product",
+    "product-specifications"],
+    "props": {"blockClass":"container-items-disclosure1-pdp"}
+  },
+
+  "disclosure-layout#product-description":{
+    "title": "contenedor items barra desplegable 2 pdp",
+    "children": [
+      "disclosure-trigger#product-description-pdp",
+    "disclosure-content#product-description-pdp"
+    
+    ]
+  },
+
+  "disclosure-trigger#product-description-pdp":{
+    "title": "barra desplegable descripción de producto pdp",
+    "children": ["rich-text#product-description"]
+  },
+
+  "rich-text#product-description":{
+    "title": "titulo barra desplegable descripción de producto",
+    "props": {"text": "Descripción del producto",
+  "blockClass":"text-title-product-description-pdp"}
+    
+  
+  },
+    "disclosure-content#product-description-pdp":{
+      "children": [
+        "flex-layout.col#item2-disclosure-product"      
+      ]
+    },
+
+    "flex-layout.col#item2-disclosure-product":{
+      "title": "contenedor items barra desplegable 2",
+      "children": ["product-description"],
+      "props": {"blockClass":"container-items-disclosure2-pdp"}
+    },
+
+  "flex-layout.col#info-data-product": {
+    "title": "contenedor items informacion de producto pdp",
+    "children": [
+      "flex-layout.col#info-data-product-pdp",
+      "flex-layout.col#info-data-share"
+    ],
+    "props": {"blockClass":"container-general-items-data-product-pdp"}
+  },
+
+  "flex-layout.col#info-data-product-pdp": {
+    "title": "contenedor data de producto pdp",
+    "children": [
+      "product-price",
+      "product-installments",
+      "product-price-savings",
+      "sku-selector",
+      "flex-layout.row#item-promo-points-colombia",
+      "add-to-cart-button",
+      "flex-layout.row#item-sold-by",
+      "flex-layout.row#buy-and-collect",
+      "flex-layout.row#colombian-points"
+      
+      // "rich-text#buy-and-collect",
+      // "rich-text#colombian-points"
+      
+    ],
+    "props": {"blockClass": "container-data-product-and-buy-button-pdp"}
+  },
+
+  "add-to-cart-button":{
+    "props":{
+      "buyButtonText": "Agregar  "
+    }
+  },
+
+  "flex-layout.row#item-promo-points-colombia":{
+    "title": "Texto item compra puntos colombia",
+    "children": ["rich-text#promo-colombians-points", "image#colombians-points"],
+    "props": {"blockClass": "container-text-promo-colombians-points"}
+  },
+  "rich-text#promo-colombians-points":{
+"title": "texto compra con puntos colombia",
+"props": {
+  "text": "**Lleválo con** **1000** **Puntos Colombia**",
+  "blockClass":"text-promo-colombians-points"
+}
+  }, 
+  "image#colombians-points":{
+    "title": "imagen puntos colombia",
+    "props": {
+      "src": "assets/img/image-pdp-colombian-points.png",
+      "blockClass":"image-pdp-colombian-points",
+      "maxWidth": "10%",
+      "maxHeight": "10%"
+   
+      
+    }
+
+  },
+
+  "flex-layout.row#item-sold-by":{
+    "title": "contenedor item1 informacion de producto",
+    "children": ["image#icon-item-sold-by","rich-text#sold-by"],
+    "props": {"blockClass": "container-items-sold-by"}
+  },
+
+  "image#icon-item-sold-by":{
+    "title": "imagen vendido por item 1",
+    "props": {
+      "src": "assets/img/image-icon-etiqueta.carulla.png",
+      "blockClass":"image-item-sold-by-pdp"
+      // "maxWidth": "40%",
+      // "maxHeight": "40%"
+    }
+  },
+
+  "rich-text#sold-by":{
+    "title": "texto vendido por: data de producto",    
+    "props": {
+      "text": "Vendido por: **Carulla** ",
+      "blockClass":"text-sold-by",  
+      "width":"90%"    
+    }
+   
+  },
+
+  "flex-layout.row#buy-and-collect":{
+    "title": "contenedor item2 compra y recoge",
+    "children": ["image#icon-item-buy-and-collect","rich-text#buy-and-collect"],
+    "props": {"blockClass": "container-items-buy-and-collect"}
+  },
+
+  "image#icon-item-buy-and-collect":{
+    "title": "imagen compra y recoge item 2",
+    "props": {
+      "src": "assets/img/image-icon-pdp-etiqueta.puntodecompra.png",
+      "blockClass":"image-item-buy-and-collect-pdp"
+      // "maxWidth": "45%",
+      // "maxHeight": "45%"
+    }
+  },
+  "rich-text#buy-and-collect":{
+    "title": "texto compra y recoge data de producto",    
+    "props": {
+      "text": "Aplica [Compra y Recoge](/)",
+      "blockClass":"text-sold-by",
+      "width":"90%"         
+    }
+  },
+
+  "flex-layout.row#colombian-points":{
+    "title": "contenedor item3 gana puntos colombia",
+    "children": ["image#icon-item-colombian-points","rich-text#colombian-points"],
+    "props": {"blockClass": "container-items-colombian-points"}
+  },
+
+  "image#icon-item-colombian-points":{
+    "title": "imagen gana puntos colombia item 3",
+    "props": {
+      "src": "assets/img/image-icon-pdp-etiqueta.ganapuntoscolombia.png",
+      "blockClass":"image-item-colombian-points-pdp"
+      // "maxWidth": "45%",
+      // "maxHeight": "45%"
+    }
+  },
+  "rich-text#colombian-points":{
+    "title": "texto gana puntos colombia data de producto",    
+    "props": {
+      "text": "**Gana** puntos Colombia",
+      "blockClass":"text-colombian-points",
+      "width":"90%"        
+    }
+  },
+  // "rich-text#buy-and-collect":{
+  //   "title": "",
+  //   "props": {
+  //     "text": ""
+  //   },
+  //   "children": [
+  //     "image#icon"
+  //   ]
+  // },
+  // "rich-text#colombian-points":{
+  //   "title": "",
+  //   "props": {
+  //     "text": ""
+  //   },
+  //   "children": [
+  //     "image#icon"
+  //   ]
+  // }
+
+  "flex-layout.col#info-data-share": {
+    "title": "contenedor compartir producto en redes pdp",
+    "children": ["share"],
+    "props": {"blockClass": "container-share-product-pdp"}
+  }
+}
