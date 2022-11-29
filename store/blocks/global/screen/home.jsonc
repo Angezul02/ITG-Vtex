@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "whatsapp-button",
       "responsive-layout.desktop#home__sections--desktop",
       "responsive-layout.mobile#home__sections--mobile",
       "flex-layout.row#home__title-product-summary-shelf",
@@ -8,6 +9,14 @@
       "modal-trigger#home__modal--children",
       "modal-trigger#home__modal--event"
     ]
+  },
+
+  "whatsapp-button":{
+"props":{
+  "logo": "assets/img/image-whatsapp.png",
+  "phone": "3123400000",
+  "message":"Hola buen día"
+}
   },
 
   "modal-trigger#home__modal--children": {
