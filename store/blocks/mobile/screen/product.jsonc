@@ -1,0 +1,9 @@
+{
+    "responsive-layout.mobile#pdp":{
+        "title":"",
+        "children":[
+          "flex-layout.row#product__breadcrum-mobile_pdp",
+          "flex-layout.row#product_info-mobile-pdp"
+        ]
+       }
+}
