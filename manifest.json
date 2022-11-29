@@ -55,13 +55,13 @@
     "vtex.product-price": "1.x",
     "vtex.store-newsletter": "1.x",
     "vtex.product-list": "0.x",
-    "vtex.product-highlights": "2.x"
-    
+    "vtex.product-highlights": "2.x",
+    "itgloberspartnercl.whatsapp-button": "0.x"
   },
   "peerDependencies": {
     "vtex.mega-menu": "2.x",
     "vtex.wish-list": "1.x",
-    "vtex.questions-and-answers":"0.x"
+    "vtex.questions-and-answers": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
