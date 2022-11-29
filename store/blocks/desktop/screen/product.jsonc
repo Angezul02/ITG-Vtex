@@ -1,0 +1,10 @@
+{
+    "responsive-layout.desktop#pdp": {
+        "title": "",
+        "children": [
+          "flex-layout.row#product__breadcrum_pdp",
+          "flex-layout.row#product_info-pdp",
+          "flex-layout.row#product_tabs"
+        ]
+      }
+}

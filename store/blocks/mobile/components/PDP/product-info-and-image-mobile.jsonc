@@ -1,0 +1,153 @@
+{
+  "flex-layout.row#product_info-mobile-pdp": {
+    "title": "informacion general de pdp",
+    "children": ["flex-layout.col#info--image-mobile"],
+    "props": { "blockClass": "container-total-items-pdp" }
+  },
+
+  "flex-layout.col#info--image-mobile": {
+    "title": "contenedor imagen y detalle de producto pdp",
+    "children": [
+      "flex-layout.col#info--nameproduct",
+      "flex-layout.col#info--image-product",
+      "flex-layout.col#info-data-product-mobile",
+      "flex-layout.col#info--product-pdp"
+    ],
+    "props": {
+      "blockClass": "container-image-and-description-product-pdp"
+    }
+  },
+
+  "flex-layout.col#info-data-product-mobile": {
+    "title": "contenedor items informacion de producto pdp",
+    "children": [
+      "flex-layout.col#info-data-product-mobile-pdp",
+      "flex-layout.col#info-data-share-mobile"
+    ],
+    "props": { "blockClass": "container-general-items-data-product-mobile-pdp" }
+  },
+
+  "flex-layout.col#info-data-product-mobile-pdp": {
+    "title": "contenedor data de producto pdp",
+    "children": [
+      "product-price",
+      "product-installments",
+      "product-price-savings",
+      "sku-selector",
+      "flex-layout.row#item-promo-points-colombia-mobile",
+      "add-to-cart-button",
+      "flex-layout.row#item-sold-by-mobile",
+      "flex-layout.row#buy-and-collect-mobile",
+      "flex-layout.row#colombian-points-mobile"
+    ],
+    "props": {
+      "blockClass": "container-data-product-and-buy-button-mobile-pdp"
+    }
+  },
+
+  "flex-layout.row#item-promo-points-colombia-mobile": {
+    "title": "Texto item compra puntos colombia",
+    "children": [
+      "rich-text#promo-colombians-points-mobile",
+      "image#colombians-points-mobile"
+    ],
+    "props": { "blockClass": "container-text-promo-colombians-points" }
+  },
+  "rich-text#promo-colombians-points-mobile": {
+    "title": "texto compra con puntos colombia",
+    "props": {
+      "text": "**Lleválo con** **1000** **Puntos Colombia**",
+      "blockClass": "text-promo-colombians-points"
+    }
+  },
+  "image#colombians-points-mobile": {
+    "title": "imagen puntos colombia",
+    "props": {
+      "src": "assets/img/image-pdp-colombian-points.png",
+      "blockClass": "image-pdp-colombian-points",
+      "maxWidth": "10%",
+      "maxHeight": "10%"
+    }
+  },
+
+  "flex-layout.row#item-sold-by-mobile": {
+    "title": "contenedor item1 informacion de producto",
+    "children": ["image#icon-item-sold-by-mobile", "rich-text#sold-by-mobile"],
+    "props": { "blockClass": "container-items-sold-by" }
+  },
+
+  "image#icon-item-sold-by-mobile": {
+    "title": "imagen vendido por item 1",
+    "props": {
+      "src": "assets/img/image-icon-etiqueta.carulla.png",
+      "blockClass": "image-item-sold-by-pdp"
+    }
+  },
+
+  "rich-text#sold-by-mobile": {
+    "title": "texto vendido por: data de producto",
+    "props": {
+      "text": "Vendido por: **Carulla** ",
+      "blockClass": "text-sold-by",
+      "width": "90%"
+    }
+  },
+
+  "flex-layout.row#buy-and-collect-mobile": {
+    "title": "contenedor item2 compra y recoge",
+    "children": [
+      "image#icon-item-buy-and-collect-mobile",
+      "rich-text#buy-and-collect-mobile"
+    ],
+    "props": { "blockClass": "container-items-buy-and-collect" }
+  },
+
+  "image#icon-item-buy-and-collect-mobile": {
+    "title": "imagen compra y recoge item 2",
+    "props": {
+      "src": "assets/img/image-icon-pdp-etiqueta.puntodecompra.png",
+      "blockClass": "image-item-buy-and-collect-pdp"
+      // "maxWidth": "45%",
+      // "maxHeight": "45%"
+    }
+  },
+  "rich-text#buy-and-collect-mobile": {
+    "title": "texto compra y recoge data de producto",
+    "props": {
+      "text": "Aplica [Compra y Recoge](/)",
+      "blockClass": "text-sold-by",
+      "width": "90%"
+    }
+  },
+
+  "flex-layout.row#colombian-points-mobile": {
+    "title": "contenedor item3 gana puntos colombia",
+    "children": [
+      "image#icon-item-colombian-points-mobile",
+      "rich-text#colombian-points-mobile"
+    ],
+    "props": { "blockClass": "container-items-colombian-points" }
+  },
+
+  "image#icon-item-colombian-points-mobile": {
+    "title": "imagen gana puntos colombia item 3",
+    "props": {
+      "src": "assets/img/image-icon-pdp-etiqueta.ganapuntoscolombia.png",
+      "blockClass": "image-item-colombian-points-pdp"
+    }
+  },
+  "rich-text#colombian-points-mobile": {
+    "title": "texto gana puntos colombia data de producto",
+    "props": {
+      "text": "**Gana** puntos Colombia",
+      "blockClass": "text-colombian-points",
+      "width": "90%"
+    }
+  },
+
+  "flex-layout.col#info-data-share-mobile": {
+    "title": "contenedor compartir producto en redes pdp",
+    "children": ["share"],
+    "props": { "blockClass": "container-share-product-pdp-mobile" }
+  }
+}
